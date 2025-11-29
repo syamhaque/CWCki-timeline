@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Chris Chan Timeline - Interactive</title>
     <style>
         * {
@@ -20,6 +20,9 @@
             --timeline-width: 4px;
             --marker-size: 24px;
             --spacing: 60px;
+            
+            /* Mobile timeline positioning */
+            --mobile-timeline-center: 35px;
         }
         
         body {
@@ -42,6 +45,12 @@
             align-items: center;
             justify-content: space-between;
             gap: 30px;
+        }
+        
+        /* Ensure buttons are always clickable */
+        .btn, button, select, input, a {
+            position: relative;
+            z-index: 1;
         }
         
         .header-content {
@@ -175,7 +184,13 @@
         .year-section {
             margin-bottom: 60px;
             position: relative;
-            animation: fadeInUp 0.5s ease;
+        }
+        
+        /* Only animate on desktop, not during filter operations */
+        @media (min-width: 769px) {
+            .year-section:not(.no-animate) {
+                animation: fadeInUp 0.5s ease;
+            }
         }
         
         /* Alternate left and right */
@@ -454,7 +469,7 @@
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-            border-left: 4px solid var(--primary);
+            border-left: 4px solid var(--accent-blue);
             transition: box-shadow 0.3s ease;
             position: relative;
         }
@@ -468,7 +483,7 @@
             width: 8px;
             height: 8px;
             border-radius: 50%;
-            background: var(--primary);
+            background: var(--accent-blue);
             border: 2px solid white;
             transform: translateX(-50%);
             z-index: 15;
@@ -480,7 +495,7 @@
             position: absolute;
             top: 38px;
             height: 1px;
-            background: var(--primary);
+            background: var(--accent-blue);
             opacity: 0.3;
             z-index: 14;
         }
@@ -501,6 +516,7 @@
             box-shadow: 0 4px 15px rgba(0, 153, 255, 0.3);
         }
         
+        /* Events WITH media - red color */
         .event-wrapper.has-media::before {
             background: #f56565;
         }
@@ -786,6 +802,7 @@
             margin-bottom: 20px;
             padding-bottom: 15px;
             border-bottom: 3px solid var(--primary);
+            text-align: center;
         }
         
         .summary-body h2 {
@@ -873,59 +890,358 @@
         }
         
         @media (max-width: 768px) {
+            /* Remove sticky header on mobile - it blocks interaction */
+            .header {
+                flex-direction: column;
+                padding: 12px;
+                position: relative !important;
+                top: auto !important;
+            }
+            
+            .header h1 {
+                font-size: 1.5em;
+                margin-bottom: 5px;
+                line-height: 1.2;
+            }
+            
+            .header-description {
+                font-size: 0.8em;
+                line-height: 1.4;
+                margin-bottom: 8px;
+            }
+            
+            .header-description p {
+                margin-bottom: 3px;
+            }
+            
+            .header-image {
+                width: 70px;
+                height: 70px;
+            }
+            
+            /* Hide desktop images on mobile */
+            .header-image-desktop {
+                display: none;
+            }
+            
+            /* Show mobile images container */
+            .header-images-mobile {
+                display: flex !important;
+                gap: 20px;
+                justify-content: center;
+                align-items: center;
+                margin-top: 12px;
+            }
+            
+            .header-images-mobile .header-image {
+                margin: 0;
+            }
+            
+            .header-content > div:last-child {
+                margin-top: 8px !important;
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                gap: 8px;
+            }
+            
+            .header-content > div:last-child .btn {
+                font-size: 11px !important;
+                padding: 10px 8px !important;
+                flex: 1;
+                white-space: normal;
+                min-height: 44px;
+                line-height: 1.2;
+                touch-action: manipulation;
+            }
+            
+            .controls {
+                padding: 8px;
+                gap: 6px;
+            }
+            
+            .search-box {
+                min-width: 100%;
+                max-width: 100%;
+                order: 1;
+            }
+            
+            .search-box input {
+                min-height: 44px;
+                padding: 10px 16px;
+                font-size: 15px;
+                touch-action: manipulation;
+            }
+            
+            .filter-group {
+                flex-direction: column;
+                width: 100%;
+                gap: 8px;
+                order: 2;
+            }
+            
+            .filter-group select {
+                width: 100%;
+                padding: 10px 12px;
+                font-size: 14px;
+                min-height: 44px;
+            }
+            
+            .filter-group .btn {
+                width: 100%;
+                padding: 10px 12px;
+                font-size: 14px;
+                min-height: 44px;
+                touch-action: manipulation;
+            }
+            
+            .filter-group label {
+                width: 100%;
+                min-height: 44px;
+                display: flex !important;
+                align-items: center;
+                justify-content: center;
+                padding: 10px !important;
+                background: #f7fafc;
+                border-radius: 8px;
+                font-size: 14px;
+            }
+            
+            .timeline-container {
+                padding: 0 10px 60px;
+                max-width: 100vw;
+                overflow-x: hidden;
+            }
+            
             .timeline-line {
-                left: 30px;
+                left: var(--mobile-timeline-center);
+                transform: translateX(-50%);
             }
             
             .year-section:nth-child(odd) .year-header,
             .year-section:nth-child(even) .year-header {
-                margin-left: 70px;
-                margin-right: 20px;
+                margin-left: calc(var(--mobile-timeline-center) + 20px);
+                margin-right: 10px;
                 text-align: left;
             }
             
-            .year-section:nth-child(odd) .year-header::before,
-            .year-section:nth-child(even) .year-header::before {
-                left: -50px;
+            /* Year dot: 16px dot + 4px border each side = 24px total, radius 12px */
+            .year-section::before {
+                left: 5px;
+                top: 24px;
+                transform: translateX(-50%);
             }
             
-            .header {
-                flex-direction: column;
-                padding: 30px 20px;
+            .year-section::after {
+                left: 5px;
+                top: 32px;
+                right: calc(100% - (var(--mobile-timeline-center) + 10px));
+                width: auto !important;
             }
             
-            .header-image {
-                width: 100px;
-                height: 100px;
+            .year-header {
+                padding: 8px 10px;
+                min-height: 44px;
+                touch-action: manipulation;
             }
             
-            .header-image.left,
-            .header-image.right {
-                display: none;
+            .year-header-content {
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+            
+            .year-label {
+                font-size: 1.4em;
+                flex-shrink: 0;
+            }
+            
+            .year-count {
+                font-size: 0.75em;
+                padding: 3px 8px;
+                flex-shrink: 0;
+            }
+            
+            .month-section:nth-child(odd) .month-header,
+            .month-section:nth-child(even) .month-header {
+                margin-left: calc(var(--mobile-timeline-center) + 20px);
+                margin-right: 10px;
+            }
+            
+            /* Month dot: 12px dot + 3px border each side = 18px total, radius 9px */
+            .month-section::before {
+                left: 5px;
+                top: 20px;
+                transform: translateX(-50%);
+            }
+            
+            .month-section::after {
+                left: 5px;
+                top: 26px;
+                right: calc(100% - (var(--mobile-timeline-center) + 10px));
+                width: auto !important;
+            }
+            
+            .month-header {
+                min-height: 44px;
+                touch-action: manipulation;
+                padding: 8px 10px;
+            }
+            
+            .month-marker {
+                width: 32px;
+                height: 32px;
+                margin-right: 8px;
+                font-size: 0.7em;
+            }
+            
+            .month-marker::after {
+                width: 18px;
+                height: 18px;
+                font-size: 0.6em;
+            }
+            
+            .month-label {
+                font-size: 0.95em;
+            }
+            
+            .event-wrapper {
+                margin-top: 0 !important;
+                margin-bottom: 15px;
+            }
+            
+            .event-wrapper:first-child {
+                margin-top: 0 !important;
+            }
+            
+            .event-wrapper:nth-child(odd) .event-card,
+            .event-wrapper:nth-child(even) .event-card {
+                margin-left: calc(var(--mobile-timeline-center) + 20px);
+                margin-right: 10px;
+            }
+            
+            /* Event dot: 8px dot + 2px border each side = 12px total, radius 6px */
+            .event-wrapper::before {
+                left: 5px;
+                top: 22px;
+                transform: translateX(-50%);
+            }
+            
+            .event-wrapper::after {
+                left: 5px;
+                top: 26px;
+                right: calc(100% - (var(--mobile-timeline-center) + 10px));
+                width: auto !important;
+            }
+            
+            .event-card {
+                padding: 10px;
+            }
+            
+            .event-date {
+                font-size: 0.75em;
+            }
+            
+            .event-category {
+                font-size: 0.7em;
+                padding: 3px 8px;
+            }
+            
+            .event-description {
+                font-size: 0.85em;
+                line-height: 1.4;
+            }
+            
+            .event-people {
+                font-size: 0.75em;
+            }
+            
+            .floating-buttons {
+                bottom: 10px;
+                right: 10px;
+                gap: 6px;
+                z-index: 99;
+            }
+            
+            .float-btn {
+                padding: 8px 14px;
+                font-size: 12px;
+                min-height: 40px;
+                touch-action: manipulation;
+                box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+                max-width: 140px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            
+            .summary-content {
+                margin: 10px;
+                padding: 20px;
+                max-height: 90vh;
+                overflow-y: auto;
+            }
+            
+            .summary-close {
+                min-width: 44px;
+                min-height: 44px;
+                touch-action: manipulation;
+            }
+            
+            .summary-body h1 {
+                font-size: 1.8em;
+            }
+            
+            .summary-body h2 {
+                font-size: 1.4em;
+            }
+            
+            .summary-body h3 {
+                font-size: 1.1em;
+            }
+            
+            .lightbox-close {
+                font-size: 40px;
+                top: 10px;
+                right: 10px;
+                min-width: 44px;
+                min-height: 44px;
+                touch-action: manipulation;
             }
         }
     </style>
 </head>
 <body>
     <div class="header">
-        <!-- Sonichu Image (LEFT) -->
+        <!-- Sonichu Image (LEFT) - Desktop only -->
         <img src="scraped_data/media/images/Chris Chan Psychic Chat 1_1_c041bd51cc42.png"
              alt="Sonichu"
-             class="header-image left"
+             class="header-image left header-image-desktop"
              onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22150%22 height=%22150%22%3E%3Ccircle cx=%2275%22 cy=%2275%22 r=%2270%22 fill=%22%23FFD700%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2240%22 fill=%22%23000%22%3ESonichu%3C/text%3E%3C/svg%3E'">
         
         <div class="header-content">
             <h1><span style="font-size: 1.2em; display: inline-block; transform: translateY(5px);">⚡</span> Chris Chan Timeline <span style="font-size: 1.2em; display: inline-block; transform: translateY(5px);">💙</span></h1>
             <div class="header-description">
-                <p>
+                <p id="headerDescription">
                     This interactive timeline documents the life and online presence of Chris Chan,
                     an internet personality known for creating the Sonichu webcomic series. The timeline is compiled from the
-                    comprehensive <a href="https://sonichu.com/cwcki" target="_blank" rel="noopener noreferrer" style="color: white; text-decoration: underline;">CWCki</a>, covering events from childhood through present day.
+                    comprehensive <a href="https://sonichu.com/cwcki" target="_blank" rel="noopener noreferrer" style="color: white; text-decoration: underline;">CWCki</a>, covering events from childhood<span id="dateRange"></span>.
                 </p>
             </div>
+            
+            <!-- Images container for mobile - between text and buttons -->
+            <div class="header-images-mobile" style="display: none;">
+                <img src="scraped_data/media/images/Chris Chan Psychic Chat 1_1_c041bd51cc42.png"
+                     alt="Sonichu"
+                     class="header-image"
+                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2270%22 height=%2270%22%3E%3Ccircle cx=%2235%22 cy=%2235%22 r=%2332%22 fill=%22%23FFD700%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2218%22 fill=%22%23000%22%3ES%3C/text%3E%3C/svg%3E'">
+                <img src="scraped_data/media/images/TooManyGames_20_6d420c72d19d.png"
+                     alt="Chris Chan"
+                     class="header-image"
+                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2270%22 height=%2270%22%3E%3Ccircle cx=%2235%22 cy=%2235%22 r=%2332%22 fill=%22%23FFD700%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2218%22 fill=%22%23000%22%3EC%3C/text%3E%3C/svg%3E'">
+            </div>
+            
             <div style="margin-top: 20px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
                 <button class="btn" onclick="openSummary()" style="background: var(--accent-blue); border-color: var(--accent-blue); font-size: 16px; padding: 12px 30px;">
-                    📖 View Comprehensive Biography
+                    📖 Comprehensive Biography
                 </button>
                 <button class="btn" onclick="openWorstThings()" style="background: #DC143C; border-color: #DC143C; font-size: 16px; padding: 12px 30px;">
                     ⚠️ Top 100 Worst Things Committed
@@ -933,10 +1249,10 @@
             </div>
         </div>
         
-        <!-- Chris Chan Image (RIGHT) -->
+        <!-- Chris Chan Image (RIGHT) - Desktop only -->
         <img src="scraped_data/media/images/TooManyGames_20_6d420c72d19d.png"
              alt="Chris Chan"
-             class="header-image right"
+             class="header-image right header-image-desktop"
              onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22150%22 height=%22150%22%3E%3Ccircle cx=%2275%22 cy=%2275%22 r=%2270%22 fill=%22%23FFD700%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2220%22 fill=%22%23000%22%3EChris Chan%3C/text%3E%3C/svg%3E'">
     </div>
     
@@ -951,6 +1267,7 @@
             <select id="mediaFilter">
                 <option value="">All Events</option>
                 <option value="with-media">With Media</option>
+                <option value="without-media">Without Media</option>
                 <option value="with-images">With Images</option>
                 <option value="with-videos">With Videos</option>
             </select>
@@ -959,9 +1276,9 @@
                 <option value="year-asc">Oldest to Newest Year</option>
                 <option value="events-year">Most Events per Year</option>
             </select>
-            <button class="btn" onclick="applyFilters()">Apply</button>
+            <button class="btn" onclick="applyFilters()" style="background: var(--accent-blue); border-color: var(--accent-blue);">Apply</button>
             <button class="btn btn-secondary" onclick="resetFilters()">Reset</button>
-            <button class="btn" onclick="expandAll()">Expand All</button>
+            <button class="btn" onclick="expandAll()" style="background: var(--accent-blue); border-color: var(--accent-blue);">Expand All</button>
             <button class="btn btn-secondary" onclick="collapseAll()">Collapse All</button>
             <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; padding: 10px;">
                 <input type="checkbox" id="showMediaToggle" checked onchange="toggleMediaDisplay()">
@@ -1013,12 +1330,22 @@
     <div class="footer">
         <p>Created by <strong>Syam Haque</strong></p>
         <p style="font-size: 0.85em; margin-top: 5px; opacity: 0.8;">Data source: <a href="https://sonichu.com/cwcki" target="_blank" rel="noopener noreferrer">CWCki</a></p>
+        <p id="lastUpdated" style="font-size: 0.85em; margin-top: 5px; opacity: 0.8;">
+            <em>Loading timeline information...</em>
+        </p>
     </div>
     
     <script>
         let allEvents = [];
         let timelineData = {};
         let currentSortOrder = 'year-desc';
+        const isMobile = window.innerWidth <= 768;
+        let cachedByYear = null; // Cache the grouped data structure
+        let lastRenderedEvents = null; // Track what was last rendered
+        
+        // Show loading indicator
+        document.getElementById('timeline').innerHTML =
+            '<div class="loading">⏳ Loading timeline data...</div>';
         
         // Load timeline
         fetch('scraped_data/timeline_with_media.json')
@@ -1030,12 +1357,96 @@
             .then(data => {
                 timelineData = data;
                 allEvents = data.events || [];
+                
+                // Find the latest event date - properly handle date comparison
+                let latestDateText = 'present';
+                let latestDateOriginal = '';
+                let latestDateNormalized = '0000-00-00';
+                
+                if (allEvents.length > 0) {
+                    // Find the latest date by converting to comparable format
+                    for (const event of allEvents) {
+                        if (event.date) {
+                            // Pad date to YYYY-MM-DD format for comparison, ensuring year is 4 digits
+                            let normalizedDate = event.date;
+                            
+                            // Extract year and pad it to 4 digits
+                            const parts = normalizedDate.split('-');
+                            const year = parts[0].padStart(4, '0');
+                            
+                            if (normalizedDate.length === 4) {
+                                normalizedDate = year + '-12-31'; // End of year
+                            } else if (normalizedDate.length === 7) {
+                                const month = parts[1];
+                                const daysInMonth = new Date(parseInt(year), parseInt(month), 0).getDate();
+                                normalizedDate = year + '-' + month + '-' + String(daysInMonth).padStart(2, '0');
+                            } else {
+                                // Full date - just pad the year
+                                normalizedDate = year + '-' + parts.slice(1).join('-');
+                            }
+                            
+                            if (normalizedDate > latestDateNormalized) {
+                                latestDateNormalized = normalizedDate;
+                                latestDateOriginal = event.date; // Keep original format
+                            }
+                        }
+                    }
+                    
+                    console.log('Latest event date found:', latestDateOriginal);
+                    
+                    // Format the latest date
+                    if (latestDateOriginal) {
+                        if (latestDateOriginal.length >= 10) {
+                            // Full date available (YYYY-MM-DD)
+                            const date = new Date(latestDateOriginal + 'T00:00:00');
+                            latestDateText = date.toLocaleDateString('en-US', {
+                                year: 'numeric',
+                                month: 'long',
+                                day: 'numeric'
+                            });
+                        } else if (latestDateOriginal.length >= 7) {
+                            // Month and year available (YYYY-MM)
+                            const [year, month] = latestDateOriginal.split('-');
+                            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+                                              'July', 'August', 'September', 'October', 'November', 'December'];
+                            latestDateText = monthNames[parseInt(month) - 1] + ' ' + year;
+                        } else if (latestDateOriginal.length === 4) {
+                            // Only year available
+                            latestDateText = latestDateOriginal;
+                        }
+                    }
+                }
+                
+                console.log('Latest date text:', latestDateText);
+                
+                // Update header with date range (only show "through X" if we have a valid date)
+                const dateRangeEl = document.getElementById('dateRange');
+                if (dateRangeEl && latestDateText && latestDateText !== 'present') {
+                    dateRangeEl.textContent = ' through ' + latestDateText;
+                }
+                
+                // Update "Last Updated" timestamp in footer
+                const lastUpdatedEl = document.getElementById('lastUpdated');
+                if (lastUpdatedEl && data.generated_at) {
+                    const date = new Date(data.generated_at);
+                    const formattedDate = date.toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric'
+                    });
+                    lastUpdatedEl.innerHTML = '<em>Timeline last updated: ' + formattedDate + '</em>';
+                }
+                
+                // Update UI
+                document.getElementById('timeline').innerHTML =
+                    '<div class="loading">📊 Processing ' + allEvents.length + ' events...</div>';
+                
                 updateStats();
                 populateFilters();
                 renderTimeline(allEvents);
             })
             .catch(error => {
-                document.getElementById('timeline').innerHTML = 
+                document.getElementById('timeline').innerHTML =
                     '<div style="color: #e53e3e;">Error loading timeline: ' + error.message + '</div>';
             });
         
@@ -1054,108 +1465,161 @@
             });
         }
         
+        // Lightweight SVG placeholder
+        const imgPlaceholder = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22135%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22180%22 height=%22135%22/%3E%3C/svg%3E';
+        
+        // Intersection Observer for lazy image loading
+        let imageObserver = null;
+        
+        function initImageObserver() {
+            if (!imageObserver) {
+                imageObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            const realSrc = img.dataset.src;
+                            if (realSrc) {
+                                img.src = realSrc;
+                                img.removeAttribute('data-src');
+                                imageObserver.unobserve(img);
+                            }
+                        }
+                    });
+                }, {
+                    rootMargin: '100px' // Start loading 100px before visible
+                });
+            }
+            return imageObserver;
+        }
+        
         function renderTimeline(events) {
+            const startTime = Date.now();
+            
             if (events.length === 0) {
                 document.getElementById('timeline').innerHTML =
                     '<div style="text-align: center; padding: 60px; color: #718096;">No events match your filters</div>';
                 return;
             }
             
-            // Group by year and month
-            const byYear = {};
-            events.forEach(event => {
-                const date = event.date || '0000-00-00';
-                const year = date.substring(0, 4);
-                const month = date.length >= 7 ? date.substring(5, 7) : '00';
+            // Check if we can use cached structure
+            let byYear;
+            if (events === lastRenderedEvents && cachedByYear) {
+                byYear = cachedByYear;
+            } else {
+                // Group by year and month
+                byYear = {};
+                events.forEach(event => {
+                    const date = event.date || '0000-00-00';
+                    const year = date.substring(0, 4);
+                    const month = date.length >= 7 ? date.substring(5, 7) : '00';
+                    
+                    if (!byYear[year]) byYear[year] = {};
+                    if (!byYear[year][month]) byYear[year][month] = [];
+                    byYear[year][month].push(event);
+                });
                 
-                if (!byYear[year]) byYear[year] = {};
-                if (!byYear[year][month]) byYear[year][month] = [];
-                byYear[year][month].push(event);
-            });
+                // Cache for reuse
+                if (events === allEvents) {
+                    cachedByYear = byYear;
+                }
+                lastRenderedEvents = events;
+            }
             
             const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
                                'July', 'August', 'September', 'October', 'November', 'December'];
             
-            let html = '';
             const years = sortYears(byYear);
+            const timelineEl = document.getElementById('timeline');
             
-            years.forEach(year => {
-                const months = byYear[year];
-                const yearEventCount = Object.values(months).flat().length;
+            // Hide timeline line during rendering
+            document.getElementById('timelineLine').style.display = 'none';
+            
+            // Show loading
+            timelineEl.innerHTML = '<div class="loading">⚡ Rendering...</div>';
+            
+            // Use requestAnimationFrame to defer rendering
+            requestAnimationFrame(() => {
+                const htmlParts = [];
                 
-                html += `
-                    <div class="year-section collapsed" id="year-${year}">
-                        <div class="year-header" onclick="toggleYear('${year}')">
-                            <div class="year-header-content">
-                                <div class="year-label">${year}</div>
-                                <div class="year-count">${yearEventCount} events</div>
-                                <div class="expand-icon">▼</div>
-                            </div>
-                        </div>
-                        <div class="year-content">
-                `;
-                
-                const sortedMonths = sortMonths(year, months);
-                sortedMonths.forEach(month => {
-                    const monthEvents = months[month];
-                    const monthName = month === '00' ? 'Unknown Month' : monthNames[parseInt(month) - 1];
+                years.forEach(year => {
+                    const months = byYear[year];
+                    const yearEventCount = Object.values(months).flat().length;
                     
-                    html += `
-                        <div class="month-section collapsed" id="month-${year}-${month}">
-                            <div class="month-header" onclick="toggleMonth('${year}', '${month}')">
-                                <div class="month-marker" data-count="${monthEvents.length}">${month}</div>
-                                <div class="month-label">${monthName}</div>
-                                <div class="month-expand-icon">▼</div>
-                            </div>
-                            <div class="month-events">
-                    `;
+                    htmlParts.push('<div class="year-section collapsed no-animate" id="year-' + year + '">');
+                    htmlParts.push('<div class="year-header" onclick="toggleYear(\'' + year + '\')">');
+                    htmlParts.push('<div class="year-header-content">');
+                    htmlParts.push('<div class="year-label">' + year + '</div>');
+                    htmlParts.push('<div class="year-count">' + yearEventCount + ' events</div>');
+                    htmlParts.push('<div class="expand-icon">▼</div>');
+                    htmlParts.push('</div></div><div class="year-content">');
                     
-                    monthEvents.forEach(event => {
-                        const hasMedia = event.media && (event.media.images?.length > 0 || event.media.videos?.length > 0);
-                        const categoryClass = 'category-' + (event.category || 'Personal').replace(/\s+/g, '-');
+                    const sortedMonths = sortMonths(year, months);
+                    sortedMonths.forEach(month => {
+                        const monthEvents = months[month];
+                        const monthName = month === '00' ? 'Unknown Month' : monthNames[parseInt(month) - 1];
                         
-                        html += `
-                            <div class="event-wrapper ${hasMedia ? 'has-media' : ''}">
-                                <div class="event-card ${hasMedia ? 'has-media' : ''}">
-                                    <div class="event-date">${formatDate(event.date, event.date_precision)}</div>
-                                    <span class="event-category ${categoryClass}">${event.category || 'General'}</span>
-                                    <div class="event-description">${event.description}</div>
-                        `;
+                        htmlParts.push('<div class="month-section collapsed" id="month-' + year + '-' + month + '">');
+                        htmlParts.push('<div class="month-header" onclick="toggleMonth(\'' + year + '\',\'' + month + '\')">');
+                        htmlParts.push('<div class="month-marker" data-count="' + monthEvents.length + '">' + month + '</div>');
+                        htmlParts.push('<div class="month-label">' + monthName + '</div>');
+                        htmlParts.push('<div class="month-expand-icon">▼</div>');
+                        htmlParts.push('</div><div class="month-events">');
                         
-                        if (event.people && event.people.length > 0) {
-                            html += `<div class="event-people"><strong>People:</strong> ${event.people.join(', ')}</div>`;
-                        }
-                        
-                        // Media
-                        if (hasMedia) {
-                            html += '<div class="media-gallery">';
+                        monthEvents.forEach(event => {
+                            const hasMedia = event.media && (event.media.images?.length > 0 || event.media.videos?.length > 0);
+                            const categoryClass = 'category-' + (event.category || 'Personal').replace(/\s+/g, '-');
                             
-                            if (event.media.images) {
-                                event.media.images.forEach(img => {
-                                    html += `
-                                        <div class="media-thumb" onclick="openLightbox('scraped_data/${img.local_path}')">
-                                            <img src="scraped_data/${img.local_path}" alt="${img.caption || 'Image'}"
-                                                 onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22135%22%3E%3Crect fill=%22%23e2e8f0%22 width=%22180%22 height=%22135%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22%23718096%22 font-size=%2214%22%3EImage not found%3C/text%3E%3C/svg%3E'">
-                                        </div>
-                                    `;
-                                });
+                            htmlParts.push('<div class="event-wrapper ' + (hasMedia ? 'has-media' : '') + '">');
+                            htmlParts.push('<div class="event-card ' + (hasMedia ? 'has-media' : '') + '">');
+                            htmlParts.push('<div class="event-date">' + formatDate(event.date, event.date_precision) + '</div>');
+                            htmlParts.push('<span class="event-category ' + categoryClass + '">' + (event.category || 'General') + '</span>');
+                            htmlParts.push('<div class="event-description">' + event.description + '</div>');
+                            
+                            if (event.people && event.people.length > 0) {
+                                htmlParts.push('<div class="event-people"><strong>People:</strong> ' + event.people.join(', ') + '</div>');
                             }
                             
-                            html += '</div>';
-                        }
+                            // Use Intersection Observer for true lazy loading
+                            if (hasMedia && event.media.images) {
+                                htmlParts.push('<div class="media-gallery">');
+                                event.media.images.forEach(img => {
+                                    htmlParts.push('<div class="media-thumb" onclick="openLightbox(\'scraped_data/' + img.local_path + '\')">');
+                                    // Use data-src with placeholder for true lazy loading
+                                    htmlParts.push('<img class="lazy-img" data-src="scraped_data/' + img.local_path + '" src="' + imgPlaceholder + '" alt="' + (img.caption || 'Image') + '">');
+                                    htmlParts.push('</div>');
+                                });
+                                htmlParts.push('</div>');
+                            }
+                            
+                            htmlParts.push('</div></div>');
+                        });
                         
-                        html += '</div></div>';
+                        htmlParts.push('</div></div>');
                     });
                     
-                    html += '</div></div>';
+                    htmlParts.push('</div></div>');
                 });
                 
-                html += '</div></div>';
+                // Single DOM update
+                timelineEl.innerHTML = htmlParts.join('');
+                
+                // Show timeline line
+                document.getElementById('timelineLine').style.display = 'block';
+                
+                // Initialize image observer for newly rendered images
+                const observer = initImageObserver();
+                document.querySelectorAll('.lazy-img').forEach(img => {
+                    observer.observe(img);
+                });
+                
+                // Update buttons
+                requestAnimationFrame(() => {
+                    updateCollapseButtons();
+                });
+                
+                const totalTime = ((Date.now() - startTime) / 1000).toFixed(2);
+                console.log('Timeline rendered in ' + totalTime + 's - images will load progressively');
             });
-            
-            document.getElementById('timeline').innerHTML = html;
-            // Show timeline line once content is loaded
-            document.getElementById('timelineLine').style.display = 'block';
         }
         
         function formatDate(dateStr, precision) {
@@ -1183,6 +1647,12 @@
             
             if (wasCollapsed) {
                 lastOpenedYear = year;
+            } else {
+                // When collapsing a year, also collapse all its months
+                const monthSections = section.querySelectorAll('.month-section');
+                monthSections.forEach(monthSection => {
+                    monthSection.classList.add('collapsed');
+                });
             }
             
             updateCollapseButtons();
@@ -1220,9 +1690,16 @@
         }
         
         function collapseAllYears() {
-            // Collapse all years first
+            // Collapse all years and their months
             const openYears = document.querySelectorAll('.year-section:not(.collapsed)');
-            openYears.forEach(section => section.classList.add('collapsed'));
+            openYears.forEach(section => {
+                section.classList.add('collapsed');
+                // Also collapse all months within each year
+                const monthSections = section.querySelectorAll('.month-section');
+                monthSections.forEach(monthSection => {
+                    monthSection.classList.add('collapsed');
+                });
+            });
             
             // Scroll to last opened year after a delay
             if (lastOpenedYear) {
@@ -1235,6 +1712,7 @@
             }
             
             lastOpenedYear = null;
+            lastOpenedMonth = null;
             updateCollapseButtons();
         }
         
@@ -1346,6 +1824,8 @@
                 
                 if (mediaFilter === 'with-media') {
                     if (!event.media || (event.media.images?.length === 0 && event.media.videos?.length === 0)) return false;
+                } else if (mediaFilter === 'without-media') {
+                    if (event.media && (event.media.images?.length > 0 || event.media.videos?.length > 0)) return false;
                 } else if (mediaFilter === 'with-images') {
                     if (!event.media || event.media.images?.length === 0) return false;
                 } else if (mediaFilter === 'with-videos') {
@@ -1356,15 +1836,91 @@
             });
         }
         
+        // Store original render for first load
+        let isFirstRender = true;
+        let originalRenderTimeline = null;
+        
         function scrollToTop() {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
         
         function applyFilters() {
-            // Update sort order from dropdown when Apply is clicked
-            currentSortOrder = document.getElementById('sortOrder').value;
-            // Apply filters and sorting together
-            renderTimeline(getFilteredEvents());
+            const newSortOrder = document.getElementById('sortOrder').value;
+            const sortChanged = newSortOrder !== currentSortOrder;
+            currentSortOrder = newSortOrder;
+            
+            // If sort changed or it's initial load, re-render everything
+            if (sortChanged || isFirstRender) {
+                const timeline = document.getElementById('timeline');
+                timeline.innerHTML = '<div class="loading">⚡ Applying filters...</div>';
+                requestAnimationFrame(() => {
+                    renderTimeline(getFilteredEvents());
+                    isFirstRender = false;
+                });
+                return;
+            }
+            
+            // Fast filter: just show/hide existing DOM elements
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const category = document.getElementById('categoryFilter').value;
+            const mediaFilter = document.getElementById('mediaFilter').value;
+            
+            // Filter events by hiding/showing
+            const allEventWrappers = document.querySelectorAll('.event-wrapper');
+            let visibleCount = 0;
+            
+            allEvents.forEach((event, index) => {
+                let show = true;
+                
+                if (searchTerm) {
+                    const searchable = (event.description + ' ' + (event.people || []).join(' ')).toLowerCase();
+                    if (!searchable.includes(searchTerm)) show = false;
+                }
+                
+                if (category && event.category !== category) show = false;
+                
+                if (mediaFilter === 'with-media') {
+                    if (!event.media || (event.media.images?.length === 0 && event.media.videos?.length === 0)) show = false;
+                } else if (mediaFilter === 'without-media') {
+                    if (event.media && (event.media.images?.length > 0 || event.media.videos?.length > 0)) show = false;
+                } else if (mediaFilter === 'with-images') {
+                    if (!event.media || event.media.images?.length === 0) show = false;
+                } else if (mediaFilter === 'with-videos') {
+                    if (!event.media || event.media.videos?.length === 0) show = false;
+                }
+                
+                // Find corresponding DOM element
+                const eventEl = allEventWrappers[index];
+                if (eventEl) {
+                    if (show) {
+                        eventEl.style.display = '';
+                        visibleCount++;
+                    } else {
+                        eventEl.style.display = 'none';
+                    }
+                }
+            });
+            
+            // Update visibility of empty months/years
+            document.querySelectorAll('.month-section').forEach(monthEl => {
+                const visibleEvents = monthEl.querySelectorAll('.event-wrapper:not([style*="display: none"])');
+                if (visibleEvents.length === 0) {
+                    monthEl.style.display = 'none';
+                } else {
+                    monthEl.style.display = '';
+                }
+            });
+            
+            document.querySelectorAll('.year-section').forEach(yearEl => {
+                const visibleMonths = yearEl.querySelectorAll('.month-section:not([style*="display: none"])');
+                if (visibleMonths.length === 0) {
+                    yearEl.style.display = 'none';
+                } else {
+                    yearEl.style.display = '';
+                }
+            });
+            
+            console.log('Fast filter applied, showing', visibleCount, 'events');
         }
         
         function toggleMediaDisplay() {
@@ -1383,10 +1939,24 @@
             document.getElementById('searchInput').value = '';
             document.getElementById('categoryFilter').value = '';
             document.getElementById('mediaFilter').value = '';
-            document.getElementById('sortOrder').value = 'year-desc';
+            const sortOrder = document.getElementById('sortOrder').value;
             document.getElementById('showMediaToggle').checked = true;
-            currentSortOrder = 'year-desc';
-            renderTimeline(allEvents);
+            
+            // If sort order changed, need full re-render
+            if (sortOrder !== 'year-desc') {
+                document.getElementById('sortOrder').value = 'year-desc';
+                currentSortOrder = 'year-desc';
+                const timeline = document.getElementById('timeline');
+                timeline.innerHTML = '<div class="loading">🔄 Resetting...</div>';
+                requestAnimationFrame(() => {
+                    renderTimeline(allEvents);
+                });
+            } else {
+                // Just show all elements
+                document.querySelectorAll('.event-wrapper, .month-section, .year-section').forEach(el => {
+                    el.style.display = '';
+                });
+            }
         }
         
         function openLightbox(imagePath) {
@@ -1539,4 +2109,3 @@
         });
     </script>
 </body>
-</html>

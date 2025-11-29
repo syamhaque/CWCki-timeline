@@ -7,10 +7,10 @@ cd "$SCRIPT_DIR"
 
 # Check which viewer to use (prefer pro version)
 if [ -f "scraped_data/timeline_with_media.json" ]; then
-    VIEWER="timeline_viewer_pro.html"
+    VIEWER="index.html"
     echo "📸 Opening Pro Timeline (with media & hierarchical navigation)..."
 elif [ -f "scraped_data/timeline.json" ]; then
-    VIEWER="timeline_viewer_pro.html"
+    VIEWER="index.html"
     echo "📄 Opening Pro Timeline (hierarchical navigation)..."
 else
     echo "❌ No timeline found. Run the scraper first."
