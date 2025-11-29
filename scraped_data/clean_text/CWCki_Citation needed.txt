@@ -1,0 +1,10 @@
+Title: CWCki:Citation needed
+URL: https://sonichu.com/cwcki/Citation_needed
+Categories: Category, Special
+================================================================================
+
+PROTIP:
+To cite a source, use <ref>source</ref> and then add {{references}} at the end of the article.
+CITE YOUR DAMN SOURCES[citation needed]
+Please cite your sources when referring to things like the emails, videos and comics. See http://www.mediawiki.org/wiki/Extension:Cite/Cite.php#Usage for how to cite sources using the "Cite" extension (which is installed).
+Retrieved from "http://sonichu.com/w/index.php?title=CWCki:Citation_needed&oldid=300559"

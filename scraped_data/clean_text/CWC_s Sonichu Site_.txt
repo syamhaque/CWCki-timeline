@@ -1,0 +1,238 @@
+Title: CWC's Sonichu Site!
+URL: https://sonichu.com/cwcki/Cwcville.com
+Categories: Chris's websites, Defunct websites
+================================================================================
+
+Bright gaudy background colors seem to be mandatory on vanity pages.
+CWC's Sonichu Site! (full title: The Official & The Originial [sic] From Christian Weston Chandler the Sonichu and Rosechu Site!) was Chris's homepage for the Sonichu franchise. It existed in various incarnations from 2000 to August 2009, and was a regular target of hacking by trolls following Chris's discovery in 2007. Half a decade later, Chris's Facebook friends helped him make a new site, which was pretty much non-functional and error-ridden during its astonishing 10-day life.
+Contents
+1 Design
+1.1 Sonichu-Fans (2008)
+1.2 Sonichu and Rosechu's Luv Shack (early 2009 – May 2009)
+2 Content
+2.1 Earliest Appearance
+2.2 The influence of the Love Quest
+2.3 Chris discovers his fanbase
+2.4 Trolls seize control
+2.5 2009: The final months
+3 Hosting history
+3.1 Primordial origins (August 2000 – 2007)
+3.2 sonichu.com
+3.3 sonichu.net (2007 – January 2009)
+3.4 sonichu.info (January 2009)
+3.5 sonichuandrosechu.com (February 2009)
+3.6 cwcville.com (April – May 2009)
+3.7 http://www.spergweb.com/SonichuOnline (November 2014)
+4 Gallery
+5 See also
+6 Sources
+7 External links
+Design
+Chris liked to harp on how he took two HTML classes and likes to construct his page on Netscape Composer, a mercifully discontinued software product. It is fairly obvious that either the HTML classes didn't teach good web design principles, or Chris slept through those sections.
+The main hub of the Sonichu site was the front page. Chris dumped everything on the front page, all of the content centered. Chris also added things to the page in random places with little thought as to where they would go, and didn't really have the time and energy to update the page. In its later incarnations, the page had mentions of Animal Crossing material, Chris's changes to the comic, and had "Copyright CWC and Nintendo", long after the end of the Miyamoto Saga.
+Chris's site also boasted that it was a member of the "Super Sonic Webring"; closer inspection reveals that Chris's site is not listed as a member of the webring, and Chris failed to insert the correct codes (i.e., he failed to put in his member ID, leaving "_SITE_ID_HERE_" in the links) – this simple failure to follow very simple setup instructions may have been why he was not approved as a member, as Webring owners usually checked this. His Fastcounter link is also broken. In its earliest incarnations Chris had a MIDI playing in the background, just to get that old Web 1.0 feel.
+Sonichu-Fans (2008)
+Sonichu-Fans was a small sub-site of Sonichu.net, created by PandaHalo, and meant for use by Chris's fans. Chris introduced it with:
+**NEW and OFFICIALLY APPROVED, it is the Sonichu & Rosechu Fan Site, AKA the OFFICIAL Sonichu & Rosechu Chat Page.** It is worth CHECKING OUT, what with the APPROVED Fan Content from my well-trusted Webmaster of the Page. Including Sonichu & Rosechu Bio Blocks, Coloring Pages, a few bits of Random Intelligence from the TRUE Man Behind the Electric-Hedgehog, Christian Weston Chandler. And OF COURSE the Well-Created, Java-Designed Sonichu & Rosechu Chat Box for the TRUE, GOOD, LOYAL Sonichu & Rosechu Fans to gather and chat (Sometimes I'll make an appearance to answer some questions).
+Most of the site's features were never really created. Its most notable feature was "Sonichu fan chat", a Java IRC applet that connected to Rizon's #sonichu channel. In the days following its introduction, Chris appeared in the fan chat in person a few times.
+Sonichu and Rosechu's Luv Shack (early 2009 – May 2009)
+Main article: Sonichu and Rosechu's Luv Shack
+After the nuclear winter following the release of Sonichu #8, Chris had made a solemn promise not to release any more naughty imagery. Naturally, he had to break this vow when he found out about the Sonichu Girls forum and wanted to impress the members.
+Content
+Earliest Appearance
+The incredibly garish original appearance.
+In terms of content, Chris's Sonichu site was at first almost identical to CWC's Pokésite 2. There were links to game reviews, his Sonichu's News Dash!, his original Sonic cards, and most importantly, a link to his "About the Author" page. Guests could listen to a remixed version of "Sonic Boom" The main visual portrayed Sonic and Sonichu as equals, and the centered text didn't even play up Sonichu. It read simply:
+Original main visual.
+Welcome...
+To my new Sonic the Hedgehog Site!
+Enjoy your visit. 8)
+Please visit again for many Updates, be sure to Bookmark us, and be sure to tell your friends about us, too. And, Please sign my Guestbook.
+As Chris created new minor sites over the years, such as his Hotwheels page and his Bionicle site, he provided links. In 2002, he added something called "The Sonichu Chronicles Slideshow." In general, he does not seem to have given much attention to the site during its first several years.
+The influence of the Love Quest
+In 2003 and 2004, Chris's life became focused on the Love Quest, and in early 2004, he reinvented the Sonichu Site as a platform for advertising himself and his artistic geinus.
+*We interrupt this view with a special bulliten, the Sonichu Site is finally updated with all new GameCube and Game Boy Advance information. 8)
+And the All New Sonichu's News Dash! Newsletter!
+The reinvigorated News Dash, of course, was more than anything else a tool to acquire a girlfriend. Chris also added his romantic fantasy Sonichu & Rosechu… The Genesis of the Lovehogs. His "About the Author" section was updated to include one of his first lists of qualifications for a sweetheart. He also highlighted Sonichu's first appearance in Nintendo Power magazine, and the later "personal ad" in the magazine in which he discussed his noviophobia. By 2006, the central visual on the site was a cartoon representation of Chris himself, and the "About the Author" section was the first and most important link, given priority even over issue #0 of Sonichu.
+Links to new issues of Sonichu were added as they appeared. At a moment of writer's block, he wrote:
+*The uploading of the Sonichu Issues #3 and 4 images were inspired by the local Sonichu Fan Club of Charlottesville, Virginia.*
+*Thank You all for reminding me to get off my duff and back to drawing the fun Sonichu comics.*
+:j
+As a man of my word, I promise them and you all that there will be many more issues to come onto CWC's Sonichu Site!
+Upon Megan's rejection, he temporarily lost inspiration, and had to note:
+*Sonichu Issue Number Six is still in the works, as I progress through my lonesome depression.
+As with all his sites, he used the site to scream about Adam Stackhouse and the Parappa Contest.
+Shortly after producing his DVD, he highlighted his new educational video, and indicated that he was starting to receive some ridicule for his opinions:
+For the benefit of the Present and the Future beyond my 25th Birthday on Februrary 24, 2007, I have created this movie which was on the "Christian Weston Chandler... Yep, I'm On T.V." DVD.
+So, I present for you all, straight from my Director's Cut, "Christian Weston Chandler's Future Message 022407."
+Enjoy, Learn, and Stay Straight (I AM SERIOUS).
+Chris discovers his fanbase
+According to plan, by mid-2008 Chris believed that he had an extensive fanbase, and he started to make demands. In August he made a significant update to the site with a statement he also placed on his blog, a spiel about how amazing his game will be if you'd just take the time to flood the Nintendo and SEGA forums demanding it be made. Chris is careful to announce that he will be reducing his own presence in the story, shortly before explaining that the entire plot of the game will be about him:
+An Important Update
+With the Sonichu Fanbase growing wildly with lots of energtic Hype, I am ready to take Sonichu and my world of Cwcville back to Nintendo of America and SEGA of America. And upon the unity in business between Nintendo, the company who provided me with my second gaming system, the Game Boy, after my very first Commodore 64 computer, SEGA, the company who introduced Sonic the Hedgehog as not only my Life-Long Hero, after the American Rabbit, but as the True Role Model Icon I am proud to have learned some of my attitudes and beliefs from since 1991, and myself, Christian Weston Chandler, we will make Sonichu and Rosechu and their world being more Real than I was able to make them by myself with pen and markers in hand, and a vasly-knowledgeable imagination.
+You won't be able to truly say you've "Caught Them All", until you've caught the Original Sonichu and Rosechu in a CWC Approved Nintendo/Sega Pok'emon Lightning Version on GBA and DS to catch a great share of the other currently avilable Four Hundred and Ninty-Three Pok'emon.
+Think you know the ins and outs of Sonichu and Rosechu, wait until Season Two of the Comic Book Series, likely to start within the year 2009. I will withdraw myself from being as intrusive in the series as I have been so far; I've been selfish, and I'm tired of drawing myself so much. See how I take my leave of Cwcville in the Season Finale, to hopefully be uploaded and on the Sonichu Site 4th Quarter, 2008 or 1st Quarter, 2009.
+And because I've been hogging the spotlight, you don't know Sonichu and Rosechu as you properly should. In the first CWC Approved Release of the "Sonichu's Adventure" video game, with Nintendo and SEGA's help, on Nintendo Wii (although it was intended originally for Gamecube), with compatibility with the Wii Classic Controler as well as Gamecube Contoller, with rumble functionality hopefully. Sonichu is more than Lightning and Lightning-Speed, and Rosechu is more than delightful Bolts and Heart-Felt for Sonichu. Play on, as they rescue each other from the darkest evil that has manifested itself within some recycled nuts and bolts on the moon. And what a storyline it will have, based mostly from the comics with the duo and the Chaotic Combo as well.
+And I HAVE the idea for the Video Game for myself, if I can swing that with SEGA as well, an epic tale of my tragic Adult Life straight from my tortured heart and soul. I will bring the pain to the Jerkops, I will kick Mary Lee Walsh into her cauldron to burn, as well as the other villians. And I will have support from my Electric-Hedgehogs, my mother and father, my Closest Gal-Pals who I've grown to love; Megan Schroeder and Anna McLerran to name a couple, sparingly in the game. And I will square-off in the TRULY SELF-EPIC Battle between me, and my Dark Half. I plan to have THIS GAME ALONE go Multi-Console between Nintendo Wii, Playstation 2 and Playstation 3 (with downloadable content).
+And All This CAN come to Fruition... with YOUR HELP!
+The populace of Sonichu, Rosechu and Christian Chandler fans. All I ask for in minimum, is to contact Nintendo of America AND SEGA of America by way of POSTING in their respective FORUMS, sending them E-Mails, and, HIGHLY Recommended, Hand-Written Letters to BOTH Companies, that You Want Sonichu, and that they should get in touch with me, Christian Weston Chandler, via Telephone or Snail-Mail, or In Person. Both Companies have my information in their computers, as I have written to them a number of times in my lifetime.
+Who do you want to catch?
+Sonichu and Rosechu!
+Who's the Underdog Director you've grown to know?
+Christian Weston Chandler!
+When Do You Want Nintendo and SEGA to Talk to Me to EVOLVE Sonichu and Rosechu more Realistically?
+NOW!!!
+His fans were instrumental in helping Chris win a Guitar Hero contest:
+**Vote for Me to get me as possibly a Playable Character in a Future Guitar Hero Game, with Sonichu & Rosechu in my Band!**
+ONLY the above Picture is Officially on that Sweepstakes Page, and the matching "gid" in the address is equal ONLY TO 1252; ALL OTHER GID NUMBERS of any similar pictures of myself are IMPOSTORS. Please Report them to the Sweepstakes People, especially the one I've found whose GID is 1503.
+Your Voices Have Been TRULY HEARD!
+I just got the Legitimate Call from the GameStop Corporation in Texas Yesterday, and I AM THE TRUE FIRST WINNER of the $400 Gift Card Weekly Winners. Now all there is to do, is wait and hope that they pick me to be a Playa in a Future Guitar Hero Game, with Sonichu & Rosechu in my band.
+Thank You All, my Loyal Sonichu & Rosechu Fans!
+He also discussed his utilization of Little Big Planet to advertise Sonichu:
+Playstation 3 2nd Anniversary LittleBiGPlanet Level.
+My loyal fans, I am finishing my 18th episode comic. But Also, I have Published a New LittleBiGPlanet Level, "LBC1-CWC's Playstation 3 History" for a chance to win the RARE Crown for my Sonichu Sackboy (See Image of Sonichu in LBP above). Anyway, ALL of you who play LBP on your PS3, or plan to do so, Please Heart this Level (Hearting is like "Favoriting"); the Top 5 Levels will consist of those "LBC1-" Levels with the MOST HEARTS.
+I have also uploaded a video onto YouTube of a Play-Through of the Level, so enjoy. :)
+He was excited to learn that this effort paid off:
+I have CAUGHT Media Molecule's Attention with MY LBC1-Level! And to quote them,
+CWC's PLAYSTATION 3 History Level
+Brought to use by Sonichu, his PLAYSTATION 3 History level is a definitely must see. Complete with a series of mini- games and innovative mechanisms, we were enthralled by the amount of content and PS3 features the level was able to highlight. We especially like how Sonichu took full advantage of the PLAYSTATION Eye by presenting a detailed lineup of various movies and games from the PLAYSTATION / BlueRay family.
+Thank You, Media Molecule; YOU have just made my Thanksgiving Day of 2008! :D
+I also have a few more ideas of improvement, like an area above the Game/Blu-Ray selection with games and Movies that I don't have in my Collection that ARE CHOICE.
+If you have any suggestions, please e-mail your PS3 Game/Blu-Ray Movie Choices List to me @ ChrisChanSonichu@aol.com, or send me a message over the Playstation Network to my PSNID: Sonichu.
+Happy Thanksgiving to ALL my Sonichu & Rosechu Fans, Sony and Media Molecule! :D
+Trolls seize control
+Soon, Chris believed that he was in contact with Nintendo, and reassured his fans:
+**From the WORDS of my Nintendo Lawer**
+Just to put the MATTER TO REST, from the words of my Nintendo Lawyer, who has been Most Trustworthy and Helpful, states in an e-mail he sent to me Janurary 7, 2008, and I quote:
+SEGA has never disaproved of the Sonichu franchise, even when I directly conversed with the head of their Legal department (which they also have In-house), You don't have to worry about any legal issue, unless I inform you of a problem I have come across, Otherwise it is false or rumor.
+SO, I TELL YOU ALL IN THE FANBASE, IT IS ALL GOOD BETWEEN NINTENDO AND SEGA ON SONICHU, ROSECHU AND ALL STORY PARTS THEREIN.
+**CELEBRATE GOOD TIMES!
+COME ON, PLAYSTATION 3 & LITTLEBiGPLANET! :D
+When JK Productions got in touch in August 2008, he included a link:
+Also, for the Video Game Ideas, The Official CWC Approved Sonichu Video Game Blog is up and running at http://sonichugame.blogspot.com/.
+But on 11 September 2008, in part because of opposition from his video game partner, he declared:
+**After Serious Consideration and numerous complaints, I HAVE REMOVED the explicit sexual pages from EPISODE 17 of Comic #8, And as GOD Promised NEVER again to Flood the earth with a Rainbow over Noah's Ark, I cast My Rainbow of Promise to NEVER AGAIN Draw or Upload any Further Images between Sonichus and Rosechus in EPISODE 18 of Comic #8, as well as ALL Future Comics, that depict explicit sexuality. I, Chritian Weston Chandler, Humbly and Sincerely, From the Bottom of my Heart, Apologize to EVERYONE who has read the 17th Episode before September 10, 2008, after the Waterloo of an Episode was uploaded on September 9, 2008. Thank you for your Patronage and Growing Fanbase.**
+Also, after a good number of e-mails sent from my fanbase, I have removed the anatomy of Sonichu & Rosechu from the 17th Episode, and I have re-uploaded the two pages of Rosechu's sampling of Centerfold pics. Also, look forward to more similar pics in the side-project of that mentioned parody of "Pokeboy" magazine, that will feature sexy pics, and short biographies, of some of the female characters in bathing suits or bra/panties featured so far in the world of Sonichu & Rosechu to further ensue my Peaceful Protest against the Slanderous E.D. Page.
+**No Target date has been set for the one-issue magazine.**
+When Chris suffered a major hacking, he reassured his readers on 17 September 2008:
+It's been a rough day for me on this 17th of September, but I am recovering over time.
+On 11 December 2008, he warned:
+IMPORTANT REMINDER
+I have NOT YET APPROVED any Sonichu or Rosechu Merchandise, yet someone has POSED as me and said that I had "approved" some t-shirtS; DO NOT BUY! They have NOT received my official consent or approval AT ALL.
+2009: The final months
+In early 2009, Chris was contacted by the creative minds behind Nintendo and entered into discussions to turn Sonichu into a video game. In compliance with their wishes, he posted:
+Restoration Update, January 15, 2009:
+Sonichu.net is FULLY RESTORED (with a sacrifice; I could not restore the Bionicle Site; it will be remembered). The only item remaining is the Restoration of the Sub-Domain Sonichu & Rosechu Fan Site from my Sweetheart and Partner.
+The Comic Book Changes previously Advised by Mr. Miyamoto are listed below
+Curse-Ye-Ha-Me-Ha will be known as Shin-Ye-Ha-Me-Ha
+Mary Lee Walsh will be known as Slaweel Ryam the Witch
+Sarah Nicole Hammer (Spicer) will be known as Nicole Rammer
+Wes Iseli will be known as Walter Grisby
+Hanna to Fandanna
+Bagget to Dagget
+Megan Schroeder, although personally agreed for me to use her name and such, she will continued to be known affectionately as Meg-Chan.
+Jason Kendrick Howell and
+will only be reffered to by ther FIRST NAMES ALONE.
+Laura Beth Dorazio to Laura B. Dorzio
+Joseph Herring to Joe Herr
+Joseph Cole Smithey (my half-brother/NYC Movie Reviewer on colesmithey.com) to "Joe Cool" Smithey
+**Also Real-Life product and store placements have either been removed or changed, such as "Trojan" to "Jimmy", and the AXE Ad being removed.
+A short time later, he suffered one in a series of hacking attempts, and on 3 February he announced:
+**Attention! As .NET was OFFICIALLY DENOUNCED and cited as Obsolete, the Troll, J.K.H. has uploaded his COPIED FILES and such to make a Copycat of the NEW, TRUE Sonichu & Rosechu Site that is NOW, as of January 16, 2009, Sonichu.info. DO NOT BELIEVE ANYTHING that is ON .net from the 16th of January. Besides which, you can SEE A NUMBER of differences that seperate [sic] the TRUE Sonichu & Rosechu Site from the Obsolete and now FAKE, sonichu.net.
+I'd list the differences, but I feel that the True, Loyal Fanbase can tell the Differences, and KNOW to update their bookmarks as such. Also, I have uploaded a Self-Recoreded Update Video onto YouTube advertising the FACT.
+After yet another hacking of one of his domains, Chris wrote on 9 April 2009:
+**Welcome to Cwcville.com**
+Finally Back UP AND RUNNING again after the past "Julie" Fiasco.
+I am currently drawing pages for the #9 Book, and more pages will be drawn/colored at a rate of 3 pages-a-day, with due inspiration from my Sweetest Ivy. I may have lost the third hand-made medal, but I still have my whitty, charming and humble personality. And with God and Jesus Guiding me to my Prayers' Answer, I shall perservere.
+The currently colored/uncolored hand-drawn pages for Book #9 will be uploaded within the next few days from today, the 9th of April, Y2K9.
+A Good (Suitable for Youth and Teens) Fan Art Section will be added in the near future to Cwcville.com.
+Maybe a Cwcville Map to navigate between the Sonichu Site, and the few other sub-sites, and sections.
+No dang dirty Trolls will keep me down.
+Love and Peace,
+"Christopher" Christian Weston Chandler.
+On 1 May he updated:
+The Sonichu Quiz is on BUZZ! Quiz TV (Another good reason to get a Playstation 3).
+Yes, BUZZERS! I have officially uploaded two Official Sonichu and Rosechu Quizzes on MyBUZZQuiz.com, as well as a quiz about me personally, and the Dating Education Quiz (minus one True/False question and the Essay Portion) is on there too.
+Also, the #9 Book is progressing at a steady, consistant pace, and will be uploaded in shortly a due time. I express my deepest gratitude for your paitence in my time to create, while I am also surrounded by stressful inputs from the Trolls, financial news and other recent news topics as well.
+But I thank God and Jesus Every Day for sending Ivy My Way, and I look forward to her arrival into my home and into my arms. :)
+After one final hacking, Chris gave up on this site altogether and shifted his attention to Wikipedia and the CWCipedia.
+Hosting history
+Primordial origins (August 2000 – 2007)
+The original incarnation of the Sonichu Site was hosted on the near-legendary free host for crappy personal web pages, Tripod, at http://sonichuchandler.tripod.com/cwcson.htm (http://web.archive.org/web/*/http://sonichuchandler.tripod.com/cwcson.htm). As the site was launched back when it was not yet a crime to violate aesthetics and common sense in web design, Chris's page blended right in. Before this, CWC's Pokésite 1 and CWC's Pokésite 2 had been hosted on AcmeCity and Go.com, respectively, two other popular hosts for ineptly cobbled-together personal pages.
+Chris even reminisces about his "Sonichu Site Filing Facility Hosted by Tripod" in issue #10, not that it makes any frigging sense. It is probably just some sort of a comic-page manifestation of a psychotic break. He calls this "burning the Tripod bridge". The fact that trolls hacked the site must have been particularly traumatizing to Chris.
+In the comic, Chris-Chan Sonichu defeats some devil trolls, moves his files away from Tripod, and bombs the crap out of the site. He then says, "Tripod was weak, in security, and it lacked the support for Flash media, anyway." In truth, Chris's site was hacked entirely due to his weak passwords and sloppy security practices. For example, in security questions, he has put in answers that could be looked up from the web; everyone knows his favorite film. Unfortunately, the CWCipedia didn't support Flash either – otherwise, his fans would have been thrilled to see what kind of craziness his two HTML classes could have inspired him to create.
+Despite this, the Tripod domain version of the site remained up until the hacking of Sonichu.net in January 2009, at which point the content was removed entirely.
+sonichu.com
+Chris was never able to use this domain after trolls registered it, instead going for the domain below.
+The domain was first used as a Sonichu fan page before being turned into redirects to Chris' Encyclopedia Dramatica page in December 2008, and Chris' sex tape on SlutLoad in February 2009. The last known pre-CWCki usage of the domain was used as a redirect to the Asperpedia in January 2010.
+On 7 November 2010, the CWCki acquired the domain and has since been used to house this very wiki, much to Chris' dismay.
+sonichu.net (2007 – January 2009)
+This was established sometime near the end of 2007 after trolls registered the above domain (in Christian's words, "nothing but net").
+On 8 January 2009, Chris emailed the password to Gregg Mays, who hacked the site and prompted Chris to show his fangs. On the 12th, the site was restored after making Chris do a video saying that he is straight. Four days later, the site was hacked again by the now-named Clyde Cash posing as Jason Kendrick Howell, this time prompting Chris to make a threatening phone call to Howell. The following day, the domain and password were put on eBay for auction[1] and was sold ten days later.
+After being sold, the domain featured a video of Chris practicing kissing with his hand before being turned into a Meatspin mirror site. Sometime between August and September, the domain was used to host a mirror of the parody CWCville site onetruecwcville.net until reverting to Meatspin in February 2010. A year later, the website's domain expired and the domain redirected to a domain holding page.
+After its initial expiration, the domain was re-registered in February 2015 for a year and redirected to the website of the Sydney Christadelphian Youth Circle.
+Currently, as of 2016, the domain is owned by Skenzo and redirects to various spam/scam typosquatting websites.
+sonichu.info (January 2009)
+After Sonichu.net's hacking on 16 January 2009, Chris reestablished his site at this domain. It was hacked just shy of two days later and became a redirect to sonichu.110mb.com, a parody site created by Jimmy Hill. When the man takes you away, do not resist. By 2010, the domain expired and redirected to a Sedo parked domain page. As of 2025, the domain is blank.
+sonichuandrosechu.com (February 2009)
+After a hiatus, on 4 February 2009, Chris relaunched his site at this domain and showcased it in a video. This incarnation was most notable for seeing the debut of Chris's official Rule 34 section, Sonichu and Rosechu's Luv Shack, which launched on the 12th. It lasted a little longer this time round, that was until Chris gave the password to Julie with predictable results. The contents of the site following the hacking are unknown.
+By August, the site's domain was blank. In 2013, it became a Sedo parked domain page. It was later bought and re-registered for a year in February 2015 (along with the sonichu.net domain) and redirected to the site of the Sydney Christadelphian Youth Circle. After the expiration, it was used as a cybersquatting redirection site. As of 2025, the site redirects to a GoDaddy holding page.
+cwcville.com (April – May 2009)
+The content of the website following the domain's hacking.
+Chris purchased this domain on April 6 and relaunched his site a few days later on the 9th. Since Chris didn't know how to manage the mess of links he had created, many links on the site were broken, such as the one to Sonichu and Rosechu's Luv Shack, and the one linking to a Sonic-themed webring. Guests had to change the domain name to visit them. Da major update he made to this site was to paste his autobiography after it got deleted from Wikipedia.
+On 15 May 2009, the site was once again hacked and compromised, being replaced a message that slammed Chris for not keeping up with his promise to deliver new comics and demanded the completion of Sonichu #9. A day later, the message was replaced with an image of Joshua Martinez which gave the suggestion that he was the one who hacked the site. A new message was added, slamming Chris for thinking he was really in contact with Vanessa Hudgens, playing upon a famous copypasta:
+“
+Hey Faggot,
+My name is Joshua Martinez, and I hate you. You are a fat, retarded, no-life who spends every second of his day drawing stupid ass pictures. You are everything bad in the world. Honestly, have you ever gotten any pussy? I mean, I guess it's fun making fun of people because of your own insecurities, but you just take to a whole new level. This is even worse than fucking an anime blowup doll.
+Don't be a stranger. Just hit me with your best shot. I'm pretty much perfect. I was captain of the football team, and starter on my basketball team. What sports do you play, other than "jack off to naked drawn animal people"? I also get straight A's,] and have a banging hot girlfriend (She just blew me; Shit was SO cash). You are a faggot who should just kill himself. Thanks for listening.
+Pics Related: It's me and my bitch
+”
+The message directed to Chris
+The following day, the content was replaced with a photoshopped image of Chris at a gay pride festival,
+alongside Vanessa's nudes and images of Josh and Vanessa together, which suggested that they had a relationship. The message was changed again, where Josh bragged about having sex with her:
+“
+dame man no wonder u cant get a gf
+btw vanessa is real and she just mess with u lol. guess who just got laid lol.
+”
+The message.
+By the 19th, the site went offline and was turned into a GoDaddy holding page. Since the end of 2010, the domain has been owned by another parked domain business. It has seen a brief resurgence in 2012 as a redirect to a christian book shop's website.
+http://www.spergweb.com/SonichuOnline (November 2014)
+On 20 November 2014, Chris's Facebook white knight Kenneth Engelhart created the first Sonichu website in five years, so that Chris would have a place where he could dump his blue arm ramblings. While this motive may at first seem in line with those of Chris's trolls – encouraging Chris to produce new content is a unanimous goal – Kengle's reasoning was more unusual. A man in his 50s who still lived with his parents, Kengle's primary goal in life was to befriend Chris by giving him a safe space to vent his tard-rage. From the start, the site was barely functional and drenched in the amateurish 90s HTML stylings that only two unemployed adult autists could achieve. At least one page was made, Chris's partial biography, directly copied from his Wikipedia profile. Links suggested that the site would eventually contain Sonichu character profiles, the comics themselves, and other classic Chris content. Note that although the site was officially meant to be about Sonichu, Ken's priority was the vanity page about Chris himself.
+The site also contained a forum with very strict moderation. Some users from Kiwi Farms made accounts so they could dick around, but the site collapsed before they could have their accounts verified. Presumably, Ken intended to coerce Chris into posting, but of course this never happened.
+The page received DDoS attacks from weens almost immediately after its creation, and only displayed 404 errors for a while. Ken had inexplicably hosted the site on the domain "spergweb.com." It is not clear why Ken chose this domain to host a site for Chris, a guy known for being a notorious Asperger hater, but this stupid decision resulted in Chris expressing a general distrust of the site. One of Chris's white knights at the ass-patting Keep Sonic Original festival assured him that the site was being "redesigned".
+The website is now shut down permanently. Kengle confirmed this on his Facebook, claiming that he has "other things going on in life", what with his stamp collecting and all. It's more likely that Kengle saw Chris's complaint about the site as some kind of threat to their potential friendship and immediately nuked the site, so as not to offend Great Director Chandler. This makes Spergweb the shortest-lived website Chris has ever technically owned, lasting a mere ten days.
+Gallery
+Banner
+See also
+Chris and the Internet
+CWCipedia
+The OFFICIAL Sonichu & Rosechu Blog
+Sonichu and Rosechu's Luv Shack
+Sonichu.com
+Sources
+↑ [1]
+External links
+An archived of version of the original Sonichu site in all of its homely autistic glory
+v • d • e
+The Internet
+Chris's websites
+CWC's Pokésite 1 • CWC's Pokésite 2 • CWC's Sonichu Site! • CWC's Cool Profile • The OFFICIAL Sonichu & Rosechu Blog • CWCipedia • Cwcvilleshopping.com • Cwclight
+Social networking
+Chris's resume • Adult Swim posts • Bluesky • The HooK Café •
+Facebook • Instagram • Meetup • Miiverse • MySpace • Newgrounds • PlayStation blog • PSN blogs • Reddit • Twitter (Night Star - tweets • DMs with CWCSonichu • DMs with Marvin) • (TwiSparLicious) (MagiChan111448) (Creamarina) • Tumblr • Twitch
+Dating profiles
+Match.com • OkCupid (Answers) • BronyMate
+Wikis
+Encyclopedia Dramatica (edits) • Wikipedia (profile • talk page) • CWCipedia (WikiSysop correspondence) • CWCki (edits • GodofThunderGodofWar • JenkinsJinkies • Christianchandler)
+Forums
+Something Awful • Sonichu Forum • Sonichu Girls • Trollin Train • GameFAQs • Tomboys And Tomgirls of Virginia • CWCki Forums • Kiwi Farms • r/ChrisChanSonichu
+Documented IRL encounters
+"The Tale Of The Crazy Pacer" • Mimms and Lucas Q&A • Chris's Big Night Out (II) • Fridays After Five • This is how the Trial went • Catherine • Impulse Gay Social Club • Clare Porter • Chris Chan Boasting About Celebrity Status • A Wild Chris-Chan Attempts Human Interaction • Debt hearing (eyewitness account) • Incest Arrest • Sightings (Pre-2023 • 2023‎‎ • 2024 • 2025)
+Money-making schemes
+eBay • Etsy • Craigslist • Kickstarter • YouTube • Patreon
+Google
+YouTube (DEATH BATTLE!‎ • Planet Dolan • Subliminal Frequency Hypnosis • WatchMojo • YouTube comments)
+Twitter campaigns
+HarassCWCdirectly • BlockTheTrolls • My Little Pony Protests
+Other
+2012 Poster campaign • 2013 Facebook leak • 2018 Twitter account compromise • Alex's Lemonade Stand • Amazon • Backpage • Cults3D • deviantART • Dox • Duolingo • Equestria Daily  • Flipnote Hatena • Other documents  • Quizzes • ReBrick‎ • Thingiverse
+Retrieved from "http://sonichu.com/w/index.php?title=CWC%27s_Sonichu_Site!&oldid=349257#cwcville.com_.28April_2009_-_May_2009.29"

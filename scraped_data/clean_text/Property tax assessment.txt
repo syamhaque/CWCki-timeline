@@ -1,0 +1,194 @@
+Title: Property tax assessment
+URL: http://sonichu.com/cwcki/Property_tax_assessment
+Categories: Category, Historical Documents
+================================================================================
+
+This is the last appraisal of 14 Branchland Court made by Greene County before the fire, including relevant headers above the assessment report. The last part of the "Legal Description" indicates that the lot is 0.56 acres (approximately 0.23 ha / 24,000 ft2 / 2,300 m2), and that the total worth of the house and land is $159,100.
+Property Address
+14 BRANCHLAND CT
+Legal Description
+GREENE LEA L46 S3 .56 AC
+Owner Name/Address
+CHANDLER ROBERT F JR & BARBARA14 BRANCHLAND CTRUCKERSVILLE VA 22968
+Dwelling Type
+SPLITFOYER
+Use/Class
+SINGLE FAMILY RESIDENCE (SUB)
+Year Assessed
+2014
+Zoning
+R1
+Condition
+AVERAGE
+Acreage
+0.0000
+Year Built
+1977
+Year Efft
+1986
+|----------------- Improvement Description ------------------|
+Exterior
+Interior
+Site
+CNST-FRAME
+NO. ROOMS - 8
+STRT-PAVED
++----12-----+
+EXTR-ALUM/VINL
+NO. BEDROOMS - 3
+TOPO-ROLLING
+:
+:
+FNDT-CONC BLOCK
+NO. BATHS - 1
+UTIL-PUB WTR
+:
+:
+RFMT-COMP SHGLS
+NO. 1/2 BATHS - 1
+UTIL-SEP SYS
+12
+12:
+ROOF-GABLE
+BAST-WALK-OUT BASE
+UTIL-ELECTR
+:
+:
+BLTI-UTILITIES
+ZONE-RESIDENTIAL-S
+:
+:
+FLOR-CARPET
+:PF4
+:
+FUEL-ELECTRIC
++-------------30--------------+----12-----+
+PLBG-3FXBTH
+:
+:
+WALL-DRY WALL
+:
+:
+:
+:
+|-------------------- Dwelling Valuation --------------------|:
+:
+Item
+Size
+Rate
+Value  :
+:
+UTILITIES
+1
+10000.00
+10000 :
+:
+ELECTRIC/B
+1916
+2.87
+5498 24
+24:
+FIXTURE TH
+1
+5300.00
+5300 :
+:
+FIXTURE TW
+1
+3900.00
+3900 :
+:
+BSMT-UNFIN
+1008
+15.13
+15251 :
+:
+BSMT - FIN
+908
+31.81
+28883 :
+:
+SPLIT-LEV-
+1008
+56.84
+57294 :
+:
+PORCH OP/F
+144
+31.46
+4530 :SPL
+:
+Grade Factor
+( C-10)
+.94 +-------------------42--------------------+
+Replacement Cost New
+122858 Sec
+Type
+Str
+Description
+Area
+Phys Depr. %
+(.270 )
+1986
+- AVG
+33172 SPL SPLIT-LEV- 1.00 E42N24W12W30S24
+1008
+Total Bldg. Value
+89700 PF4 PORCH OP/F 1.00 E12N12W12S12
+144
+---------------------------------------------
+|---------------- Other Improvements Valuation --------------|
+Cur. Value
+Prev. Value
+%Inc.
+Desc
+Length
+Width
+Size
+Grade
+Rate
+FV/Pct Value
+Land
+66000
+66000
+SHED FRAM
+12.0
+20.0
+240
+2000 Improvements
+93100
+93100
+GAZEBO/FA
+10.0
+10.0
+100 C
+56.77
+.75
+1419 Total
+159100
+159100
+Total Imp Value
+3400 Average Price Per Acre
+|---------------------- Land Valuation ----------------------|
+M Cls
+Desc
+G
+Size
+Dpth
+Rate
+FV/Pct
+Value
+L
+48 LOT VALUE
+M
+1
+66000.00
+66000
+Total Land Value
+66000
+|------------------------------------------------------------|
+Total Property Value
+159100
+External links
+Source Link broken, no archive
+Retrieved from "http://sonichu.com/w/index.php?title=Property_tax_assessment&oldid=273863"

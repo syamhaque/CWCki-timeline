@@ -1,0 +1,349 @@
+Title: ChrisChanSonichu and WikiSysop correspondence
+URL: https://sonichu.com/cwcki/ChrisChanSonichu_and_WikiSysop_correspondence
+Categories: Category, CWCipedia
+================================================================================
+
+User:ChrisChanSonichu (left), working hard on controlling and improving CWCipedia, with a little help from User:WikiSysop (right)
+The correspondence below is copypasted from CWCipedia, from the user talk pages of Chris-Chan (User:ChrisChanSonichu) and the mysterious WikiSysop (User:WikiSysop) – the person who helped Chris control how CWCipedia worked, and performed mere technical tasks under the wise guidance of our illustrious "genius". Chris's messages were most often posted on WikiSysop's talk page, and vice versa.
+This correspondence gives valuable insight in the mind of Chris, especially in that part of it dealing with internet, websites, copyright, and similar problems. It also offers the reader a rare backstage pass into the workings of CWCipedia, and sheds light onto new details concerning some CWCipedia-related happenings, such as the Gay Ad Disaster. And overall, it's quite a funny read.
+(CCS): Posted on ChrisChanSonichu's user talk page
+(WS): Posted on WikiSysop's user talk page
+Contents
+1 Control Panel (CCS)
+2 Whoops! (CCS)
+3 Comic section (CCS)
+4 New template (CCS)
+5 Site Logo (CCS)
+6 A humble request (CCS)
+6.1 Sprites
+6.2 Sounds
+6.3 Sonichu Versions
+7 Your Recent Edits (CCS)
+8 Color Scheme (CCS)
+9 A tip about featured articles (CCS)
+10 (unnamed) (WS)
+11 The template you asked for (CCS)
+12 Thank you, the code was a Big Help. (WS)
+13 New Feature (CCS)
+14 The heart is a good touch, thank you. :) (WS)
+15 Your recent request (CCS)
+16 Filenames (WS)
+17 Filenames (CCS)
+18 Contact Template for the Front Page (WS)
+19 The recent Maintainance (WS)
+20 Recent downtime (CCS)
+21 I see (WS)
+22 The License on the bottom of my Cwcipedia (WS)
+23 Here you are. (WS)
+24 Copyright License (CCS)
+25 Just checking in (WS)
+26 Copyright Warning (CCS)
+27 I've just read your message (WS)
+28 Fan mail page (CCS)
+29 A word of warning for future references (WS)
+30 The New Ad-Links (WS)
+31 Advertisements (CCS)
+32 Jack Thaddius is a TROLL (WS)
+33 The Ad Image (WS)
+34 Advertisements (CCS)
+35 Mailbag Issue (CCS)
+36 The revised ED Page (CCS)
+37 The Introduction Image Space is NOT Ad Space (CCS)
+38 Common Questions (CCS)
+39 Do NOT tamper with the advertisements (CCS)
+40 Your password has also been reset. (CCS)
+41 Do NOT TAMPER WITH THE ADS (CCS)
+42 More common questions (CCS)
+43 Let me put it another way... (CCS)
+44 I don't care what you do as long as you don't tamper with the ads (CCS)
+45 THAT DOES NOT MATTER (CCS)
+46 And without us, you would not have a personal mail sorter, a web host and an UNHACKABLE website (CCS)
+47 Still, I DO NOT WANT ANY ADS IN THE INRODUCTION BOX (CCS)
+48 The main page is a very popular page (CCS)
+49 I do not disagree with you on most hits (CCS)
+50 The ad is more noticeable because it is bigger. (CCS)
+51 Size does not matter. (CCS)
+52 Many sites have ads on their main page: Yahoo.com, Youtube.com (CCS)
+53 What are you doing (CCS)
+54 I said it once and I will say it again (CCS)
+55 The Main Page Twitter Box (CCS)
+56 PLEASE do something about this Ad Abuse (CCS)
+57 The Mailbag is ONLY For Sonichu, Rosechu, Cwcville, Myself or thing ONLY ON Cwcipedia. (CCS)
+58 I have a suggestion. (CCS)
+Control Panel (CCS)
+I've added a control panel template that allows you to edit the Main Page features to your user page. --WikiSysop 06:59, 11 June 2009 (CEST)
+Whoops! (CCS)
+Sorry about the huge number of edits I've been making recently, this wiki formatting takes a lot of time and effort so like many WikiSysops I often have a drink every now and then to help put up with the often tedious task of making templates and ensuring everything works properly. Of course, this leads to a lot of typos and errors, in addition to the errors caused by unruly siblings or cats on keyboards. So I apologise if I am disrupting Recent Changes too much, and hope that you continue to use this wiki to its fullest! --WikiSysop 10:59, 18 June 2009 (CEST)
+Comic section (CCS)
+I've prepared the comic pages for you, you just need to upload them now. Go to Sonichu Comic Collection and pick a comic to upload to get started, you don't need to edit the pages, just click on the red Image: links and upload. Tell me if you run into any problems. --WikiSysop 17:01, 18 June 2009 (CEST)
+New template (CCS)
+Chris never used it.
+I've made a new template you can use to add director's commentary to your comics! Add this between the Comic Page and Issue navbox for best results --WikiSysop 21:53, 19 June 2009 (CEST)
+Site Logo (CCS)
+Please upload a PNG with a transparent background, 135 pixels wide and 135 pixels high here: [1] Thanks in advance!
+Sorry, but this is too big... it has to fit in a 135x135 pixel square to display properly --WikiSysop 21:54, 19 June 2009 (CEST)
+[[2]] Maybe this would be better? Though Chris, perhaps you should should make a new logo, perhaps one incorporating the lovely one you made on the front page. --WikiSysop 01:29, 20 June 2009 (CEST)
+A humble request (CCS)
+Hey Chris! Me and my friends play Doom a lot, and we were wondering if you could make us a Sonichu skin! It'd really give me an edge in deathmatches, hehe
+I was inspired by the videos you made about your ideas for a Sonichu game. Maybe if you do the sprites and sounds, I can make some CWCville-themed levels and we can make a real Sonichu game together? Better start small first, though, so a simple skin will be cool
+To make a skin I need some drawings and sound recordings, don't worry, they're pretty easy to make. I'll put them together into a skin and take some pics of it to show it action once it's done.
+Sprites
+The sprites in question
+Just use the base sprites as a guide for what you should draw. Please use PNG and try to make sure the background is transparent
+Sounds
+Use these as a guide for what you should record.
+Chris's sysop placed a table here with links to the main Doom sounds.
+Sonichu Versions
+Upload the finished pictures and sounds into these red links!
+Wikisysop set up tables for Chris to fill in with his own variations on the sprites and sounds. Chris, ever grateful, never did.
+Remember to have fun making it, we'll definitely have fun using it! --WikiSysop 06:14, 10 July 2009 (CEST)
+Your Recent Edits (CCS)
+Chris, I just want to say that your new edits are fantastic. I particularly enjoyed the Private villa of corrupted citizens article (though all your edits in the past day have been very good). By all means, keep adding content.
+I saw you made a new logo for the corner and I will put it up as soon as possible.
+Also, if you need any help or have any concerns or notice something isn't working, by all means, you can put your questions here and I will do my best to answer them for you.
+Keep up the good work, Chris! --WikiSysop 12:27, 29 July 2009 (CEST)
+Color Scheme (CCS)
+Now that the background and logo have been set, what kind of color scheme would you like for the site? Page background colors, text colors, border colors, etc.
+Please tell me what colors you'd like and I'll set them right away --WikiSysop 00:26, 30 July 2009 (CEST)
+A tip about featured articles (CCS)
+Chris, just wanted to let you know that you can change the image associated with the featured article. For instance, if you wanted the new page with Billy Mays Image:SchuComic9P31.jpg instead of Image:HisOwnWords.jpg, just replace "InHisOwnWords.jpg" with "SchuComic931.jpg" or whatever other image you'd like to be associated with the featured article.
+The same principle holds true if you wish to edit the Featured Picture to show off any new pictures you've drawn.
+It's good you've discovered how to change the featured article, just wanted to give you a neat tip on how to use it fully. --WikiSysop 10:10, 3 August 2009 (CEST)
+(unnamed) (WS)
+Hey, it's me. :) Thank you for your pieces of advice and assistance in the edits of Cwcipedia. I have a question now. I am currently working on the Sonichu page, and I would like to add an Expandable Image Gallery, like Encyclopedia Dramatica has on their "Chris_chan" page (I don't like to reference them, but I felt the comparison is fair, aside from the lewd, disgusting "FanArt" they have on there), can you show me the Wiki-Code for that setup, please?
+Thank you again. (I like to remind everyone who I am close to this) Keep a Happy Thought, and Stay Safe, Christian Weston Chandler.
+Here's a collapsible gallery template you can use Template:collapsible here, which will be handy if you have a lot of pictures you want to display. Just curious, I checked the ED page to see what you meant, would you still want it so you can collapse in in the collapsible frame? For instance, you'd open the frame, then you'd be given some options, and you can click to collapse or uncollapse them (I looked at ED to get an idea what you meant - like how "Chris-chan Gallery" gives you some options like "Fan Art", "Original Drawings", etc. when you uncollapse the frame and you can collapse and uncollapse them). That'll be a bit tricky but if you want that, I can work on a template so you can do that sort of thing as well.
+I'm glad you're starting to learn how wiki software works and wanting to expand your horizons. If the template I made isn't exactly what you wanted, by all means say so! I will be more than glad to help you set up templates and so forth.
+Keep up the good work Chris and as always, if you need any help, feel free to ask me. --WikiSysop 05:52, 5 August 2009 (CEST)
+The template you asked for (CCS)
+I apologize if you've already read this on my talk page but I always forget if you're notified if a response to a message you wrote on someone else's talk page. Well, in case you didn't, here's what I said:
+Here's a collapsible gallery template you can use Template:collapsible here, which will be handy if you have a lot of pictures you want to display. Just curious, I checked the ED page to see what you meant, would you still want it so you can collapse in in the collapsible frame? For instance, you'd open the frame, then you'd be given some options, and you can click to collapse or uncollapse them (I looked at ED to get an idea what you meant - like how "Chris-chan Gallery" gives you some options like "Fan Art", "Original Drawings", etc. when you uncollapse the frame and you can collapse and uncollapse them). That'll be a bit tricky but if you want that, I can work on a template so you can do that sort of thing as well.
+I'm glad you're starting to learn how wiki software works and wanting to expand your horizons. If the template I made isn't exactly what you wanted, by all means say so! I will be more than glad to help you set up templates and so forth.
+Keep up the good work Chris and as always, if you need any help, feel free to ask me. --WikiSysop 05:52, 5 August 2009 (CEST)
+Thank you, the code was a Big Help. (WS)
+I will also be using it in the pages of the Other characters as well, because I have numerous original drawings of the Main Characters and then some.
+I have a suggestion that can be of really big help to me, often in expanding on the stories from my books, I often need to quote the first page, or a specific page, for that expanded story arc. I use Mozilla FireFox as the browser for faster web-surfing that my AOL program was lacking in doing so quickly. And I have the liberty of Multiple Tabs for having separate web pages on hand for reference. And as to look up the page number of the Comics, I have go through the extensive right-clicking and opening in a new tab the C-Quarters logo in the corner, then I have to scroll down and locate the Comic Collection link, then I have to wait for that to come up.
+I would like a more direct-link to the Comic Collection, can you put the link in the Navigation Box, please?
+Thank you. :)
+Stay Safe, and Keep a happy thought, Christian W. Chandler.
+New Feature (CCS)
+The day it hits zero is the day we can all quit.
+Chris, I got an excellent idea for a new front page feature where you can update your fans about your current heart level. All you do is go to Template:Heart Level and where you see {{Heart|some number}}, just enter a number to show what percentage your heart level is. Right now, I have it at 100, so it shows a little picture of your heart level at 100.
+Right now, it works so whatever image you have your heart level at, it will pull an image based on it as long as it's in the form "HeartXX.jpg" where xx is some percentage. For instance, if you entered 90% for your heart level, it would get the image "Heart90.jpg" which would show your heart at 90%. You can be as elaborate (such as drawing heart levels for every increment, like 99, 98, 97...etc) or as simple (like in tens in 90, 80, 70, etc.) as you'd like. I think the simple approach would suffice.
+In addition, you can add a brief comment about why you feel at that heart percentage like "Had a good day" or "Got the new comic up" or something like that.
+I figure this would be a good way to communicate how you feel to your fans that only involves entering two numbers (or three if you're at 100%!) to communicate your heart percentage level and a sentence if you'd like.
+I realize you are busy drawing the comics and I don't want to add more to your work load, but this is just a simple way you can communicate how you feel to your fans if you don't feel like writing a lengthy Captain's Log or something like that.
+Also, please forgive me for using the 100% heart level from your comic, as I mean to use it in a non-slanderous way.
+As I said, I'll be working on what you wanted today, but I hope you'll like the Heart Level template. --WikiSysop 16:08, 6 August 2009 (CEST)
+The heart is a good touch, thank you. :) (WS)
+I will personally fill in the remain percentage images by divisibles of 10; 0 to 90, and such image for each 10th percent will be represented for the numbers below that 10th. 0 will equal 0. 1-10 will equal the 10%, 11-20 will be 20%; 21-30, 30%; 31-40, 40%; 41-50, 50%; 51-60, 60%; 61-70, 70%; 71-80, 80%; 81-90, 90%. 100 will equal 100, I will make an appropriate drawing for 91-99%, 95%.
+Thank you again. ;)
+Your recent request (CCS)
+I'll work on it today. You should have it by the end today (August 6). Also, apology for the edit conflict with Dating Education - hope I didn't spook you, just was editing the article since wiki software doesn't handle indentations well (if you want to indent, just use a : for each space you want to indent). Yeah, it's weird but that's how wiki software works. --WikiSysop 10:10, 6 August 2009 (CEST)
+In regards to your request about having a way to quote, did you want something like Template:Quote? That'll let you put a huge quote from whatever you want and it'll be big. If you had something else in mind, let me know. Wiki software has a few different ways you can present quotes and I can work on something to meet your needs. --WikiSysop 10:13, 6 August 2009 (CEST)
+Added a comic collection link to the side navigation panel. If that wasn't what you had in mind, let me know. --WikiSysop 05:42, 7 August 2009 (CEST)
+Filenames (WS)
+After uploading an image sometimes in the comic pages, the page number I give it only a rough estimate until I have fully finished the book. After the book is finished, or if I have to change the page numbers on the extra pages, I would like to simply change the filename online.
+Step-by-step, please, how do I change the name of an uploaded file?
+--ChrisChanSonichu 22:23, 8 August 2009 (CEST)
+Filenames (CCS)
+Sadly, the version of MediaWiki we're using doesn't support the changing of filenames. You'll have to delete the images and reupload them with a new name. But for the bonus pages, why not make special pages for them rather than putting them on numbered pages? I'll start making a Bonus Page template for you now --WikiSysop 15:04, 9 August 2009 (CEST)
+Contact Template for the Front Page (WS)
+The eventual template. Chris just loves dropping dox.
+I would like to add a Contact Template to the bottom of the page with my E-Mail address in it. For the time being, I'm going to borrow a piece of the "Featured Image" Section and use the Letr.gif image I used on my old Pok'eSite.
+Also, a spot on the BOTTOM of the Front Page in the CENTER Alignment for the Sonichu Copyright Banner.jpg WITH Notes that it APPLIES TO ALL PAGES on Cwcipedia, please.
+Thank you. Stay Safe. :D --ChrisChanSonichu 07:04, 11 August 2009 (CEST)
+The recent Maintainance (WS)
+I thank God and Jesus that Cwcipedia is back up and running; upon First Look at the "Non-Exixtant" Page put me into such a Hefty Shock, that I had a Terrible Nightmare.
+Anyway, in the future, if the Cwcipedia is going to be down for a while, PLEASE put up a notice on the front page One Week in advance, notifying all about the upcoming maintainance, and that the page will be down for the set time as noted in the Notice.
+And instead of being redirected to a "Non-Existent" page, PLEASE Set up a "Sorry, the Cwcipedia is down for Maintainance; it will be back up soon. Thank you for your Paitence."
+For The Love Of God, I NEVER EVER want to have to look at that Error 500 Non-Existent Page Again.
+Also, THIS WEBSITE IS ON MY RESUME; if it is Down For The Count when the people at N.O.A. or Comic Book Company was trying to look it up, they may peg me for some kind of looney or something. --ChrisChanSonichu 21:06, 24 August 2009 (CEST)
+P.S.
+I felt like I was almost on the verge of a Stress-Induced Heart-Attack back then "You hear that, Elizabeth? I'm comin' up to join ya, honey... Trolls Got Into My Website."
+Recent downtime (CCS)
+Sorry about all that, a troll known as "ominousmusic" or "geneva" falsely reported the site for abuse. Don't worry, we should be safe now! --WikiSysop 07:04, 25 August 2009 (CEST)
+I see (WS)
+I have heard of that pedofork's possible input on the site's downtime. If it can happen to me on ED, it can happen to him; SEE if you can BLOCK HIS IP ADDRESS from accessing the Cwcipedia Site. If ED can block MY IP address from editing, there should be a method for blocking an IP address for blocking Trolls like ominousmusic or geneva.
+In any case, I pray no one else tries that again. :( --ChrisChanSonichu 19:33, 26 August 2009 (CEST)
+The License on the bottom of my Cwcipedia (WS)
+This "GDU FDL"; Please Get Rid Of It Now!
+And from an e-mail I've just received,
+From:
+ATS <winwon@hotmail.de>
+To:
+ChrisChanSonichu@aol.com
+Cc: Bcc: Date: Sun, Sep 6, 2009 9:37 am
+Hey Chris,
+I'm very glad to see that you gave up on your copyright and made your stuff open for the people (see pic). Now everyone is allowed to remix and upload your work everywhere. Sure, it's impossible to sell it now, but everyone can use it for free : )
+THANKS!
+I AM NOT GIVING UP ON MY COPYRIGHT! PLEASE GET RID OF THAT GDU FDL NOW!
+--ChrisChanSonichu] 20:33, 6 September 2009 (CEST)
+Here you are. (WS)
+Official Terms of Use and Copyrights Pages.
+--ChrisChanSonichu 22:35, 6 September 2009 (CEST)
+Copyright License (CCS)
+I deeply apologize, the owner of this webspace set the site up with a GNU FDL as a default to avoid any legal trouble. Please write a page detailing the terms of use for your website's content and I'll change it right away --WikiSysop 20:46, 6 September 2009 (CEST)
+Thanks, I'll update it as soon as I can --WikiSysop 00:14, 7 September 2009 (CEST)
+Just checking in (WS)
+I wanted to make sure you've noticed the update I did recently; more pages for the #9 Book. I still remain vigilant in the drawing and updates; please pay no attention to the trolls who tell you the lies and rumors of who maintains the copyright; ONLY I, Christian Weston Chandler, truly hold all the copyrights and whatnot. No Doubt About It.
+And I will be updating the Cwcipedia more often, and I apologize for the delays and inconviences.
+--ChrisChanSonichu 00:00, 6 October 2009 (CEST)
+Copyright Warning (CCS)
+I've received a copyright claim, complete with genuine paperwork, from an individual claiming to be the owner of the Sonichu copyright. I'm afraid their claim is legally valid, so you have two options in order to keep using both the CWCipedia and Sonichu as a whole:
+Reach an agreement with the copyright holder.
+Prove that you are, beyond all reasonable doubt, actively using the Sonichu copyright. This pretty much has to be continuous use, i.e. 1 page a day minimum, otherwise the entirety of Sonichu will fall to the copyright holder.
+If you can't do one of these things, then I'll have to hand the site over to the real owner of Sonichu. You have three days before their claim comes into effect, so please respond quickly. --WikiSysop 04:41, 11 November 2009 (CET)
+In light of your apparently valid copyright claim, it appears there's something of a dispute over the usage of the Sonichu copyright. In this situation, the solutions are for the most part the same as they were before:
+Reach an agreement with the other copyright claimant. This could mean sharing the CWCipedia with them, or collaborating on Sonichu comics or artwork, or otherwise agreeing on how you will both use the copyright.
+Proving you are actively using the copyright. As before, this means uploading a comic once a day. However, since both claims are disputed, the first claimant to produce proof of use(i.e. comics) will receive the copyright.
+In any case, I will be waiting to receive proof of active use from either you or the other claimant. It should also be noted that the other claimant has contacted Google to start displaying ads in the wiki sidebar. --WikiSysop 05:08, 13 November 2009 (CET)
+I've just read your message (WS)
+I know not of this other person you've referred to who is claiming copyright, but remain confident that I am using my Copyright as we speak.
+I will start daily single pages tomorrow, the 14th; thank you for your continuing patronage, patience and faith in me.
+Have a safe and good day.
+--ChrisChanSonichu 02:39, 14 November 2009 (CET)
+Fan mail page (CCS)
+I've been receiving a lot of emails from fans trying to contact you, so I've put them on a new page called the Mailbag. I'm sure your fans will appreciate a response, so you can reply by pasting {{EmailReply|, typing out your response, then adding }} afterwards.
+Example:
+{{Email|From: Example
+Hi Chris, this is an Example Email.}}
+{{EmailReply|Thanks for your email, Example. This is an Example Reply.}}
+Results in:
+From: Example
+Hi Chris, this is an Example Email.
+Thanks for your email, Example. This is an Example Reply.
+Again, I'm sure your fans will appreciate a response. Keep up the good work! --WikiSysop 19:27, 19 November 2009 (CET)
+A word of warning for future references (WS)
+Please Do Not Accept any more Messages from Gregg Mays <greggmays@gmail.com>; He is really Clyde Cash, a MAJOR TROLL. Granted the message in the mailbag is non-offensive, and I responded to it kindly, BUT I have communicated with him numerous times, and HE HAS BEEN NOTHING BUT A THORN IN MY SIDE THAT I LOATHE AND WOULD ONLY BE HAPPY TO REMOVE.
+Thank you for understanding.
+--ChrisChanSonichu 05:19, 21 November 2009 (CET)
+The New Ad-Links (WS)
+I understand you getting paid to run ads in that box on the Cwcipedia. I feel okay with Vivian's Audiobooks, BUT I feel OFFENDED with the Mexico Contest and Gay-Rights Ads. The Pickle on the Mexico ad reminds me of a terrible time in my past with Pickle-Suited TROLLS, and I AM AGAINST HOMOSEXUAL LIFESTYLES and FOR STRAIGHT HETEROSEXUALITY.
+Please Remove, or Change the Images of, THE TWO ADS.
+And in the future, if you plan on adding more advertisements, INCLUDING the associated images, Please run them by me in a message for my personal Approval BEFORE you start running the ads.
+Thank you.
+--ChrisChanSonichu 03:17, 24 November 2009 (CET)
+Advertisements (CCS)
+I'm afraid it's out of my control, the other claimant has sold the ad space on CWCipedia to an individual named Mr. Jack Thaddeus who can be contacted at jackthethadius@yahoo.com. I hope you can reach an agreement with them soon. --WikiSysop 03:31, 24 November 2009 (CET)
+Jack Thaddius is a TROLL (WS)
+To quote myself from a recent music video on my YouTube, "What the hell were you thinking with that damn pickle suit?"
+deep breaths*
+I'll deal with him myself. Please check with me before any similar deals take place.
+--ChrisChanSonichu 03:39, 24 November 2009 (CET)
+The Ad Image (WS)
+At least for the (UGH!!!) gay-rights ad, do I have the capabilities to create a less-offensive .png version of the ad and uploading it over the original image, and if so, how do I go along in doing that?
+--ChrisChanSonichu 01:43, 29 November 2009 (CET)
+Advertisements (CCS)
+I'm afraid it's out of my control, the other claimant has sold the ad space on CWCipedia to an individual named Mr. Jack Thaddeus who can be contacted at jackthethadius@yahoo.com. I hope you can reach an agreement with them soon. --WikiSysop 03:31, 24 November 2009 (CET)
+Mailbag Issue (CCS)
+Firstly, I want to thank you for your swift reply to the e-mail I sent you, and to inform you that I am going to work to get official sponsors to support the website. I will admit though, I was hoping that I had underestimated the Euro value. I will have those Damn Dirty Ads removed and replaced soon enough.
+Second, in the Mailbag, Please No Longer Include any messages addressing Autisim or Aspergers, or any that has even an inkling of homosexuality in it; I feel very stressed after having to read those messages; they really Grind My Gears.
+--ChrisChanSonichu 04:08, 7 December 2009 (CET)
+Thank you for your offer. But we can only accept sponsors from the EU as our company is stationed in Europe. We cannot pay for our servers with US dollars, and international banking laws for non profit organizations forbid us from using advertisements from large multinational corporations from the US or abroad. However, advertisements provided by individuals that advertise other websites are exempt from this rule. Unless you are a citizen from the EU, you cannot donate money to our website. We apologize for any inconvenience.
+If you are still interested. You are going to have to find someone who is a native EU citizen and convince them to donate to our website. Your best bet would be to talk to Jack Thaddeus about the ads as he has EU citizenship and is eligible to donate. Not to mention, due to his donations, he owns the ads in question. Should you be able to convince him, we could possibly reach an agreement. --WikiSysop 05:13, 7 December 2009 (CET)
+The revised ED Page (CCS)
+Chris_chan
+I have just retyped and revised the text body of the Encyclopedia Dramatica webpage; Please look into the page for all the KEYWORDS they've put into their page and add them to the hidden Keyword List of Our Page.
+--ChrisChanSonichu] 03:32, 18 December 2009 (CET)
+The Introduction Image Space is NOT Ad Space (CCS)
+Remove the Ad that is there now and put it BACK in the side area; I will NOT have Ads in areas where they Do Not Belong. At least the current Ad is Non-Offensive, but I Do Not Care for the "You can join us, Chris" text underneath it; REMOVE THAT LINE ALTOGETHER.
+Also, I Swear as God and Jesus as my Witnesses, THE FIRST TIME, and maybe the second time as well, I HAVE SEX WITH A WOMAN, I WILL Video Record the Whole Thing and Upload it onto RedTube, so FINALLY PEOPLE can SEE what should have been seen almost a Decade Ago.
+--ChrisChanSonichu 18:24, 28 December 2009 (CET)
+Actually, I have just found the way to fix that, but thank you for listening anyway.
+And also, Let's put the Sonichu Twitter Feed Box, Square Space equivalent to the "Christian Says" Box, on the Front Page, between "Christian Says" and "Did You Know..." in that column, please.
+--ChrisChanSonichu] 18:27, 28 December 2009 (CET)
+Common Questions (CCS)
+Many e-mails from the mailbag have common questions, I have compiled them into a page here: Common Questions. Since you've been behind on many mailbags, I think this might help. Still, you need to do the mailbags: You don't want to lose your fans again. WikiSysop 00:27, 29 December 2009 (CET)
+Do NOT tamper with the advertisements (CCS)
+We were paid by Jack Thaddeus to put those advertisements up there. He fulfilled all our payments for 2010 so he has the right to put whatever he wants. We were not paid by Coca Cola so why should we put up an advertisement for Coke? WikiSysop 05:25, 29 December 2009 (CET)
+Your password has also been reset. (CCS)
+Someone has hacked into your account. Please check your e-mail for your new password. WikiSysop 05:40, 29 December 2009 (CET)
+Do NOT TAMPER WITH THE ADS (CCS)
+More common questions (CCS)
+I have put together a few more questions. WikiSysop 04:51, 30 December 2009 (CET)
+Let me put it another way... (CCS)
+Click to load content
+I am Captain of this boat, and I do not like those who do not respect me and my wishes. If the crew wants me to REMOVE the "Straighten Out All Homo" Quote from the Introduction Image, as well as in the Feature Quote; ALL I ASK is for NO AD TO BE DISPLAYED IN THE INTRODUCTION BOX. Remove the Ad from the BOX, and I will remove the Quote from the image AND the Featured.
+--ChrisChanSonichu 23:04, 31 December 2009 (CET)
+I don't care what you do as long as you don't tamper with the ads (CCS)
+The advertisements and where they are placed are not up to you, Chris. Jack controls the ad space and may put ads where ever he pleases. The lock on the advertisements will stay in place unless Jack says otherwise. If you would like to talk to him about it his email is jackthaddeus@gmail.com. Please cease any further attempts to tamper with the ads. WikiSysop 23:12, 31 December 2009 (CET)
+THAT DOES NOT MATTER (CCS)
+I ASK that the Ads be LIMITED ONLY onto the Side-Bar and NO WHERE ELSE. I DO NOT GIVE A CRAP ABOUT Jack Thaddeus; HE IS NOT DOING HIS OWN HOMOSEXUAL MALE KIND ANY FAVORS by TICKING ME OFF LIKE HE HAS BEEN DOING.
+I Have The Instinct, and I Have Already Snail-Mailed President Barack Obama on how this sort of bad advertisement is going on and how it is Wrong and should be made Illegal. On HOW if the Main Captain does not WANT or IS OFFENDED with the listed Ads within his own Website or Works, REGARDLESS of who controls the AdSpace, WOULD REMOVE THOSE ADS or face JAILTIME. And the F.B.I. would be FULLY INVOLVED in all this, and THEY have the Power, Tools and Balls to seek, hunt down and bring in the Individual Internet Trolls and Ad-Spammers.
+I, Christian Weston Chandler, am NOT only the Mayor of Cwcville, VA, IN REAL LIFE as its Main Creator, but as such, without me, you would be just bored and not have my comics and stories to enjoy, and therefore, I am Captain of the Cwcipedia. I have full appreciation for being the Webmaster, but I will have Full Respect as Captain.
+--ChrisChanSonichu] 23:25, 31 December 2009 (CET)
+And without us, you would not have a personal mail sorter, a web host and an UNHACKABLE website (CCS)
+We have already thwarted two hacking attempts, and you continually get harassed by Clyde. We are protecting you from him. We have a team monitoring the site round-clock for you. How long have your old websites lasted once the trolls found them?
+Jack Thaddeus paid for all our hosting for 2010. He will sue us if we do not put his ads up. These latest ads are not offensive in ANY WAY. There is nothing wrong with asking closeted gay Sonichu fans to come out. I do not see the offensiveness in these ads. WikiSysop 23:53, 31 December 2009 (CET)
+Still, I DO NOT WANT ANY ADS IN THE INRODUCTION BOX (CCS)
+It is Most Unappropriate, and regardless of what ad is there, THERE SHOULD BE NO ADS ALLOWED WITHIN THAT BOX.--ChrisChanSonichu 23:58, 31 December 2009 (CET)
+The main page is a very popular page (CCS)
+The main page gets the most hits. Jack will only be able to make his money back on the most popular pages. These ads feature no pornography and are very tasteful. WikiSysop 00:06, 1 January 2010 (CET)
+I do not disagree with you on most hits (CCS)
+,And that no pornography is currently present, but the Introduction Box is NO Place for Ads, PLUS the Side-Bar gets his ads ALL AROUND the website; leaving any ad in the ONE BOX will only Limit it to that ONE PAGE, NOT ALL ARUOND.
+The ad is more noticeable because it is bigger. (CCS)
+WikiSysop 00:16, 1 January 2010 (CET)
+Size does not matter. (CCS)
+Reading from Left-To-Right in MOST Countries, as well as myself, I see the ads in the left first-off and Most Better anyway.
+Seeing the BIG Ad in the One Spot is as terrifying as the Flash Of Light at the Instant Millisecond of DEATH, or even, technologically, the Blue Screen Of Death. And Believe Me, IN DREAMS, and even IN MOMENTS within my mind while AWAKE, I HAVE SEEN AND FELT That Death Light. Not only is it the Most Horrifying Thing Ever, but I am LOOOONG NOT READY FOR IT YET.
+--ChrisChanSonichu 00:21, 1 January 2010 (CET)
+Many sites have ads on their main page: Yahoo.com, Youtube.com (CCS)
+I also have no idea what you're talking about with this flash of life. Contact Jack Thaddeus if you want to deal with him. WikiSysop 00:24, 1 January 2010 (CET)
+What are you doing (CCS)
+Chris, what are you doing? We do not have any advertisement agreements with Coca-Cola. Plus, I do not think they want to be involved in anti-homosexual rhetoric. Please take all the ads you have put up down. If you do not I will take them down myself. You are threatening the stability of the CWCipedia. Please stop this. --WikiSysop 03:35, 2 January 2010 (CET)
+I said it once and I will say it again (CCS)
+GIVE ME BACK CONTROL OF THE MAIN PAGE EDITINGS, PLEASE! This Alec is a damn bastard and a NO-GOOD TROLL. REFUSE HIS buyout into the Ad Placements onto the Cwcipedia. Regardless of image content, I want NO RETARDED ARTWORK OF HIS anywhere on MY Cwcipedia.
+--ChrisChanSonichu 06:11, 12 January 2010 (CET)
+When the contract was signed, there could be a maximum of six ads placed anywhere on the CWCipedia. Jack may do whatever he pleases as he has paid for our hosting until the end of 2010. If you are unpleased with the ads, we suggest you wait until 2011 to discuss the terms. That is the agreement. WikiSysop 07:28, 12 January 2010 (CET)
+The Main Page Twitter Box (CCS)
+Can you please SET it to a SET Width so it does NOT stretch the width of the webpage where the Portal is OUT of my view and I have to scroll to the Right in order to find it at all?
+--ChrisChanSonichu 05:09, 13 January 2010 (CET)
+PLEASE do something about this Ad Abuse (CCS)
+The only ad not in the sidebar when Chris said this. Apparently helping earthquake victims is "Abuse".
+NOT ONLY are they in the WRONG Places, but there are TOO BIG; Please SHRINK THEM DOWN or MOVE THEM ALL TO THE SIDE COLUMN.
+--ChrisChanSonichu 15:08, 18 January 2010 (CET)
+Unfortunately, I am legally unable to edit the relevant files. Please discuss these matters with the adspace holder, or the advertiser. --WikiSysop 21:35, 18 January 2010 (CET)
+The Mailbag is ONLY For Sonichu, Rosechu, Cwcville, Myself or thing ONLY ON Cwcipedia. (CCS)
+Any questions or comments that may come in addressing ANYTHING POSITIVE on Asperchu or Alec, Evan, Sean, Mao or the Asperpedia, PLEASE REMOVE FROM THE MAILBAG DATABASE WITHOUT HESITATION.
+I have also personally left the note in the 41st Mailbag that had NOTHING but those ANNOYING Questions and Comments that JUST GRIND MY GEARS AND PISS ME OFF. See below for the message I have left, and please leave it alone and add no more to this one mailbag:
+Chris copy pasted the response he put in Mailbag 41. To read it, please go here.
+Thank you my Frogger-Playing friend.
+--ChrisChanSonichu 12:12, 19 January 2010 (CET)
+I have a suggestion. (CCS)
+The Awesome ad in question
+Considering the Current Image Alec has placed in the top area being bloody and gorey. F.Y.I., I was shocked at first sight of it, but I calmed down after a while. It's the same, more or less, when I watch a horror movie and see those parts (I have watched Saw 1-5; good story behind John, B.T.W.), but at least I have the knowledge that it's all Hollywood Magic.
+Anyway, considering that, I recommend making the Whole Top Portion Hideable (able to hide it for good during the rest of the visit on the Cwcipedia), just like in the Mailbag or my Images in the Sonichu page where we have the option to hide or view it at ones own leisure or choice.
+For me at least, being able to HIDE all of the "advertisements" in the top portion from view during my time on the Cwcipedia, I feel it would make my job more easy to cope with.
+Also, I promise you, and ALL of my fans, even those who have left for Alec and his crew, aside from that One Time OUTSIDE of my Comic Book Pages, I would Never Ever draw Blood and Gore within my Comic Book Pages at all.
+Thank you, Frogger.
+Stay Safe and have a good day,
+--ChrisChanSonichu 12:19, 22 January 2010 (CET)
+P.S.
+I SHOULD NOT HAVE TO BE FORCED to Scroll Down EVEN to view the Log-In Box when Logging In, or even to SEE the Edit Box that I am typing in right now.
+Also, I have ended the Raichu's Gender Dispute; she as always been FEMALE.
+--ChrisChanSonichu 18:48, 22 January 2010 (CET)
+v • d • e
+The Internet
+Chris's websites
+CWC's Pokésite 1 • CWC's Pokésite 2 • CWC's Sonichu Site! • CWC's Cool Profile • The OFFICIAL Sonichu & Rosechu Blog • CWCipedia • Cwcvilleshopping.com • Cwclight
+Social networking
+Chris's resume • Adult Swim posts • Bluesky • The HooK Café •
+Facebook • Instagram • Meetup • Miiverse • MySpace • Newgrounds • PlayStation blog • PSN blogs • Reddit • Twitter (Night Star - tweets • DMs with CWCSonichu • DMs with Marvin) • (TwiSparLicious) (MagiChan111448) (Creamarina) • Tumblr • Twitch
+Dating profiles
+Match.com • OkCupid (Answers) • BronyMate
+Wikis
+Encyclopedia Dramatica (edits) • Wikipedia (profile • talk page) • CWCipedia (WikiSysop correspondence) • CWCki (edits • GodofThunderGodofWar • JenkinsJinkies • Christianchandler)
+Forums
+Something Awful • Sonichu Forum • Sonichu Girls • Trollin Train • GameFAQs • Tomboys And Tomgirls of Virginia • CWCki Forums • Kiwi Farms • r/ChrisChanSonichu
+Documented IRL encounters
+"The Tale Of The Crazy Pacer" • Mimms and Lucas Q&A • Chris's Big Night Out (II) • Fridays After Five • This is how the Trial went • Catherine • Impulse Gay Social Club • Clare Porter • Chris Chan Boasting About Celebrity Status • A Wild Chris-Chan Attempts Human Interaction • Debt hearing (eyewitness account) • Incest Arrest • Sightings (Pre-2023 • 2023‎‎ • 2024 • 2025)
+Money-making schemes
+eBay • Etsy • Craigslist • Kickstarter • YouTube • Patreon
+Google
+YouTube (DEATH BATTLE!‎ • Planet Dolan • Subliminal Frequency Hypnosis • WatchMojo • YouTube comments)
+Twitter campaigns
+HarassCWCdirectly • BlockTheTrolls • My Little Pony Protests
+Other
+2012 Poster campaign • 2013 Facebook leak • 2018 Twitter account compromise • Alex's Lemonade Stand • Amazon • Backpage • Cults3D • deviantART • Dox • Duolingo • Equestria Daily  • Flipnote Hatena • Other documents  • Quizzes • ReBrick‎ • Thingiverse
+Retrieved from "http://sonichu.com/w/index.php?title=ChrisChanSonichu_and_WikiSysop_correspondence&oldid=325845"

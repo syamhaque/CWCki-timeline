@@ -10,14 +10,9 @@ ENV/
 *.egg-info/
 
 # Project specific
-scraped_data/
-scraped_data_test/
 *.log
 *.json.backup
-discovery_checkpoint.json
-timeline_checkpoint.json
-media_extraction_checkpoint.json
-media_linking_checkpoint.json
+*checkpoint.json
 
 # IDE
 .vscode/

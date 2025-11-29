@@ -1,0 +1,131 @@
+Title: Help:A Quick Guide to CWCki
+URL: http://sonichu.com/cwcki/Public_source_needed
+Categories: Category, CWCki policy
+================================================================================
+
+So you want to edit the wiki on the Internet's most beloved (and most hated) autistic manchild? Before you start, you should know this isn't your average crappy Encyclopedia Dramatica article that you're getting yourself into. Here's a CWC (pronounced: 'quick') guide to the CWCki:
+Contents
+1 When it comes to dates, be a European
+2 When it comes to spelling, be an American
+3 The possessive form of Chris is "Chris's"
+4 Sign your comments
+5 Stay nameless
+6 A note on notability
+7 Brevity is wit
+7.1 You are not a psychiatrist or philosopher
+7.2 Suppress your own urges
+8 Double check
+9 Privacy
+10 IF YOU WANT TO HELP OUT
+11 Dive right in
+12 Get involved
+13 Try to aim for NPOV
+13.1 Don't be an A-Log
+14 Updating Da update
+15 DO IT, BRO/ What goes on CWCki should stay on CWCki
+16 Learn how to pipe
+17 Conclusion
+18 See also
+When it comes to dates, be a European
+This: dd Month Year
+Example: today is 27 November 2025.
+Not this: Month dd, year
+Example: today is November 27, 2025.
+Likewise, avoid numerical dating (11/27/2025 or 27/11/2025) because that confuses the hell out of people depending if you're a European or American.
+While Americanized spellings are the standard, it's still a good idea to use European dating to avoid confusion.
+Furthermore, it's easier to link to.
+For instance, if you went with European dating, to link to a month, all it would be is:
+dd [[Month Year]]
+whereas an American dating would be:
+Month dd [[Month Year|Year]]
+When it comes to spelling, be an American
+Chris is American, and so are the majority of trolls. As a result, Americanized English is the standard for the CWCki. So no unnecessary vowels (unnecessary "U"s, "O"s, etc.), it's a "truck" and not a "lorry," it's an "elevator" and not a "lift," you get the idea.
+However, on a similar note, please be considerate of our European brethren. Some Europeans are not totally familiar with American TV shows, food chains, and other stuff Chris frequently references, so it is helpful to add a mild explanatory note for these (such as comparing Chris's beloved Golden Corral to Red Hot World Buffet & Bar). For instance, if a game title has a different title in Europe, by all means mention this (such as how Animal Crossing: City Folk was known as Animal Crossing: Let's Go to the City in Europe).
+The possessive form of Chris is "Chris's"
+This is admittedly controversial, but as far as we're concerned, your English teacher was probably wrong. When it comes to singular proper nouns, you are supposed to append apostrophes, even if the name ends in "s" (the exception is formal archaic names like GodJesus, but then it'd be "in Jesus' name").
+Page 1 of Strunk & White's The Elements of Style states this, and this is the standard The Economist uses. People who argue otherwise are either slow-in-the-minds or Associated Press writers, often both.
+Sign your comments
+If you're making a comment on the Community Portal or on a talk page, please sign your comments. It's four tildes in a row (~~~~). That way, we know who said what and don't have to go through the talk page history in order to find the original date and time of the post.
+Stay nameless
+DON'T ADD YOURSELF.
+The general guideline for trolls having their own articles are trolls who have interacted directly with Chris and have been referred to by Chris in some explicit way (such as Clyde Cash).
+There are a few exceptions but for the most part, unless we've heard of you via Chris, you don't warrant your own article. Besides, no one probably gives a shit about your shitty troll persona or your shitty attempts at prank calling his house.
+You are however free to do with your User Page on CWCki as you wish, within reason. (For example, don't add a zillion pics not related to Chris to it, or use it as a dumping ground for your YouPorn history.)
+A note on notability
+Related to namefaggotry is notability.
+While not as strict as Wikipedia, CWCki still maintains a guideline of notability: If Chris has responded to someone or something, it warrants a mention on CWCki.
+In other words, a random guy who makes a video response to Chris doesn't warrant their own article. Otherwise, we'd have a wiki full of guys in their basements trying to be funny by bringing up Chris and his recycling.
+To clarify, by the first part, someone or something that has caused a response from Chris warrants mention on CWCki. For instance, Evan warrants his own article because of the infamous masturbating and squirtin' e-mail as well as Simonla Rosechu. Clyde Cash warrants his own article as Chris has made several videos threatening Clyde's life.
+The major exception to this rule is any mainstream media references to Chris. No, not some random blogger or some guy on YouTube or Facebook, but actual TV, radio stations, or high-profile blogs (ex. Fark, The Atlantic, etc.). These references should be incorporated into the Chris in the media article, or the Chris-related media they cite.
+And of course, anything Chris does or says is notable and deserves mention on the CWCki. This does not mean everything Chris mentions gets an article--it should just be mentioned somewhere, preferably in existing articles. There are of course exceptions that are dealt with on a case by case basis.
+Brevity is wit
+Don't ramble on unnecessarily. Learn to edit yourself. Read what you've written. Is everything in it entirely necessary? Can it be reworded to better effect? Think about what you yourself might read. Would you really be interested in reading a 10,000-page treatise on the psychology of Chris's bowel movements? If not, then why should anybody else? And if so, then what the hell is wrong with you?
+This especially goes for summaries. Remember what they are--summaries. They shouldn't be longer than the transcription/article being commented upon.
+You are not a psychiatrist or philosopher
+Keep psychological mumbo-jumbo to a minimum, or preferably, to yourself, except if it is absolutely relevant. It's one thing to relate a quirk or flaw of Chris's to his autism, but another to plunge head-first into pseudo-Freudian hogwash or suggest medications for him.
+Suppress your own urges
+This goes for people who have religious or political views, different sexual fetishes, and/or are fans of anime, TV shows, video games, and/or comics. Chris might own your video game or watch your anime or mention something about which you hold a very strong opinion. He may even mention it quite frequently. This doesn't mean it warrants a CWCki page, and it certainly doesn't mean that you need to reference it every third article or write about how Chris's understanding or interpretation of Contemporary Post-Trotskyist Feminine Theory is incorrect.
+Double check
+Before adding an article, check to see if it hasn't been added already. CWCki is not Wikipedia or Encyclopedia Dramatica, so everything might not be redirected. You may have to search a bit but it helps if you look for articles before duplicating them. Same applies to images.
+If you think a redirect would be appropriate for a particular search phrase, go ahead and add it: search the term you want to redirect, click on the red link between "Create the page "[insert title here]" on this wiki!", type in # REDIRECT[[target page]], and hit "save". The page will redirect with the same information; you will have to click "Save" again and perform a CAPTCHA mini-game in order to it to fully appear. Yes, it's beyond annoying, but it helps ward off spambots. Keep in mind that the phrase should be a fairly generic and common term, and relevant to the particular target.
+Privacy
+Information wants to be free, blah blah blah. While CWCki is very unabashedly uncensored (albeit far less than ED, mind you), it's wise to wait before posting things. Although Chris is very dense when it comes to denying the truth even when clearly presented to him, some trolls are sensitive about leaked info and wish that their "covers" not be "blown" so be considerate. Information about anyone Chris mentioned (be it a random Manajerk or a Jerkop) should be kept private too sometimes. Otherwise, we'd have weens e-mailing them "JUUUULLLAAYYY!!!!!" or other unfunny bullshit.
+IF YOU WANT TO HELP OUT
+Some people come here straight from reading the Encyclopedia Dramatica article on Chris and decide they want their hand in editing. Unfortunately, the ED article on Chris-chan is frequently out of date, or it misses out on very recent developments.
+If you're going to be editing CWCki, have a gander at Chris's Twitter pages or Kiwi Farms, or hang out in #sonichu or the Discord. They're hot sources of all the goings on with Chris, and they keep up to date with all the most recent happenings. Just don't be a fag or else you'll be banned.
+Likewise, spend some time reading, watching and listening to everything Chris-related, including the chat logs, sex audio, all of his videos, Mumble chats, etc. Yes, it requires an unhealthy amount of time, and having a strong stomach to some of Chris's more grosser aspects, but you'll get deeper into the rabbit hole and want to see how far it goes. These things are generally not on the ED page and you'll miss out on a lot of details on Chris (for instance, Reginald Chandler or how Chris drinks his own semen.) But if you want to take an easier shortcut, perhaps begin with sachumo's documentary about Chris, which does a generally good job at summarizing most of Chris's life (although it misses more recent information due to being released in February 2015). As an alternative, you can watch all of the videos in the Chris Chan: A Comprehensive History series, which goes into greater detail than sachumo's documentary.
+Dive right in
+Even though you should lurk moar, don't be afraid to edit the CWCki. Anyone can and should edit the CWCki. You do not need to "prove yourself" to get a CWCki account and you will not be banned if you make an honest mistake.
+If you're posting complaints about the CWCki on PVCC, cwc or Kiwi, you're doing it wrong. If you see something wrong with the CWCki, feel free to make your opinion heard or take matters into your own hands. After all, if you want something done right, do it yourself.
+Get involved
+CWCki is (mostly) democratic. While not perfectly democratic as say, Wikipedia, users do have influence in policy. While editing articles or contributing to the CWCki in other ways should be #1, it's also good to get involved in the workings of the CWCki. Be sure to regularly check the Community Portal, especially the Policy and CWCki:News pages.
+Being involved in the CWCki inner workings means that you get a say in how the CWCki is run and provide valuable feedback to the CWCki staff to better improve the CWCki user experience. So please, get involved, it's your CWCki.
+Try to aim for NPOV
+No, this does not mean you cannot say anything bad about Chris. Aim for criticism, not outright bashing of Chris. Likewise, when dealing with other trolling sites, users, etc., try to present them in neutral terms.
+So go ahead, criticize Chris, but don't try too hard. If Chris lies, it's fine to say he's a liar. But by implying that by lying he's "scum of the Earth," "a worthless piece of shit," etc. then you're just trying really too hard.
+We're not Encyclopedia Dramatica, we're here to document Chris and mocking is mostly indirect.
+Don't be an A-Log
+A-Logs feel that Chris is a despicable human being with no redeeming qualities and want to inflict harm upon him. Chris doesn't inspire greatness, but he's not the spawn of Satan who's worse than Hitler. Don't be an A-Log, and don't purposely try to find things wrong with Chris.
+Updating Da update
+Da update is perhaps what most people come to CWCki for, to see what is new with Chris. But what constitutes an update?
+Chris releasing a new video? Hell yeah!
+Leaked stuff with Chris in it? Definitely.
+Something you heard off some guy in IRC? ...no, not really.
+Something you heard off of ED? Fuck no.
+In order for something to be considered update worthy, it has to be a publicly available media involving Chris or reliable sources who can provide information on Chris such as Null or Marvin from the Kiwi Farms.
+DO IT, BRO/ What goes on CWCki should stay on CWCki
+If you see something wrong or a mistake on CWCki, fix it. Don't start a thread on Kiwi Farms about how you saw something wrong on the CWCki and say how you can't believe it's wrong. Fix it. Don't complain about a video link being dead, find a working link and add it to the article. If you're not sure how to fix it, then make a comment in the article's talk page addressing your concern about the article and add templates. Likewise, don't make a thread about how you'd like to see CWCki address a topic. Make that article. If it sucks, it'll get deleted. If not, others will have a chance to build it up. If you dislike the quality of the CWCki, don't bitch about it on the Kiwi Farms, get involved and edit articles to make them higher quality.
+Likewise, discussions pertaining to CWCki should be on CWCki. If you have a beef with someone, don't bitch about them on the forums. Keep it on CWCki and things can be resolved. Likewise, if you want to collaborate with others to work on an article, you're more than welcome to go to other forums to do this but by all means mention this on the CWCki itself.
+Learn how to pipe
+Read this as a guide to linking to other articles on the site.
+Conclusion
+Follow these simple rules, and you'll become a regular CWCki wikifag in no time! So welcome to the CWCki, your one stop for everything Chris.
+See also
+What CWCki is and is not
+v • d • e
+New to the CWCki? Here's how you can get started.
+New? Start here!
+FAQ • Christian Weston Chandler • Glossary • Common Misconceptions • List of Videos • CWChronology (Introduction and Terminology • Saga)
+Documentaries (Sachumo's Documentary • Chris Chan: A Comprehensive History • Beneath the Bridge • Chris Chan VS. The Internet (canceled) • The Chris Chan Conspiracy) • Lost Media • Guides on Related Topics
+Major articles
+Sonichu
+Sonichu (comic) • Comic Chris • CWCVille • Sonichu (character) • Sonichu (species) • Rosechu • Rosechu (species) • Chaotic Combo (Wild • Bubbles • Punchy • Angelica • Magi-Chan) • Mary Lee Walsh • Count Graduon • Blake • Jerkop
+Love Quest
+Love Quest • Sweetheart • List of Love Quest candidates • Mia Hamm • Affair with Mother • Attraction Sign • Boyfriend-free girl • Gal pal
+Fantasies
+Death of Father • Dimensional Merge • Messiah Complex • Magical thinking • Imaginary friends • Imaginary family • Spirit possession • Polyamorous marriage
+Internet
+Internet Presence (YouTube, Twitter / 𝕏, Bluesky, Facebook) • Trolls • Touching the Poop • Unholy Quintet (White Knights  • A-logs  • Weens  • Enablers  • Carpetbaggers)
+Important people
+Bob Chandler •  Barbara Chandler •  Joshua Martinez •  Mary Lee Walsh •  Michael Snyder •  Megan Schroeder • Adam Stackhouse •  Jason Kendrick Howell •  Blanca Weiss •  The Pickle Man •  Clyde Cash •
+BlueSpike •  Ivy O'Neil •
+Jack Thaddeus •  Liquid Chris •
+Kacey Devoria •  Kim Wilson •
+Alec Benson Leary •  Surfshack Tito •  Thorg •  Jackie Romy •  Kengle •  Null •  Catherine Sorrentino •  DoopieDoOver •  Jessica Quinn •  Idea Guys •  The Captain •  Teen Troon Squad •  Jacob Sockness •  MKRNightVee •  Naught •  The WCT •  Caden Peck •  Isabella Loretta Janke •  Fiona Cooper •  Flutter
+Important places
+14 Branchland Court • Rental House • Big Island House • Other homes • Chris's room • CWCville • Fashion Square Mall • Manchester High School • The GAMe PLACe • Piedmont Virginia Community College • Central Virginia Regional Jail • Western State Hospital • Finland
+Mental Health
+Autism • Transgender • Ego • Personality • Gender • Coping • Manipulation • Mental Healthcare • Nostalgia • Reality • Anger • Negligence • Kindness • Stress • Remorse • Death
+Editing the CWCki
+Quick Guide • Wiki Editing • Help • To-do list
+Retrieved from "http://sonichu.com/w/index.php?title=Help:A_Quick_Guide_to_CWCki&oldid=333849#Cite_only_publicly_available_media"

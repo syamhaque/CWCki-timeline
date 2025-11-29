@@ -1,0 +1,466 @@
+Title: CWC's Pokésite 2
+URL: https://sonichu.com/cwcki/CWC%27s_PokeSite_2!
+Categories: Chris's websites, Defunct websites
+================================================================================
+
+CWC's Pokésite 2 was one of Chris's earliest websites about Pokémon, launched on 22 July 1999. It was created using the web-builder feature on Go.com, a largely unsuccessful web portal made by Disney. Chris made a poorly-translated Spanish version, which shows that his Spanish name is Ricardo W. Chandler. According to the sign, Chris made Espanolic the mascot of the Spanish version.
+The email listed on the page is itsameCWC@aol.com, probably a reference to the opening splash screen of Super Mario 64, where Mario says his iconic phrase: "It's a-me, Mario!".
+Contents
+1 History
+2 Current status
+3 Content
+3.1 Front page
+3.2 CWC's PokéArt Section
+3.3 CWC's Downloads!
+3.4 CWC's Pokenews
+3.5 Pokemon Cards Section
+3.6 About the Author: Christian W. Chandler.
+4 Now in Spanish
+4.1 Introductory sign (see right)
+4.2 Front page
+4.3 Sobre del Autor: Ricardo W. Chandler.
+5 Guestbook
+6 See also
+7 References
+8 External links
+History
+In his resume, Chris proudly proclaims both the Spanish and English versions as having been created from "notepad scratch" thanks to his HTML classes. Given the quality of the sites, it is largely assumed that "notepad scratch" is a euphemism for "pulled out of his ass". Like everything else of a visual nature that Chris has produced, the sites were nothing short of eye rape. The website was spawned out of his obsession with Pokémon and originally featured Sonichu as the mascot.
+The site's logo, shown below, was designed by Miranda Joyce Mitchell, one of Chris's high-school gal-pals, as a school assignment. This is why it looks good.
+In addition to the godawful aesthetics, the site also has a number of HTML errors.[1] For example, the title image is aligned to the left of the screen, because Chris wrote align=CENTER when he meant align="middle". This would have been obvious to Chris unless he'd been testing the site on a 640x480 monitor (already obsolete in 2001[2]), and it would tend to make his work look even less professional to a software engineer who was considering him for a Web-development job.
+Current status
+Since the website has been at various times hosted on Chris's other fail webspaces, its current status is the same as theirs, which is to say, inactive and archived. He doubtlessly has a copy hanging around somewhere though, since Chris seems to feel that everything he produces is pure gold.
+Content
+While the site's nominal purpose was to sperg about Pokémon, the content of the site suggests that Chris's ulterior purpose for the site was to sell himself as a cool person and make friends, just as his later Sonichu's News Dash was really about attracting a boyfriend-free girl. Chris hoped that there would be extensive community feedback--the art section was for "drawings from you and me," for example. There was also a "Cool Letters" section, which remained vacant. He practically begged people to sign his guestbook, and, of course, there was the prominent "About the Author" section, where Chris's already-enormous ego was apparent.
+This archived edition was last updated on 15 January 2009.
+Front page
+New logo was designed by Maranda Mitchell and Me. :)
+Launched on July 22, 1999
+Updated: 1/15/2009
+Welcome...
+To CWC's PokéSite 2!
+To add frames to see my other cool sites, click here! 8)
+Enjoy your visit! :)
+Please visit again for many Updates, be sure to Bookmark us, and be sure to tell your friends about us, too. And, please sign the Guestbook.
+A Real Pokémon Trading Card Game Section.
+An Art section with drawings from you and me.
+A PokéCheats Section.
+A Downloads section.
+Updated News more often.
+Cool Letters section.
+A Pokémon Card section.
+A Section of cool Links.
+About the Author: Christian W. Chandler.
+Please, Sign my Guestbook.
+And a whole lot more!!!
+And, if you want to see the original CWC's PokéSite, here is the link.
+CWC's PokéArt Section
+Clicking this link to brought you to 24 of Chris's homemade Pokémon trading cards, some of the earliest entries in The Wall of Originals.
+CWC's Downloads!
+This page included links to the American and Japanese Pokémon themes. There were also .mpg movies entitled "Pikachu Vs. Raichu", "Ash and Pikachu", and "Team Rocket's Motto". taken from a site called "Pikachu's Place." Finally, under "Programs/Games/Other," one could play five games provided by "Insomniac Pokemon's Top 100 Pokemon Sites."
+CWC's Pokenews
+This was the meat of the website. It included a series of brief updates from the world of Pokémon. Very little of it is original; Chris just relayed information he had read in other publications and sites. There are a few insights into Chris's life during this period. Sometimes homework prevents him from making more frequent updates. He also takes a break during the move from Midlothian to Ruckersville, which he says caused him stress and a dip in inspiration, excuses which would soon become very familiar to his fans. We see that Chris was apparently very upbeat through 2000 and essentially pre-sexual, his mind focused almost exclusively on his Pokémon hobby. Only in a later update to the site, when he was 22, do we first see references to the Lovequest. He also assumes that his readers hang on his every word.
+"The Archive Section!" included his earliest stuff, labeled "October, 1999-December, 1999." He introduced it with, "Finally, I am going to start on my own PokéNews section for my PokéSite. I'll start small, but this section will grow...with time."
+Corrected: My first article: some information about Pokémon Gold/Silver (what Pokémon will you start with?). Information and pics. wereprovided by, Info Gamers' magizine.
+What Pokémon will you start with in Pokémon Gold/Silver
+10/13/99
+I was surfing on the internet one day, and I got an E-Mail talking about Info Gamers' magizine's website having the pictures of the three new Pokémon you start with in the new Gold/Silver version. It had an internet address attached to it, which goes to that article.
+Anyway, here is the situation, in the Gold/Silver version, you do not get to choose between Charmander, Bulbasaur, or Squirtle. You get to choose between a firey hedgehog, Hino-arashi, a timid pear-shaped grass Pokémon, Chicory-ta, and a crocodile that attacks with its teeth and its tail, Wani-noco.
+I'll have more information when I get some. :)
+Save yourself a trip to Blockbuster Video! You can print yourself an entry form from Nintendo's Pokémon World!
+10/14/99
+You know that new Pokémon Snap contest where you can win a trip to Austraullia? You can save yourself a trip to the store by downloading a copy of the official form from Pokémon World!
+Info. on Snubble, Marril, and Donphan!!
+10/22/99
+I found some interesting information on the three Pokémon: Snubble, Marril, and Donphan.
+Snubble: The name is a combo of snub-nosed and bulldog. Nintendo's Gail Tilden says that Snubble is very grumpy and has a short fuse.
+Marril: This water mouse is already hugely popular in Japan, where the new Pokémon movie first opened, and soon will pop up on the TV show.
+Donphan: Tilden says the name is derived from the Japanese word "don," meaning "heavy-footed," and "phan" from elephant. It does a rolling attack and is one of the larger Pokémon.
+Source: USA Today.
+Dig Into Fossil Deckbuilding Contest!
+10/28/99
+Wizard's of the Coast's Pokémon website is having a contest in which you could win 2 Fossil Booster Boxes, both Fossil Theme Decks, and the Starter Gift Box.
+All you have to do is click on the big icon on their website, follow their instructions, enter, and possibly win! It's really a way for those who do not know how to construct their own deck to learn how.
+How the Pokemon Came Into Our Poke Balls.
+10/30/99
+(Intro.)
+For my English class in late September of this year, I had to write my own myth. So, I figured "Why not make a myth about how Pokémon came to be."
+My English teacher thought that it was a great story. So did my mom and a few other people. Since it was so good, I thought I'd feature it on this website. Click Here to read my story. Enjoy. :)
+Burger King Will Have 57 Pokémon!
+10/13/99, but updated: 11/04/99
+That's right! Starting November 8-December 15, Burger Kings of the United States will have 57 Pokémon! And they include my top 2 favorite Pokémon: *Mew*, and *Pikachu*!
+The Pokémon Gold thing, is that of six 32k gold cards for $1.99 per card, starting Nov. 15. They feature Pikachu, Mewtwo, Jigglypuff, Poliwhirl, Charizard, and Togepi.
+Here's a biggie, the 57 toys will be in a Poké Ball, 1 toy per Kids' Meal, inludes a special Trading Card for each, and catorized for their toy features. And Burger Kings will have a trading night every tuesday for the toys, starting Nov. 23.
+The Toy list:
+Pikachu. The only plush toy that will talk.
+[Here Chris included the list of all 57 toys.]
+Click Here to see the big poster.
+New Pokémon TCG cards from the new movie!
+10/20/99
+Check this out: "In the 'Pokemon The First Movie' promotion, moviegoers will receive, with the purchase of each movie ticket, a randomly selected game card from a collection of four new cards published by Wizards of the Coast. These special new game cards are only available by purchasing a ticket to the movie or by making a $10 purchase at the Warner Bros. Studio Stores, as long as supplies last.
+"The new Pokemon cards feature Dragonite, a flying Pokemon messenger; Electabuzz, a wild Pokemon with a short temper; Mewtwo, the violent, genetically engineered creation who challenges Mew for dominance of all Pokemon; and Ash's furry pal Pikachu, the most charming and beloved Pokemon."
+Also now a mention of when and how to get a Promo. Mew, from WOTC!!!
+Click here to go to Wizard's articles.
+New Promo Card list is in my section of Pokémon cards!
+Starting on the list of Promos for America!
+11/16/99...3/3/2000...3/13/2000...4/2/2000
+That's right, in my Pokémon Trading Card section, is a list of the current Promo cards from Wizards, and how to get them. I'll keep you all up-to-date as the
+information comes in.
+Now we know of a Holo Mew, a Holo Meowth, a new Venusaur, and a Holo Porygon!
+I'm sorry; I have not been on the internet lately.
+Notice!
+11/18/99
+I'm sorry I have not updated the website as fast as I usually do, but I had to do a lot of homework. I'll update the site at least on the weekends; being off the internet for a while sure makes you miss a lot of things...:)
+A Timeline for Pokémon!
+11/30/99
+Here is a current Poké Timeline from the "Business" section of today's Richmond Times Dispatch.
+[Here Chris included a timeline of important Pokemon events from 1996 to Summer 2000.]
+A Brand New PokéDex! There is a new website with a PokéDex of the so-called "Pokégods!"
+A List of the Next 100 Pokémon!
+12/15/99
+There is a new website with a PokéDex of the "Pokégods" from the new Gold/Silver Versions. Click Here to go to this new website!
+After the archive, the next series of articles was labeled, "February, 2000-Audgust, 2000." "Here's a big update; the Old News are in the new Archive section! Click on the link on the bottom of the page."
+Here is a Valentines Day hymn I have written for the special day of love. Enjoy! :)
+There are Pokémon cards of other Languages! And I'm searching for some cards of a certain language.
+The Foreign Pokémon Cards are Here!
+1/21/2000
+I have come across of Pokémon cards in other languages. I have found so far, German and French cards. But, since I take the Spanish language, I have figured that there may be some Spanish Pokémon cards. If you have any information on Spanish cards, or have any Spanish Booster Paks, Send me an E-Mail at: Itsame CWC@aol.com. Have a nice day. :)
+UpdatedNew Promo Card list is in my section of Pokémon cards! (2+1 new cards)!
+Starting on the list of Promos for America!
+11/16/99...3/3/2000...3/13/2000...4/2/2000
+That's right, in my Pokémon Trading Card section, is a list of the current Promo cards from Wizards, and how to get them. I'll keep you all up-to-date as the information comes in.
+Now we know of a Holo Mew, a Holo Meowth, a new Venusaur, and a Holo Porygon!
+New! Team Rocket Card List.
+4/3/2000
+The Team Rocket expansion will be coming on April 24th, but the PokéSite has the list to help. The American Team Rocket card list is in the TCG section!
+A New Promo. Trainer Card is here! And we have the scoop on it!
+New! Trainer: Computer Error Card!.
+5/29/2000
+There is now, for the first time in America, a new Promo Trainer card called: Computer Error. It is a Non-Holo card, and was probably originally a Team Rocket card; by the name, it says: "(Rocket's Secret Machine)."
+Find out how to get it in my Promo. Card Section!
+And I'm sorry that I have not updated the site lately; too much homework and less inspiration.
+Another Promo. card/Where are those updates?
+A Coast-to-Coast Promo. card, Eevee!
+6/19/2,000
+There is a Promo. Card that has been flying around the country (which did not make it to some states), Promo. #11, Eevee! Information on it is in the Promo. Pokémon Section!
+Where have those updates been?
+I have not been keeping up with the PokéNews Section, because my family and I have been in the moving process from Richmond, VA to Ruckersville, VA. The stress was keeping me down. But, as soon as we are moved there, I will be updating the PokéSite much more often with PokéNews!
+I'm Back...with updates!
+I'm Back!
+7/17/2000
+Hey, everyone. Sorry for the long wait without updates, but my family and I are finally moved to Ruckersville. So the updates will come up more often, now! 8)
+To start, there is an update in the Trading Card section: 1st, the new 2000 Movie Promos are listed, including Achient Mew!
+I'll keep the updates coming; thanks for coping with me. 8)
+Ancitent Mew has been translated!
+7/22/2000
+During the first week of the new Pokémon 2000 Movie, the Anchient Mew Promo. cards will be given to those who go to see the movie.
+I translated the A-Mew at the League today. So, for those who do not go to the League, the A-Mew "Details" go as followed:
+Name of Attack: Psyche (Requires 2 Psychic Energies).
+Hit Points: 30.
+Attack Damage: 40.
+Retreat Cost: **
+Weakness: Psychic.
+Resistance: None.
+I hope this will help some of you in your TCG card games. 8)
+New Promo. Checklist!
+7/27/2000
+Since there are so many Promo. Cards flying about, instead of just a list with details, I have made a simple, printable checklist.
+To ease some possible confusion, the "?'s" means that the card of that # has not yet been learned about. And since Ancient Mew does not have a Promo. #, I gave it a #00.
+I will update as often as new Promo. Cards come out. 8)
+The League Cool Porygon Rumor is finally comfirmed!
+New Promos. Coming to the Pokémon TCG League!
+8/9/2000
+I'm sure that you all have heard about the rumors of there being the *Cool Porygon Promo. card is going to be given out at the TCG League.
+Well, I have just found out the truth to the rumor. My source was a small newsletter that was given out at my League at Toys "R" Us, the Pok*eacute;mon Press.
+As for the *Cool Porygon, it states in the Newsletter:
+"Beginning on September 16th, there will be a final season to round out the first year of the TCG League, Victory Road.
+"Only those that earned all 8 Badges will receive a Victory Road booklet. When a Trainer gets 20 points in the Booklet, he or she will receive one *Promo. Psyduck #?* card. When he or she wins 5 games in a row in the booklet, he or she will receive one *Promo. Cool Porygon #15* card."
+So, earn those badges to catch the $150 card, and a Psyduck. 8)
+New Gym Heroes Checklist and Deck Contents!
+Gym Heroes Info!
+8/10/2000
+I got my Gym Heroes cards a little early, so I put together a new checklist with Level #'s and Deck Contents!
+You know those Gym cards only found in the Japanese deck instead of the Booster Paks? I've found out that Wizards took some of those cards, and made them into
+Non-Holo Rare cards.
+You can find the list in the Pokemon TCG Section!
+Oh, the PokéFire is rekindled! 8)
+The final section of these brief articles covers 29 August - 22 December 2000.
+Coming Soon... A Spinoff from CWC's PokéSite 2!
+Coming Soon...
+8/29/2000
+A new website will be coming this Winter. It's a Spinoff from CWC's PokéSite 2! It will be highlighting my Favorite Home Pokémon, and My Speedy Hero.
+Coming This Winter, from CWC's PokéSite 2! is...
+Sonichu's got a promotion!
+8)
+Bionic the Hedgehog.
+9/4/2000
+As part of the new Sonichu Site!, there is another character mentioned,
+besides Sonichu, he's the Hedgehog that I made up back in November, 1996.
+He was also Sonic's Long-Lost, but found, big brother. He is...
+Bionic the Hedgehog.
+Click on him to read his Story.
+A New Badge Theory!
+New Pokemon TCG League Badges Theory!
+9/18/2000
+I have a theory about the Pokémon TCG League. Since there are the 8 Badges from the Red-Yellow Versions so far, and Victory Road is coming up, what will come after Victory Road?
+I believe that since the Gold/Silver Versions will have many new Badges, the Pokémon TCG League might get those new Badges some time after the Gold/Silver Versions come out.
+But do not get your hopes up, yet; it's just a theory of mine. If it does occur, I will post it in the PokéNews! 8)
+New Promo Gym Card--#19--!
+9/20/2000
+I have just learned about the Promo. #19 card, Sabrina's Abra!
+My resouce came from this article of Collecting Nations!, and I have updated the Promo. Checklist. 8)
+Sample Sonic Review!
+Review Sample.
+9/28/2000
+In the Sonichu Site, there will be Sonic the Hedgehog game Reviews and Previews. So, this month, you will get to see one of its Reviews --Sonic Adventure!
+Coming Next Month: Sonichu's Story!
+Here Chris linked to a boring review of "Sonic Adventure, 1999."
+New Promo Pikachu Cards--#'s 24=28--!
+10/5/2000
+I have just learned about the new Pikachu Promo. cards, #'s 24-28!
+My resouce came from Wizards of the Coast Site, and I have updated the Promo. Checklist. 8)
+But, for further info, please check the Promo Page!
+New Gym Challenge!
+10/7/2000
+I have just got a new Checklist of the Gym Challenge cards! It has more of the last 4 Gym Leaders than the first 4. To see the Checklist, go to the Poké Card Section!
+A cool thing about it is that it has a couple of the Vending Machine Cards:
+Master Ball
+Max Revive
+Maybe Wizards will put the Vending Machine Cards in Future Booster Paks!
+Happy Birthday Pikachu Contest!
+Happy Birthday Pikachu!
+12/5/2000
+Wizards of the Coast is holding a contest in which you could win a Holo Promo. American Happy Birthday Pikachu card!
+The contest deadline is December 10, 2000, and up to 30,000 cards will be awarded.
+For more info, go to Wizards' Site! For Pikachu #'s, go to the Promo. list in the Poké Card Section!
+Get a Marril Pokémon card (Before Neo Comes)!
+Marril, Marril, Marril!
+12/5/2000
+In honer of the upcoming Neo Genesis set, Wizards will have many Pokémon card distribute Marril cards on the 16th. All you have to do is go to the store and ask for
+one.
+For info. on where to get the Marril card, go to Wizard's Site!
+More exclusive info. on the Marril Card!
+Marril is a Promo. Card!
+12/17/2000
+In honer of the upcoming Neo Genesis set, Wizards had many Pokémon card stores distribute Marril cards on the 16th (and later (while supplies last)).
+All you have to do is go to the store and ask for one.
+This card is really worth the trouble; it's Promo. card #29! For the most current Promo. card checklist, go to my Pokémon Card Section!
+There will be a Marill in the Neo set, but it is a lot different than the Promo. #29 card.
+For info. on where to get the Marril card, go to Wizard's Site!
+New Neo Set 1 Checklist!
+New Neo Set 1 Checklist and Deck Lists!
+12/22/2000
+I finally got a Neo Deck, so I put up the new check and Deck Lists. Check them out in my Pokémon Card Section.
+See Also, the Updated Rules! The "Chared" condition is described!
+For more info., go to Wizard's Site!
+New Neo Discovery Set 2 Checklist!
+12/22/2000
+I Neo Discovery list, so I put up the new check and Deck Lists. Check them out in my Pokémon Card Section.
+See Also, the Updated Rules! The Unown Rule!
+For more info., go to Wizard's Site!
+Pokemon Cards Section
+In this section, we will keep you up-to-date with the latest news in the world of Pokémon Trading Cards.
+And if you are interested in trading over the internet...
+You can visit the Trading Boards at Collecting Nations. There, you will find many trade offers from me and lots of other people who collect the cards, too! By the way, my name on C.N. is Starplayer.
+Here, you will also find the lists of all the known cards in America, which cards ar in the theme decks of now, and the Translated Pokémon Cards from Japan. Information for the cards were brought to you by InQuest Gamer Magazine.
+Have a View of the Most Current Rules of the Pokémon Trading Card Game.
+Chris followed this with a long list of cards and their qualities.
+About the Author: Christian W. Chandler.
+This is my current high school picture.
+Check out my AOL Profile Page
+Alias: Christopher.
+D.O.B.: 2/24/1982.
+Age: 18 years.
+Occupation: Graduated from Manchester High School! And going to PVCC.
+Hobbies:
+Play video games...Sonic, Mario, and Pokémon mostly.
+Collecting Pokémon Trading Cards.
+I enjoy watching anime. My favorites are:
+Sonic X
+Pokémon
+Transformers
+Excel Saga
+Dragonball Z or GT
+Building with lego pieces to make structures, and vehicles. For example, I built 60 Karts like the ones in Mario Kart 64. And I drew up my own instructions on how to build one:
+I like to draw and do art projects for my enjoyment. For example, my homemade Pokémon Cards in the Art Section.
+I also enjoy all kinds of music. Except hard rock...:(
+I like to speak a lot of Español when I can, and just to let you know, and to release the possible confusion, my Spanish name is Ricardo.
+My dream:
+I dream that Nintendo and Sega will join and make a Sonic the Hedgehog game for Game Boy. To encourage it, I started making my own Nintendo Power Magazine, but it is not completed yet; I got as far as to the end of my "Classified Information" section. Here's my drawn cover:
+A Story of Pokémon.
+I also wrote my own story of How Pokémon came to be. You can read it by clicking here: How the Pokémon Came Into Our Poké Balls.
+Have a nice day. :)
+I\_/I
+(o'.'o)
+..;;;
+{; ;}.;;;
+" "
+The above autobiographical sketch remained largely unchanged for four years. When Chris was 22, he added "Status: Single and lonely." Clicking on these words brought one to a new page which consisted of an early list of his girlfriend qualifications. It varies slightly from the one he included in Sonichu's News Dash, produced around the same time. This reflects his shift in priorities: he had discovered dating, and had begun his epic Sweetheart Search.
+The Girl for Christian.
+I'm lonely and want a cute female companion.
+If you would like to hang with me, I am seeking a girl with the following qualities:
+18-22 years of age.
+Does not already have a boyfriend.
+Single
+5' to 5'9"
+Average/Slender weight and body type.
+Does not Smoke or drink Alcohol; MAJOR TURN OFF.
+Lives in Charlottesville or Ruckersville area.
+White.
+Happy, positive personality.
+Young at heart.
+Average/High income.
+Drives a vehicle.
+A Caring girl.
+She has to be pretty.
+If you wish to learn more about Christian C, look up his"SonichuCWC" profile on Match.com.
+If you want to meet me in person at the places I hang out at, I will be wearing a medallion that looks like Sonichu's head.
+*Actual face will vary.*
+Christian is a very shy, and very thoughtful, person, and will only accept person-to-person encounters (No E-Mails or Phone Calls). So if you are interested, he can be found around Piedmont Virginia Community College, or Fashion Square Shopping Center. When getting his attention, approach and say hi to him. Do NOT flirt from a distance; he will not be able to notice. To find Christian, he’ll be wearing the Sonichu Medallion.
+Now in Spanish
+Note the Dutch/Luxembourgish flag, neither the Netherlands nor Luxembourg being associated with Spanish in any way
+Chris went to the trouble of translating most of the site into Spanish. He didn't quite finish. Here are some samples:
+Introductory sign (see right)
+El pokesite de RWC 2
+¡El Pokésite de R.W.C.!es el website con la información actualizacióna de las noticias del pokémon, el juego de tarjetas de pokemon y es un website bueno con las lenguas inglesa y españolas
+Español Rocks!
+Translation:
+RWCs Pokesite 2:
+RWCs Pokesite is the website with the latest news about Pokemon and the Pokemon TGC and is a good website with the spanish and english languages.
+Spanish rocks!
+Front page
+Actualizacioné 15/1/2009
+¡Bienvenido...
+Al NUEVO y MEJOR PokéSite de RWC 2!
+¿Que es alli a suponer en el nuevo PokéSite?
+Un Verdadero Sección Pokémon Juego de Video.
+Un Sección de Arte con los dibujos de tu' y yo.
+Un Sección de los Claves de Pokémon.
+Un sección de los Downloads.
+Actualizacions Noticias mas menudos.
+Kewl Sección de las Cartas.
+Un sección de las Tarjetas de Pokémon.
+Un sección de los kewls enlaces.
+Sobre del Autor: Ricardo W. Chandler.
+Por favor, Escribes en mi Huesped Libro.
+¡¡¡Y muchos mas!!!
+Y, si quieres ver el original El PokéSite de RWC, aquí es el enlance.
+Chris also translated the "About the Author" section. He did not update this translation after turning 18, and so did not identify himself as "Single and lonely" or include a link to girlfriend requirements, as he would in the English-language version.
+Sobre del Autor: Ricardo W. Chandler.
+Es mí general foto de mí escuela secundaria.
+Sobre del Autor,
+Ricardo W. Chandler.
+Día de Cumpleaños: 24/2/1982
+Edad: Tengo 18 años.
+Ocupación: Graduado desde la Escuela Secundaria Manchester.
+Hobbys:
+Juego los juegos de videos...Sonic, Mario, y Pokémon muchos.
+Colecciono las tarjetas de Pokémon.
+Construo con las edificas piezas de lego a crear las estructuras, y los vehículos. O ejamplo, yo creé 24 "Karts" como los "karts" en el juego de video, Mario Kart 64. Y yo dibujé lo mío instruccion en comó creo uno:
+Me gusta dibujar y hacer los proyectos para mí goce. O ejamplo, mís fabricació tarjetas de Pokémon en el Sección de Arte.
+Me gusta todas las músicas. Pero, no me gusta la música furete rock...:(
+Normalmente, yo hablo en inglés, me llamo en inglés, Christian.
+Mí sueño:
+Yo soñé de cuándo Nintendo y Sega van a juntar y crear un juego de video del Sonic el Puerco Espíno para el "Game Boy." Yo animo el por crear lo mío Nintendo Power revista, pero no está completo ahora; yo estoy al fin de mí sección del "Classified Information". Aquí está mí portada de dibujar:
+Un Cuento de Pokémon.
+Yo escribí lo mío cuento de dondé son los Pokémons. El cuento es en inglés. Puedes leer el cuento de hacer clique aquí: Comó los Pokémons Venieron en Nuestros Poké Bolas .
+Tienes un bueno día. :)
+I\_/I
+(o'.'o)
+..;;;
+{; ;}.;;;
+" "
+Guestbook
+Seventeen people signed the website's guestbook. Most of the details of the first seven entries appear to have been lost. Since Bob and Barb signed the guestbook of his first site, we can assume that Chris pressured them to sign this one too. On 29 July 1999, seven days after launch, a friend signed and told Chris that she hoped he would continue learning HTML. On 30 September, one Mrs. Johnson signed and said that she knew of "others" who would like his website, and that she would let them know about it. The last ten guests are below. One of them was "Sonichu," who says it's a "terrific site." One was a fellow student. Two were companions from the Pokemon league. The last was from a "friend" from PVCC named Nicole. This is rare evidence of a college peer paying Chris any positive attention whatsoever.
+8. Name: AmerZ-ChaN
+Website: [ sonikku7 seisaku ]
+Referred by: Just Surfed On In
+Time: 1999-12-05 00:39:13
+Comments: Weii!! Cute site ^__^;; keep up the good work, maybe I can see a little more of Jiggly Puff...?^^!! hehe, ish my favorite n_n;
+---
+9. Name: Mrs. A Raghu
+Referred by: From a Friend
+From: Richmond, VA
+Time: 2000-01-22 03:55:53
+Comments: Nice Page Christian, Keep up the good work...Pokemon is sooo cute too!! -Mrs. Raghu
+---
+10. Name: Jaime
+Referred by: Just Surfed On In
+From: richmond
+Time: 2000-01-22 19:42:18
+Comments: Hola Recardo! ¿Como estas? This is jaime... in your spanish 2 class... really cool site dude... keep up the good work...
+---
+11. Name: Scott
+Website: The Pokemon Deck Doctor
+Referred by: Just Surfed On In
+Time: 2000-01-26 01:53:17
+Comments: Good job on the site! I linked to you.
+---
+12. Name: Megan Mitchell
+Referred by: From a Friend
+From: Virginia
+Time: 2000-03-04 02:39:34
+Comments: Hey Christian, This is Maranda Mitchell's sister. Ijust wanted to tell you, you are very good at drawing. Well see ya later. Megan Mitchell
+---
+13. Name: Mrs. Dunlap
+Referred by: From a Friend
+From: Manchester High School
+Time: 2000-03-16 17:36:14
+Comments: It is nice to see how your website looks after adding your new logos. Did you tell Maranda that you used her logos on your site? Nice Work. See you in class tommorrow.
+---
+14. Name: Jarrett Deane
+Referred by: Just Surfed On In
+From: Chesterfield,Virginia
+Time: 2000-04-24 01:42:13
+Comments: Hi Christian it's Jarrett from the Poke'mon League. I'll prove it our gym leader is Mark. We go to Books-a-Million. Our gym leader used to be Lynn. See you Saturday.
+---
+15. Name: Sonichu
+Website: El PokeSite de RWC 2!
+Referred by: Just Surfed On In
+From: Poke World
+Time: 2000-07-26 20:06:53
+Comments: Terrific site! 8)
+---
+16. Name: Jason
+Referred by: From a Friend
+From: Charlottesville
+Time: 2000-08-16 03:22:22
+Comments: Hey Christian!! Just checked out your page. Pretty cool!!! I liked the pokemon cards you drew up. Oh, do you know who I am. I met you at the Toys 'R Us league. I beat you with that Moltres stall deck, remember? Good luck at PVCC...and keep the site updated (if you've got time)!! Hasta Lavista, Jason
+---
+17. Name: Nicole
+Referred by: From a Friend
+From: Born in MI, live in VA
+Time: 2000-08-31 04:54:56
+Comments: Hi Christian! Good job! I would never be able to do that. Good luck in all that you do. Your friend from PVCC- Nicole
+See also
+CWC's Pokésite 1
+Sonichu.net
+Spanish
+References
+↑ See for example here. Errors before line 253 are in the Wayback Machine's toolbar and aren't Chris's fault.
+↑ http://www.w3schools.com/browsers/browsers_display.asp
+External links
+Internet Archive mirror
+v • d • e
+The Internet
+Chris's websites
+CWC's Pokésite 1 • CWC's Pokésite 2 • CWC's Sonichu Site! • CWC's Cool Profile • The OFFICIAL Sonichu & Rosechu Blog • CWCipedia • Cwcvilleshopping.com • Cwclight
+Social networking
+Chris's resume • Adult Swim posts • Bluesky • The HooK Café •
+Facebook • Instagram • Meetup • Miiverse • MySpace • Newgrounds • PlayStation blog • PSN blogs • Reddit • Twitter (Night Star - tweets • DMs with CWCSonichu • DMs with Marvin) • (TwiSparLicious) (MagiChan111448) (Creamarina) • Tumblr • Twitch
+Dating profiles
+Match.com • OkCupid (Answers) • BronyMate
+Wikis
+Encyclopedia Dramatica (edits) • Wikipedia (profile • talk page) • CWCipedia (WikiSysop correspondence) • CWCki (edits • GodofThunderGodofWar • JenkinsJinkies • Christianchandler)
+Forums
+Something Awful • Sonichu Forum • Sonichu Girls • Trollin Train • GameFAQs • Tomboys And Tomgirls of Virginia • CWCki Forums • Kiwi Farms • r/ChrisChanSonichu
+Documented IRL encounters
+"The Tale Of The Crazy Pacer" • Mimms and Lucas Q&A • Chris's Big Night Out (II) • Fridays After Five • This is how the Trial went • Catherine • Impulse Gay Social Club • Clare Porter • Chris Chan Boasting About Celebrity Status • A Wild Chris-Chan Attempts Human Interaction • Debt hearing (eyewitness account) • Incest Arrest • Sightings (Pre-2023 • 2023‎‎ • 2024 • 2025)
+Money-making schemes
+eBay • Etsy • Craigslist • Kickstarter • YouTube • Patreon
+Google
+YouTube (DEATH BATTLE!‎ • Planet Dolan • Subliminal Frequency Hypnosis • WatchMojo • YouTube comments)
+Twitter campaigns
+HarassCWCdirectly • BlockTheTrolls • My Little Pony Protests
+Other
+2012 Poster campaign • 2013 Facebook leak • 2018 Twitter account compromise • Alex's Lemonade Stand • Amazon • Backpage • Cults3D • deviantART • Dox • Duolingo • Equestria Daily  • Flipnote Hatena • Other documents  • Quizzes • ReBrick‎ • Thingiverse
+Retrieved from "http://sonichu.com/w/index.php?title=CWC%27s_Pokésite_2&oldid=348217"

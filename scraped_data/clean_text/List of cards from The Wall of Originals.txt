@@ -1,0 +1,1110 @@
+Title: List of cards from The Wall of Originals
+URL: https://sonichu.com/cwcki/List_of_cards_from_The_Wall_of_Originals
+Categories: Arts and Crafts, Lists, Relics of Fail
+================================================================================
+
+Because Chris's handwriting is hard to decipher, the following is a transcription of each card on The Wall of Originals, to make them easier to read.
+Custom Pokémon Cards
+Pokemon
+Card
+Name
+Evolution
+Type
+HP
+Pokemon Power
+Attack1
+Attack2
+Weakness
+Resistance
+Retreat Cost
+Description
+Date
+Luigi
+Basic Pokemon
+60
+None
+Wrench 20
+Water Wave Discard 1
+attached to Luigi to use it; flip a coin, if heads, opponent is PAR. 30
+None
+[largely illegible, something like "Produces pipes and drains"] LV. 30
+April 25, 1999
+Españolic
+Basic Pokemon
+40
+None
+Español Confusion Flip a coin. If heads, the opponent is confused. 10
+None
+None
+Found in Spanish Countries. It confuses its enemies with its language. LV.10
+February 24, 1999
+Españolic
+Basic Pokemon
+40
+None
+Español Confusion Flip a coin. If heads, the Defending Pokemon is confused. 10
+None
+None
+Found in Spanish Countries. It confuses its enemies with its language. LV.10
+February 24, 1999
+Vegaton
+Stage 1: Evolves from Españolic
+60
+None
+Razor Leaf Discard 1
+attached to Vegaton. 20
+Spanish Fly Flip a coin, if heads, opponent is asleep. 30
+None
+More colorful than Españolic. Vegaton can create rainbows. LV.33
+March 13, 1999
+Vegaton
+Stage 1: Evolves from Españolic
+60
+None
+Razor Leaf 20
+Spanish Fly Flip a coin. If heads, the Defending Pokemon is asleep. 30
+None
+More colorful than Españolic. Vegaton can create rainbows. LV.32
+March 13, 1999
+Blue
+Basic Pokemon
+50
+None
+Fairy Powder Flip a coin, if tails, opponent is asleep. 20
+Bite 30
+-30
+Confused as a real fairy, it can put its enemies to sleep with powder. LV.26
+April 17, 1999
+Baniru
+Basic Pokemon
+60
+None
+Water Gun 20
+Thunder Wave Flip a coin, if heads, opponent is PAR. 10
+None
+(illegible)
+April 24, 1999
+Togepi
+Basic Pokemon
+50
+None
+Egg Bomb 30
+None
+None
+The first thing it sees, it pictures it as its mother. LV.10, #153
+April 18, 1999
+(illegible, supposed to be 'Mixed Up Farfetch'd)
+Basic Pokemon
+50
+None
+Broken Stick 30
+None
+-30
+[illegible] its master, it attacks with [illegible]
+April 23, 1999
+Missingno.
+Basic Pokemon
+60
+None
+Water Gun 20
+Sky Attack 30
+?
+?
+??? LV. 30 #00
+April 23, 1999
+Bushwacked
+Basic Pokemon
+90
+None
+Vine Whip 30
+Stun Spore Flip a coin, if heads, opponent is paralyzed. 20
+None
+Found in rain forests, it can hide behind trees. LV.34
+May 5, 1999
+Bushwacked
+Basic Pokemon
+90
+None
+Stun Spore Flip a coin. If heads, the Defending Pokemon is paralyzed. 20
+Vine Whip 30
+None
+Found in rain forests, it can hide behind trees. LV.34
+May 5, 1999
+Koffingroo
+Basic Pokemon
+90
+None
+Dizzy Punch 30
+Poison Breath Defending Pokemon is poisoned and confused.
+-30
+Known for its bad breath, the spikes on its gloves inject poison. LV.30
+July 6, 1999
+Koffingroo
+Basic Pokemon
+90
+None
+Dizzy Punch 30
+Poison Breath The Defending Pokemon is now poisoned and confused.
+None
+Known for its bad breath, the spikes on its gloves inject poison. LV.30
+July 6, 1999
+Drummor
+Basic Pokemon
+50
+None
+Sonicboom Does 10 damage to each Pokemon on opponent's bench. 20
+None
+None
+None
+Known an a noisy Pokemon, it can K.O. its enemies with soundwaves. LV.22
+April 10, 1999
+Drummor
+Basic Pokemon
+50
+None
+Sonicboom Do not apply weakness and resistance for this attack. 20
+None
+None
+None
+Known an a noisy Pokemon, it can K.O. its enemies with soundwaves. LV.22
+July 16, 1999
+Cymbolic
+Stage 1: Evolves from Drummor
+90
+Cymbal Clash If Cymbolic is hit during last turn, opponent takes 10 damage (don't apply weakness and resistance).
+Hard Clash 40
+None
+None
+With a cymbal on its head, its booms are thunderous. And it can do a comical rif on its legs. LV.30
+July 16, 1999
+Cymbolic
+Stage 1: Evolves from Drummor
+90
+Cymbal Clash If the Defending Pokemon's attack did damage to Cymbolic, the Defending Pokemon get 10 damage (do not apply weakness and resistance). This power does not work if Cymbolic is asleep, confused, or paralyzed.
+Hard Clash 40
+None
+None
+With a cymbal on its head, its booms are thunderous. And it can do a comical rif on its legs. LV.30
+July 16, 1999
+Flashbulb
+Basic Pokemon
+30
+None
+String Shot Flip a coin, if heads, opponent is paralyzed. 10
+None
+None
+None
+Confused for a PokeFlute, it can light even the darkest forest. LV.7
+July 16, 1999
+Flashbulb
+Basic Pokemon
+30
+None
+String Shot Flip a coin. If heads, the Defending Pokemon is paralyzed. 10
+None
+None
+None
+Confused for a PokeFlute, it can light even the darkest forests. LV.7
+July 16, 1999
+Coonbulb
+Stage 1: Evolves from Flashbulb
+80
+None
+Harden Flip a coin, if heads, prevents damage done during opponent's next turn.
+Electric Jolt 20
+None
+Known as the brightest Pokemon. It is brighter than the sun. LV.22
+July 16, 1999
+Coonbulb
+Stage 1: Evolves from Flashbulb
+80
+None
+Harden Flip a coin. If heads, all damage to Coonbulb done during your next turn are prevented. Any other effects still occur.
+Electric Jolt 20
+None
+Known as the brightest Pokemon. It is brighter than the sun. LV.22
+July 16, 1999
+Bugzapp
+Stage 2: Evolves from Coonbulb
+90
+Reflect If opponent's attack did damage, half damage is taken to that Pokemon. Doesn't work if Bugzapp is asleep, PAR, etc.
+Shine Shock 40
+None
+None
+Found near street lamps at night, its wings reflect light.
+July 16, 1999
+Bugzapp
+Stage 2: Evolves from Coonbulb
+90
+Reflect If your opponent's attack did damage to Bugzapp, half the total damage after applying weaknesses and resistances is done to the Defending Pokemon rounded up to the nearest 10. This power does not work if Bugzapp is asleep, confused, or paralyzed.
+Shine Shock 40
+None
+-30
+None
+Found near street lamps at night, its wings reflect light. It can also fly up to 1,000 miles high. LV.32
+July 16, 1999
+Christian's Flashbulb
+Basic Pokemon
+40
+None
+Thundershock Flip a coin. If heads, the Defending Pokemon is paralyzed. 10
+Leech Life Remove a number of damage counters from Christian's Flashbulb equal to the damage done to the Defending Pokemon (after applying weakness and resistance). If Christian's Flashbulb has fewer damage counters than that, remove all of them. 10
+None
+None
+LV.10
+September 24, 2000
+Christian's Coonbulb
+Stage 1: Evolves from Christian's Flashbulb
+60
+None
+Harden Flip a coin. If heads, during your opponent's next turn, all damage is prevented (any other effects still occur).
+Thunder Wave Flip a coin. If heads, the Defending Pokemon is paralyzed. 20
+None
+LV. 25
+September 24, 2000
+Christian's Bugzapp
+Stage 2: Evolves from Christian's Coonbulb
+80
+None
+Wing Attack 30
+Thunderbolt Discard all energy cards attached to Christian's Bugzapp in order to use this attack. 80
+-30
+None
+LV. 36
+September 24, 2000
+Weeler
+Basic Pokemon
+40
+None
+Rolling Tackle 20
+None
+-30
+None
+Known to leave a trail behind it, originally a Voltorb got stuck in a tire. LV. 23
+August 17, 1999
+Weeler
+Basic Pokemon
+40
+None
+Rolling Tackle 20
+None
+-30
+None
+Known to leave a trail behind it, originally a Voltorb got stuck in a tire. LV. 23
+August 17, 1999
+Hotfinish
+Stage 1: Evolves from Weeler
+60
+None
+Agility Flip a coin, if heads, all effects of attack and damage done to Hotfinish. 20
+Fin Slap 30
+-30
+Faster than a Rapidash, it can light its path at night. LV. 34
+August 17, 1999
+Hotfinish
+Stage 1: Evolves from Weeler
+60
+None
+Fin Slap 20
+Agility Flip a coin. If heads, prevent all effects of attack during your opponent's next turn. 30
+-30
+Faster than a Rapidash, it can light its path at night. LV. 34
+August 17, 1999
+Strongtire
+Stage 2: Evolves from Hotfinish
+90
+Extra Damage Once during your turn, flip a coin, if heads, defending Pokemon gets 20 damage. Won't work if Strongtire is asleep, paralyzed, or confused.
+Tire Punch 40
+None
+-30
+Evolves from fast Pokemon, it has the strength of two Machamp. LV. 50
+August 18, 1999
+Strongtire
+Stage 2: Evolves from Hotfinish
+90
+Extra Damage Once, during your turn, you may flip a coin. If heads, the Defending Pokemon gets 10 damage (Don't apply weakness and resistance). This Power does not work if Strongtire is asleep, confused, or Paralyzed.
+Tire Punch 40
+None
+-30
+Evolves from fast Pokemon, it has the strength of two Machamp. LV. 50
+August 18, 1999
+Strongtire
+Stage 2: Evolves from Hotfinish
+90
+None
+Karate Chop This attack does 70 damage minus 10 damage for each damage counter on Strongtire. 70-
+Seismic Toss 60
+None
+-30
+Strong and powerful it can lift or jump over a (illegible) story building. LV. 46
+(illegible)
+Christian's Weeler
+Basic Pokemon
+40
+None
+Quick Attack Flip a coin. If heads, it does 10+20 damage. If tails, it does 10 damage. 10+
+None
+-30
+None
+LV. 18
+September 23, 2000
+Christian's Hotfinish
+Stage 1: Evolves from Christian's Weeleer
+60
+None
+Stop Light Flip a coin. If heads, the Defending Pokemon is paralyzed.
+Run Over 30
+-30
+None
+LV. 32
+September 23, 2000
+Christian's Strongtire
+Stage 2: Evolves from Christian's Hotfinish
+100
+None
+Agility Flip a coin. If heads, during your opponent's turn, all effects of attack (including damage) done to Christian's Strongtire are prevented. 20
+Mega Punch 50
+LV. 48
+September 23, 2000
+Compufrog
+Basic Pokemon
+40
+None
+Conversion1 If defending Pokemon has a weakness, you may change it to any color other than colorless.
+Confuse Ray Flip a coin, if heads, defending Pokemon is confused. 10
+-30
+Made from computer programming, it is found near lakes and swamps. LV. 23
+August 24, 1999
+Compufrog
+Basic Pokemon
+40
+None
+Conversion1 If the defending Pokemon has a weakness, change it to a color of your choice, other than colorless.
+Confuse Ray Flip a coin. If heads, the defending Pokemon is confused. 10
+Made from computer programming, it is often found near lakes and swamps. LV. 12
+August 24, 1999
+Snubble
+Basic Pokemon
+70
+None
+Doubleslap Flip 2 coins, does 10 damage times # of heads. 10x
+Bite 20
+-30
+Confused as a real fairy, it can put its enemies to sleep with powder.
+August 24, 1999
+Marril
+Basic Pokemon
+60
+None
+Water Gun Does 10 damage +10 damage for each
+energy card attached to Marril, not used to pay attack cost. 10+
+None
+None
+Confused for Pikachu, it has exceptional electric attacks. LV. 24 #154
+August 27, 1999
+Yoshi
+Basic Pokemon
+60
+None
+Tongue Wrap Flip a coin, if heads, defending Pokemon is paralyzed. 10
+Kick 20
+-30
+None
+Known to have a long tongue, and is hungry, it mostly is found with Luigi. LV. 26
+August 30, 1999
+Plautistic
+Basic Pokemon
+90
+None
+Psyshock Flip a coin. If heads, opponent is PAR. 10
+Vine Whip 30
+None
+The only Pokemon that has autism, it can disable its own attacks. LV. 30
+November 22, 1999
+Plautistic
+Basic Pokemon
+50
+None
+Psyshock Flip a coin. If heads the Defending Pokemon is Paralyzed. 10
+Vine Whip 30
+None
+The only Pokemon in the world with Autism. It can disable its own attacks. LV. 30
+November 22, 1999
+Donphan
+Basic Pokemon
+80
+None
+Rolling Tackle 20
+RAM Donphan does 10 damage to itself. If opponent has any benched Pokemon, switch with active (damage before switch). 50
+-30
+Known to charge at random, its armor can withstand explosions. LV. 26
+November 25, 1999
+Sonichu
+Basic Pokemon
+90
+None
+Quick Attack Flip a coin. If heads, the attack does 10+20 damage. If tails, it does 10 damage. 10+
+Spin Dash After doing damage, if your opponent has any Benched Pokemon, choose 1 of them and switch it with his/her Active Pokemon. 20
+None
+After being exposed to the 7 Chaos Emeralds, a Pikachu evolved into a Sonichu. LV. 36
+March 17, 2000
+Sonichu
+Basic Pokemon
+(illegible)
+None
+(illegible)
+(illegible)
+None
+(illegible)
+(illegible)
+Christian's Sonichu
+Basic Pokemon
+90
+Chaos Power If your Active Pokemon's attack does damage to the Defending Pokemon (after applying weakness and resistance), that attack does 10 more damage. This power does not work if Sonichu is asleep, confused, or paralyzed.
+Quick Attack Flip a coin. If heads, it does 10+20 damage. If tails, it does 10 damage. 10+
+None
+None
+LV. 25
+April 19, 2000
+Dark Sonichu
+Basic Pokemon
+80
+None
+Quick Attack Flip a coin. If heads, it does 10+20 damage. If tails, it does 10 damage. 10+
+Lightning Speed Flip a coin. If heads, it does 20+20 damage, and the Defending Pokemon is paralyzed. If tails, it does 20 damage. 20+
+None
+Whenever Sonichu is full of anger, it runs it off while leaving a firey trail behind it. LV. 26
+May 11, 2000
+Surfing Sonichu
+Basic Pokemon
+80
+None
+Quick Attack Flip a coin. If heads, the attack does 10+20 damage. If tails, the attack does 10 damage. 10+
+Surf 30
+None
+Loves to surf the waves and run laps on beach shores, it can also run on water. LV. 35.
+June 1, 2000
+Snowboarding Sonichu
+Basic Pokemon
+80
+None
+Quick Attack Flip a coin. If heads, does 10+20 damage. If tails, does 10 damage. 10+
+Snowboard Kick Flip a coin. If heads, does 20+20 damage, and the defending Pokemon is paralyzed. If tails, does 20 damage. 20+
+None
+Always going to the extreme, it can do cool tricks going down a snowy hill. LV. 37
+June 2, 2000
+Christian's Sonichu
+Basic Pokemon
+90
+None
+Thundershock Flip a coin. If heads, the Defending Pokemon is paralyzed. 10
+Agility Flip a coin. If heads, during your opponent's turn, all effects of attack (including damage) done to Christian's Sonichu are prevented. 20
+None
+LV. 28
+September 19, 2000
+Sonichu
+Basic Pokemon
+70
+Card Roulette Once during your turn, before your attack, you may flip a coin. If heads, you may draw 2 cards. If tails, you may draw 1 card. This Power does not work if Sonichu is asleep, confused or paralyzed.
+Lucky Spin Dash Flip a coin. If heads, your opponent must discard the top 5 cards from his/her deck. If tails, your opponent may draw 1 card. 30
+None
+None
+After being exposed to the 7 Chaos Emeralds, a Pikachu transformed into a Sonichu. LV. 28
+February 3, 2001
+_________'s Sonichu
+Basic Pokemon
+70
+None
+Birthday Wish If it is not your Birthday, the attack does 30 damage. If it is your Birthday, flip a coin. If heads, choose whether the Defending Pokemon is now Asleep, Confused or Paralyzed. 30
+None
+None
+Your Birthdate:_________. LV. 20
+February 21, 2001
+Sonichu
+Basic Pokemon
+80
+None
+Defense Curl Flip a coin. If heads, prevent all damage done to Sonichu during your opponent's next turn (any other effects of attack still happen).
+Agility Flip a coin. If heads, during your opponent's next turn, all effects of attack (including damage) done to Sonichu are prevented. 20
+None
+Known as the fastest Pokemon alive, it can beat a Dodrio in a foot-race around the world. LV. 34
+February 22, 2001
+Racing Sonichu
+Basic Pokemon
+60
+None
+Vroom-a-Zoom-Zoom 10
+Stop Light Flip a coin. If heads, the Defending Pokemon is paralyzed. 20
+None
+The Sonichu car can go up to 200 mph. Sonichu enjoys showing off his car and riding through the countryside. LV. 25
+March 1, 2001
+Shining Sonichu
+Basic Pokemon
+80
+None
+Supersonic Quick Dash Flip a coin. If heads, this attack does 40+20 damage. If tails, this attack does 40 damage. Either way, if your opponent has any benched Pokemon on his or her bench, flip another coin. If heads, do 20 damage to each Pokemon on your opponent's bench (do not apply weakness and resistance on benched Pokemon). 40
+None
+None
+None
+At certain speeds while running, it collects energy from the air, and it can not be seen by the naked eye. LV. 37
+February 20, 2002
+Sonichu & Rosechu
+Basic Pokemon
+160
+None
+Super Team Attack Flip a number of coins for each Sonichu and Rosechu in play (yours and your opponent's). This attack does 60 damage +10 damage for each heads. If you get more than 4 heads, shuffle Sonichu & Rosechu and all cards attached to it into your deck. 60+
+None
+None
+Sonichu and Rosechu love each other so much, that neither one ever forgets the other's Birthday. LV. 40
+March 16, 2002
+Sonichu
+Basic Pokemon
+90
+None
+Quick Attack Flip a coin. If heads, the attack does 10+20 damage. If tails, it does 10 damage. 10+
+Spin Dash After doing damage, if your opponent has any Benched Pokemon, choose 1 of them and switch it with his/her active Pokemon. 20
+None
+After being exposed to the seven Chaos Emeralds, a Pikachu transformed into a Sonichu. LV. 36
+July 16, 2002
+Sonichu
+Basic Pokemon
+60
+None
+Speed Scan Draw the top 5 cards of your deck, rearrange them as you like, then put them back on top of your deck.
+Agility Flip a coin. If heads, prevent all effects of attack, including damage, done to Sonichu during your opponent's next turn. 20
+None
+None
+(illegible)
+Sonichu
+Basic Pokemon
+60
+None
+Speed Scan Draw the top 5 cards of your deck, rearrange them as you like, then put them back on top of your deck.
+Agility Flip a coin. If heads, prevent all effects of attack, including damage, done to Sonichu during your opponent's next turn. 20
+None
+None
+(illegible)
+Sonichu ex
+Basic Pokemon
+120
+Plasma If there are any Basic Energy Cards in your Discard Pile, flip a coin. If heads, attach one to Sonichu ex. 20
+Extremespeed Flip a coin. If heads, the attack does 40 + 30 damage. If tails, the attack does 40 damage. 40+
+Thunderbolt Discard all Lightning Energy Cards attached to Sonichu ex in order to use this attack. 100
+None
+None
+(illegible)
+Black Sonichu
+Basic Pokemon
+80
+None
+Black Rings Flip 2 coins. For each heads, do 20 damage to each of all Pokemon in play, except
+types and Pokemon with Dark in their names (Don't apply weakness and resistance for this attack).
+Surprise Thunder Flip a coin. If heads, flip another coin. If the second coin is heads, do 20 damage to each of your opponent's benched Pokemon. If the second coin is tails, do 10 damage to each of your opponent's benched Pokemon (Don't apply weakness and resistance for benched Pokemon). 30
+None
+None
+Created in Giovanni's lab, this is Sonichu's evil twin. The only differences are their color, shoes, and one is evil. LV. 21
+July 24, 2002
+Giovanni's Black Sonichu
+Basic Pokemon
+60
+None
+Rage This attack does 10 damage +10 damage for each damage counter on Giovanni's Black Sonichu. 10+
+Thunderpunch Flip a coin. If heads, this attack does 30+10 damage. If tails, this attack does 30 damage, and Giovanni's Black Sonichu does 10 damage to itself. 30+
+None
+None
+LV. 20
+(illegible)
+Black Sonichu
+Basic Pokemon
+80
+None
+Evil Dash 20
+Spark Choose one of your opponent's Benched Pokemon, if any, and do 10 damage to it (do not apply weakness and resistance to Benched Pokemon). 20
+None
+None
+(illegible)
+Wild Sonichu
+Basic Pokemon
+60
+Thundershock Flip a coin. If heads, the Defending Pokemon is Paralyzed. 10
+Razor Leaf 30
+Slash 40
+-30
+None
+None
+(illegible)
+Punchy Sonichu
+Basic Pokemon
+80
+None
+Thunderpunch Flip a coin. If heads, this attack does 40 damage. If tails, this attack does 30 damage to the Defending Pokemon, and 10 damage to Punchy. 30+
+Sky Uppercut This attack's damage is not affected by resistance. 50
+None
+None
+(illegible)
+Magi-Chan Sonichu
+Basic Pokemon
+70
+None
+Thunder Wave Flip a coin. If heads, the Defending Pokemon is Paralyzed. 20
+Psychic This attack does 10 + 10 damage for each Energy Card attached to the Defending Pokemon. 10+
+None
+None
+February 2, 2004
+Metonic
+Stage 1: Evolves from Sonichu
+100
+Power of Knight When you play Metonic from your hand, you may flip a coin. If heads, take up to 2 Energy Cards from your discard pile and put them into your hand.
+Iron Tail Flip a coin. If heads, all damage done to Metonic during your opponent's next turn is reduced by 20 (after applying weakness and resistance). 30
+None
+-30
+Metonic's armor adds weight, so he can not do a Spin Dash. But his speed stays the same, and his spikes are diamond-sharp. LV. 52
+February 20, 2001
+Metonic
+Stage 1: Evolves from Sonichu
+90
+None
+Spark If your opponent has any Benched Pokemon, choose 1 of them, and this attack does 10 damage to that Pokemon (don't apply weakness and resistance to Benched Pokemon). 20
+Slash 30
+None
+Metonic's armor adds weight, so he can't do a Spin Dash. But his speed stays the same, and his spikes are diamond-sharp. LV. 55
+April 13, 2000
+Ultra Sonichu
+Stage 1: Evolves from Sonichu
+140
+Extreme Speed Flip a coin. If heads, this attack does 30 + 20 damage. If tails, this attack does 30 damage. 30+
+Gigashock Choose up to 3 of your opponent's Benched Pokemon, and this attack does 10 damage to each of them (don't apply weakness and resistance for Benched Pokemon). 30
+Knockout Thunder Flip 2 coins. If both coins are heads, this attack does 50 + 50 damage. If one or both coins are tails, this attack does 50 damage. 50+
+None
+None
+None
+(small drawing of the Seven Chaos Emeralds) Lv. 55
+March 28, 2002
+Ultra Sonichu ex
+Stage 1: Evolves from Sonichu ex
+200
+Sonichu Heroes For each other Pokemon with Sonichu or Rosechu in its name that are in play, Team Blast's base damage increases by 10.
+Team Blast 50
+None
+None
+None
+None
+(illegible)
+Sonee
+Baby: Evolves into Sonichu
+40
+None
+Quick Attack Flip a coin. If heads, it does 10+10 damage. If tails, it does 10 damage. 10+
+None
+None
+None
+None
+Known to have a lot of spunk and speed, this cute Pokemon packs a lot of action. LV. 10
+December 21, 2000
+Rosechu
+Basic Pokemon
+80
+None
+Rose Zap Flip a coin. If heads, The Defending Pokemon is Paralyzed. 10
+Love Shock Does 20 damage +10 damage for each Sonichu in play. Flip a coin. If heads, the Defending Pokemon is Paralyzed. 20+
+None
+Many Sonichu from around the world fall in love by Rosechu's beauty and passion. Rosechu's favorite flower is the rose Zapbud. LV. 30
+December 22, 2000
+Rosechu
+Basic Pokemon
+70
+None
+Girl Power This attack does 10 damage + 10 damage for each Pokemon with Rosechu in their names in play. 10+
+Swift This attack is not affected by weakness, resistance, pokemon powers, or any other effects of attack. 30
+None
+Many Sonichu from around the world fall in love by Rosechu's beauty and passion. Rosechu's favorite flower is the rose Zapbud. LV. 20
+December 22, 2000
+Rosechu
+Basic Pokemon
+70
+None
+Love Slap Flip 3 coins. The attack does 10 damage for each heads. 10x
+Thundershock Flip a coin. If heads, the Defending Pokemon is Paralyzed. 20
+None
+None
+None
+(illegible)
+Bubbles Rosechu
+Basic Pokemon
+70
+None
+Spark Choose one of your opponent's Benched Pokemon, if any, and do 10 damage to it (don't apply weakness and resistance for Benched Pokemon). 20
+Surf 30
+None
+None
+None
+(illegible)
+Angelica Rosechu
+Basic Pokemon
+60
+None
+Thundershock Flip a coin. If heads, the Defending Pokemon is Paralyzed. 10
+Wing Attack 30
+None
+-30
+None
+None
+December 2, 2004
+Vamprosa
+Stage 1: Evolves from Rosechu
+90
+None
+Mean Look The Defending Pokemon can't retreat as long as Vamprosa remains your Active Pokemon (Benching or evolving either Pokemon ends this effect).
+Bite 40
+None
+-30
+None
+Its bite can suck the life out of its enemies. Its cape gives it the ability to fly. LV. 43
+March 14, 2001
+Rosey
+Baby: Evolves into Rosechu
+30
+None
+Cute Wink Flip a coin. If heads, the Defending Pokemon can not attack during your opponent's next turn (Benching or Evolving either Pokemon ends the effect).
+None
+None
+None
+None
+Its cuteness always get the awe of its enemies. When it falls, its skirt acts as a parachute. LV. 6
+February 22, 2001
+Kelbie
+Basic Pokemon
+40
+None
+Sleep Powder Flip a coin. If heads, the Defending Pokemon is asleep. 10
+Sister Call Search your deck for a Basic Pokemon named Kelbie and add it to your Bench (If your Bench is full, the attack does not work). Shuffle your deck afterwords.
+None
+Under its shell back is Kelbie's growing hair. It stays calm and peaceful in tough situations. LV. 10
+March 20, 2000
+Annchop
+Stage 1: Evolves from Kelbie
+60
+None
+Karate Chop Does 40 damage minus 10 times the number of damage counters on Annchop. 40-
+Mega Punch 50
+None
+Annchop's blonde hair reflects the amount of strength she has. Annchop fights with power. LV. 26
+March 20, 2000
+Kixfairy
+Stage 2: Evolves from Annchop
+90
+None
+Lure Choose one of your opponent's Benched Pokemon and switch it with his/her Active Pokemon.
+Magic Wand Flip a coin. If heads, the Defending Pokemon is paralyzed. 30
+-30
+None
+As being the spunky pixie, Kixfairy can fly high, spreading joy with its wand. LV. 42
+March 20, 2000
+Christian's Kelbie
+Basic Pokemon
+50
+None
+Lullibye The Defending Pokemon is now asleep.
+Rolling Tackle 20
+None
+None
+LV. 12
+September 24, 2000
+Christian's Annchop
+Stage 1: Evolves from Christian's Kelbie
+70
+None
+Leer Flip a coin. If heads, your opponent can not attack during his/her next turn (Benching or Evolving either Pokemon ends the effect).
+Karate Chop The attack does 50 damage -10 for each damage counter on Christian's Annchop.
+None
+LV. 28
+September 24, 2000
+Christian's Kixfairy
+Stage 2: Evolves from Christian's Annchop
+90
+Pixie Dust During your turn (before your attack), you may flip a coin. If heads, the Defending Pokemon is paralyzed. If tails, your Active Pokemon is paralyzed. This power does not work if Christian's Kixfairy is asleep, confused, or paralyzed.
+Agility Flip a coin. If heads, during your opponent's turn, all effects of attack (including damage) done to Christian's Kixfairy are prevented. 30
+None
+-30
+None
+LV. 38
+September 24, 2000
+Christian's Christian
+Basic Pokemon
+90
+Extra Help While Christian is in play, you may have up to 6 Pokemon on your bench. This power works, even if Christian is Asleep, Confused, or Paralyzed.
+Mega Punch 40
+None
+-30
+None
+May 9, 2000
+Dark Christian
+Basic Pokemon
+70
+Potter Rage When you play Dark Christian from your hand, ask your opponent if he or she loves Harry Potter more than Pokemon. If he/she says, or hints towards, YES, his or her Active Pokemon becomes knocked out.
+Pokemon Revive If you have space on your Bench, put a Basic Pokemon from your discard pile onto your Bench (this attack's effect will not work if your Bench is full, but either way, this attack still does its damage). 30
+None
+-30
+Christian says, "Kill Harry Potter, Revive Pokemon!" LV. 20
+March 25, 2002
+Christian Chandler
+Basic Pokemon
+100
+Heart Fix Once during your turn, you may remove up to 3 damage counters from Christian. This PokePower does not work if Christian is affected by a Special Condition.
+Lonesome Punch If Christian has more than 50 damage on him, the attack does 30 damage. 60-
+None
+None
+None
+None
+February 2, 2004
+Chicachu
+Basic Pokemon
+50
+None
+Tail Ring Flip a coin. If heads, prevent all effects of attack, including damage, done to Chicachu.
+Boyfriends Does 10 damage + 10 more for each Pikachu in play. 10+
+None
+None
+None
+Known as the Female Pikachu. Its tail ring protects it from defensive attacks. LV. 11
+September 7, 2000
+Maychu
+Stage 1: Evolves from Chicachu
+90
+None
+Lure If your opponent has any Benched Pokemon, choose one of them and switch it with the Defending Pokemon.
+Love Lightning Flip a coin. If heads, does 30+20 damage, and the Defending Pokemon is Paralyzed. 30+
+None
+None
+Quick with grace and passion. It can lure a crowd of Raichu with a come hither stare. LV. 38
+September 7, 2000
+Christian's Chicachu
+Basic Pokemon
+50
+None
+Quick Attack Flip a coin. If heads, it does 10+ 10 damage. If tails, it does 10 damage. 10+
+None
+None
+None
+None
+LV. 13
+September 19, 2000
+Christian's Maychu
+Stage 1: Evolves from Christian's Chicachu
+80
+None
+Thundershock Flip a coin. If heads, the Defending Pokemon is paralyzed. 20
+Mega Kick 40
+None
+None
+LV. 40
+September 19, 2000
+Evails
+Basic Pokemon
+50
+None
+Tail Whirl Flip 2 coins. This attack does 30 damage times the number of heads. 30x
+None
+None
+-30
+None
+Cute, but packs a wallop. Watch out for its 2-Tail attack. LV. 12
+March 24, 2002
+Evails
+Basic Pokemon
+40
+None
+Gust 10
+Fly Flip a coin. If heads, during your opponent's next turn, prevent all effects of attack, including damage, done to Evails. If tails, this attack does nothing (not even damage). 30
+None
+-30
+Cute, but packs a wallop, watch out for its 2-tail attack. LV. 13
+March 24, 2002
+Supreon
+Stage 1: Evolves from Evails
+(non-existent energy symbol with red, yellow, and blue colors)
+90
+Rainbow Force When you attach a Rainbow Energy card from your hand to one of your Pokemon while Supreon is in play, don't do the Rainbow Energy's damage. This power works even if Supreon is Asleep, Confused, or Paralyzed.
+Tri Attack Flip 3 coins. If only 1 is heads, the Defending Pokemon is Asleep. If exactly 2 are heads, the Defending Pokemon is Confused. If all 3 are heads, the Defending Pokemon is Paralyzed. 40
+None
+None
+-30
+None
+Shines like a rainbow, stings like a bee. This Pokemon flies faster than you can see. LV. 40
+March 24, 2002
+Armat
+Basic Pokemon
+50
+None
+Scratch 10
+Ember Discard 1
+Energy in order to use this attack. 30
+None
+Small in stature, it conceals its sharp claws and it leaves a nasty burn. LV. 12
+March 11, 2002
+Armat
+Basic Pokemon
+50
+None
+Feline Call Search your deck for a Basic Pokemon named Armat, and put it on your Bench. Shuffle your deck afterwords (this attack does not work if your bench is full).
+Iron Tail Flip a coin. If heads, reduce all damage done to Armat by 20 during your opponent's next turn (after applying weakness and resistance). 20
+-30
+Small in stature, it conceals its sharp claws and it leaves a nasty burn. LV. 13
+March 11, 2002
+Steeline
+Stage 1: Evolves from Armat
+90
+Slash 30
+Flamethrower Discard 1
+Energy card in order to use this attack. 50
+Metal Claw Flip a coin. If heads, Steeline's next attack will increase by 20 (no matter which attack). 40
+-30
+Sleek and quick. Its armor is hollow, which allows free movement. LV. 47
+March 11, 2002
+Dark Steeline
+Stage 1: Evolves from Armat
+70
+Dark Wave (illegible)
+Fire Blast Discard 1
+Energy card in order to use this attack. 60
+None
+None
+If you intimidate Steeline in any way, it will scratch you terribly. LV. 37
+March 11, 2002
+Techti
+Basic Pokemon
+60
+None
+Computerize If you use Zap Cannon during your next turn, treat all tails as if they were heads. And flip a coin. If heads, draw a card.
+Zap Cannon Flip 2 coins. If both coins are heads, the Defending Pokemon is Paralyzed. If one or both coins are tails, this attack does nothing (not even damage). 40
+None
+Lives in computers; it loves to mess up your hard drive. LV. 20
+April 5, 2002
+Cytiger
+Stage 1: Evolves from Techti
+100
+None
+Technokick 30
+Shock Virus Flip 3 coins. For each heads, this attack does 20 damage, and if the Defending Pokemon has any Energy cards attached to it, choose one and discard it. 20x
+None
+Roaming through cyberspace, it is dangerous only to computers, Porygon and Porygon2. LV. 60
+April 5, 2002
+Booloon
+Basic Pokemon
+60
+None
+Night Shade Don't apply weakness, resistance, Pokemon Powers. If your opponent has used, or attached, any Trainers, or used an attack that would change the damage, all those effects do not work. 30
+None
+None
+-30
+Transparent with Air, the only thing that will scare a Booloon is a pin. LV. 20
+(illegible)
+Squirskun
+Basic Pokemon
+60
+None
+Stink-Up All of your opponent's Pokemon Powers stop working until the end of his/her next turn.
+Smokescreen If the Defending Pokemon tries to attack during your opponent's next turn, he/she flips a coin. If tails, that attack does nothing. 20
+None
+None
+Mostly found in Paris, France, these Pokemon swim to other countries to find cultural love. LV. 21
+(illegible)
+Trainers
+Card
+Name
+Description
+Date
+Evil Energy Special Energy Card
+If the Pokemon Evil Energy is attached to does damage to the Defending Pokemon, choose whether the Defending Pokemon is Confused or Poisoned. Put 1 damage counter on the Pokemon Evil Energy is attached to, unless it's
+or has Dark in its name. Evil Energy provides
+Energy. (Doesn't count as a basic energy card).
+March 21, 2002
+Sonic the Hedgehog
+Discard 2 cards from your hand, and remove up to 2 damage counters from all Pokemon, Benched and Atctive.
+April 24, 1999
+Sonic the Hedgehog
+Discard 2 cards from your hand in order to use this Trainer. Remove 2 Damage Counters from all your Pokemon with Damage Counters.
+April 24, 1999
+Christian W. Chandler
+You and your opponent each must switch his/her Active Pokemon for one from their bench. The player who showed this card must switch first, then your opponent must switch his/her Pokemon.
+September 26, 1999
+Christian C.
+You and your opponent each must switch his/her Active Pokemon for one from their bench. The Player who played this card must switch first, then your opponent must switch his/her Ppkemon.
+September 26, 1999
+Cwick City Gym Stadium Card
+This card stays in play when you play it. Discard this card if another Stadium card comes into play. During each player's turn, that player may attach 1 Energy card to a Pokemon with Christian in its name (this does not use up the 1 Energy attachment for that player's turn).
+September 19, 2000
+Mystery-to-Solve
+Remove 2 Damage Counters from all Pokemon in play (yours and your opponent's), draw 2 cards, do 30 Damage to the Defending Pokemon (don't apply weakness and resistance), and your turn ends without an attack.
+November 17, 2001
+Turbo Rainbow
+All energy cards attaced to any of your Pokemon in play will now count as Rainbow Energy cards (no damage will be made in this process) for the rest of your turn.
+February 24, 2002
+Whammy!!!...
+Flip a coin. If heads, Draw 2 cards. If tails, discard 2 cards from the top of your deck, and discard 2 cards from your hand.
+March 24, 2002
+Sonichu Ball
+Flip a coin. If heads, search your deck for a Pokemon that evolves to, from or has Sonichu, or Rosechu, in its name. Show it to your opponent, and put it into your hand. Shuffle your deck afterwards.
+April 11, 2002
+Chaos Emerald Pokemon Tool
+Attach Chaos Emerald to one of your Pokemon that doesn't already have a Pokemon Tool attached to it. Whenever the Pokemon Chaos Emerald is attached to has 20 HP or less, you may flip a coin. If heads, search your deck for a Pokemon that evolves from this Pokemon, and attach it to the Pokemon (this counts as evolving said Pokemon). After you fliped, discard the Chaos Emerald.
+April 13, 2002
+Bulk and Skull Power Ranger card
+Flip a coin. If heads, do 60 damage to the Defending Pokemon, then, if your opponent has any Pokemon on his/her bench, choose one, and do 20 damage to it (don't apply weakness and resistance to either Pokemon). If tails, shuffle your opponent's deck, and discard the top 5 cards (If there are less than 5 cards, discard all of them). Either way, your turn ends without an attack.
+April 13, 2002
+Sonichu Zord Power Ranger Zord
+Attach this card to your Active Pokemon. Discard this card only when that Pokemon is Knocked Out. Whenever that Pokemon attacks, the attack does 20 more damage (after applying weakness and resistance). And when the Defending Pokemon attacks, reduce the damage by 20 (before applying weakness and resistance) If your Active Pokemon gets switched with one from your Bench, attach this card to that Pokemon.
+April 13, 2002
+Shiney Stadium Stadium Card
+This card stays in play when you play it. Discard this card if another Stadium card comes into play. Damage done to all Pokemon with Shining in their names is reduced by 20 (before applying weakness and resistance).
+May 15, 2002
+Hooked on Sonichu
+Take all Energy cards attached to a Pokemon with Sonichu in its name, and attach them to another one of your Pokemon with Sonichu in its name.
+November 29, 2001
+Christian's Maintenance Supporter
+You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokemon. When your turn ends, discard this card. You can't play this card if you have more than seven cards in your hand, including this one. Shuffle 2 cards from your hand into your deck, then draw a number of cards until you have seven cards in your hand.
+September 7, 2002
+Hedgehogs in Love
+For each Pokemon that evolves to or has Sonichu ro Rosechu in its name, search your deck for a Pokemon that evolves from that card and place it on that card (this counts as evolving) shuffle your deck afterwards. Then remove up to 3 damage counters on each Pokemon that evolved in this way.
+April 1, 2003
+Pokedex
+I'm Dexter, a Pokedex programmed by Prof. Oak for Pokemon Trainer, Christian W. Chandler of Ruckersville & Richmond, VA
+Pokemon Trainer: Christian W. Chandler
+August 25, 1999
+See also
+Custom Yu-Gi-Oh! Cards
+v • d • e
+Relics of Fail
+Identity
+Business card • Classic Shirt • Medallions • Amnyfest Ring • "CWC on TV" DVD • Son-Chu • Christine Doll • Skylanders avatar • Love is Love comic • Magic stones • Goddess Log • Jail Letter Gifts
+Love Quest
+Attraction Sign ♥️ Red String of Fate ♥️ Heart Torch ♥️ Plush boobs ♥️ Sailor Moon poster ♥️ Naru
+Transgender
+Muscle bra •
+Un-clit •  Frozen semen samples •  Negligee
+Toys
+Commodore 64 • PlayStation consoles (PS Move •  PSEye) •  Wii Remote of Fail • Pokéwalker •  Li'l Chris •  Gitar •  Z-Ring
+Art
+Sonic Totem • Chris + Sarah's Life-Shares •  Drinking Straw •  Scrapbook • Hand-drawn Nintendo Power • iDea Book Case •  Autographed Photos • Sonichu Amiibo • Schooldesk
+Rage
+Megatron pistol •  Pocket knife •  Clown Doll •  Lego Voodoo torture chamber •  Pepper spray •  Apology Letters •  Unban contracts •  Pmurt effigy •
+Baseball bat
+Fashion
+$400 gold necklace •  Anime Wings • Belt buckle •  Pedo-Glasses •  I'm Done Adulting t-shirt •  Hair •  Unicorn cosplay
+Other
+Apple products‎‎ • Treadmill
+Shrines of Fail
+The Wall of Originals (list) •  The Megan Shrine
+The Holy Fails
+Autism papers •  Crumple-Lope •  Transcripts and report cards • Manchester High Leaks
+v • d • e
+Lists
+Original content
+CWCki edits • ED edits • Flipnotes • OkCupid Answers • Plagiarism • Sonichu characters (fictional) • Videos • The Wall of Originals • YouTube comments
+Life
+Brainwashed beliefs • Conventions attended • CWC-isms • Disguises • Ego • Fandoms • Financial enablers • Gal pals • Geographic areas • Lies • Mathematical errors  • OCs • Phrases copied • Places banned from • Restaurants • Sweethearts • Things shoved up his ass
+Purchases
+Adam & Eve • Best Buy • Club Nintendo • eBay • McDonald's Monopoly • My Coke Rewards • Netflix • Rhapsody • Toys • Video games
+Sony
+Blu-rays • PlayStation 3 • PlayStation 4 • PSN Games • PSN Videos
+Retrieved from "http://sonichu.com/w/index.php?title=List_of_cards_from_The_Wall_of_Originals&oldid=325992"

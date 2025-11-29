@@ -1,0 +1,150 @@
+Title: Equestrian calendar
+URL: https://sonichu.com/cwcki/Equestrian_calendar
+Categories: My Little Pony, Concepts influenced by Idea Guy
+================================================================================
+
+The Equestrian calendar is what Chris believed was a calendar for Equestria, a setting from the My Little Pony fictional world. He would attempt to use mathematics to convert from real-world dates to the supposed Equestria dates in the Sonichu 12-9 comic and in other drawings. In actuality, the calendar was a concept planted in his mind by an Idea Guy.[1]
+The calendar in its current state makes no sense and a correction has been speculated.
+Contents
+1 Origin
+2 Days
+2.1 Dates mentioned in the comic
+3 Months
+4 Problems in the calendar
+5 Conversion
+6 References
+Origin
+The names were copied from the seasons of planet Sera in Gears of War. In the games, there are two more months named Sorrow and Brume. Chris probably did not include these because Sorrow sounds too sad for his hugbox and he has no idea what Brume means (mist).
+The order of these has been retconned at least once by Chris. In the comic, the order is said to be
+Storm
+Gale
+Thaw
+Rise
+Bloom
+Heat
+Harvest
+Frost
+Reap
+Bounty
+But a problem arises in the third arc of the book. Chris breaks up with Jessica Quinn's self insert Diamond Melody on the 7th day of Bounty in 2017. But he met up with his new sweetheart on the 24th of Frost of 2017. This is a paradox as
+Night Star is supposed to
+meet Kun after the breakup.
+Chris never realized this error, but fixed the calendar by mistake in a tweet in June 2018, where he stated the order again. This time around Frost occurred after Bloom thereby fixing the paradox.[2]
+Days
+The speed of rotation along its axis is faster for Equestria when compared to Earth. In one year, there are exactly 457 days instead of the 365.24 on Earth. So there aren't any leap years in Equestria.
+But this causes a problem - Chris mentions the dates on different planets at the same point of time as the characters keep jumping around between Equestria and CWCville. He has confirmed 6th January 2018 and 6th of Storm of 2018, 31st of May and 31st Bloom of 2018 and 24th of Rise and 24th of February of every year fall on the same date.
+Dates mentioned in the comic
+24 Rise 1982 - Birthdate of Christian and Night Star
+Met Diamond Melody on 17 Heat 2017
+Summer festival few days before 17 Heat 2017
+July 4th celebrations few days away from 17 Heat 2017
+Broke up with Diamond Melody on 7 Bounty 2017
+Race organised by Discord on 17 Bounty/November 2017
+Met Kun Hanphuc on 24 Frost 2017
+Woke up from coma on 6 Storm/January 2018
+Final arc of 12-9 began on 31 Bloom/May 2018.[3]
+Ending scene of 12-9 happens on 41 Heat 2018 (July 11 2018).
+Book completed on 43 Heat 2018 (12.9 July 2018)
+Months
+Most months are similar to the months in the Gregorian calendar with the exception of Heat which is made of June, July and August.
+These are in the correct order, the way Chris intended it be.
+Storm - January
+Rise - February
+Gale - March
+Thaw - April
+Bloom - May
+Heat - June+July+August
+Harvest - September
+Reap - October
+Bounty - November
+Frost - December
+Problems in the calendar
+Horizontal axis is hours passed since the beginning of the year. Vertical axis is the day of the year. Chris has stated the years are one to one in Sonichu 12-9. The graph clearly shows that the date can only coincide properly on one day of the year. In this graph 1st January has been chosen as the coinciding date. As the lines never touch each other again, the dates can never match again.
+As the number of dates in the Equestrian calendar are much greater than the Gregorian calendar, 3 dates cannot overlap. Something much more likely is that the number of days in both the calendars is the same and the 457 day calendar has been retconned.
+So the calendar cannot have more or less than 365.25 days as atleast three dates match exactly. The only date that can overlap between a gregorian calendar and the 457 day calendar every year is the first day of the year. But since 24 Feb/Rise isn't the first day, it cannot overlap every single time.
+Chris has only ever mentioned the 457 day year once in Sonichu 12-9, but due to other problems in the comic such as the months being completely off and paradoxes being formed, the 457 day calendar can be rejected. Due to certain dates matching up perfectly every year, it can be confirmed that Equestria and Earth have the exact same time of revolution.
+Conversion
+Due to the calendars being the exact same except for the month of Heat, conversion between them is extremely simple.
+To convert any except Heat/June, July or August to the Gregorian format or vice versa, simply change the name of the month according to
+Storm - January
+Rise - February
+Gale - March
+Thaw - April
+Bloom - May
+Harvest - September
+Reap - October
+Bounty - November
+Frost - December
+To convert from Gregorian to Equestrian or vice versa in the month of June, July and August or Heat -
+Gregorian to Equestrian
+If in June, replace June with Heat and the date should be the same.
+If in July, replace July with Heat and add 30 to the date.
+If in August, replace August with Heat and add 61 to the date.
+Equestrian to Gregorian
+If the date is from 1 and 30 of Heat, replace Heat with June.
+If the date is 31 to 61, subtract 30 from the date and replace Heat with July.
+If the date is from 62 to 92, subtract 61 from the date and replace Heat with August.
+References
+↑ File:Idea Guy on Equestrian calendar.png
+↑ https://twitter.com/CWCSonichu/status/1010064048057192449?s=20
+↑ File:Night star and kun hanhphuc - 9 June 2018.png
+v • d • e
+My Little Pony
+Animated series
+G4
+Friendship is Magic • Equestria Girls
+G4.5
+Pony Life
+G5
+Make Your Mark
+VAs
+My Little Pony voice actresses • Nowacking
+Fandom
+People
+Brony celebrities • DRWolf • TF2 Analysts
+Conventions
+BABSCon • BronyCon • Everfree Northwest
+Websites and social media
+Blepcon • BronyMate • Equestria Daily
+Fan media and terminology
+Brony • MLP Animation: Discord Meets the Princess Bride • Twilight Sparkle's Secret Shipfic Folder • 'You Will Be Found' - GIANT 100+ BRONY GROUP COLLAB
+Characters and OCs
+Diamond Melody • Kun T’Nyuget • Night Star • Original Ponies • Vinyl Scratch
+Fan media by Chris
+BronyCon 2018 gift comics • Slime Rewrite Comic • Sonichu 12-9 • Twitter Blocks Comic • Workaholics Anonymous comic
+Other
+Chris's letter to Cathy Weseluck • Chris's letter to Kelly Sheridan • Equestrian calendar • Hasbro • Unicorn cosplay
+v • d • e
+Sonichu
+Issues
+Standard
+#0 • #1 • #2 • #3 • #4 • #5 • #6 • #7 • #8 • #9 • #10  • #11 • #12 • #12-9 • #13 • #14 • #0 HD • #16 • #17 • #82
+Videobooks
+#0 • #1 • #2 • #3 • #4 • #5 • #6 • #7 • #8 • #9 • #10
+Distribution
+Etsy  • Lulu  • Patreon  • Tapas
+Misc
+Other comics
+Rescuing Ivy • Wedding • Giant Penis • Gun • Catherine • Ring Transfer • BronyCon 2018 gifts •
+Bowsette • Twitter Blocks • Slime Rewrite • Pickchu's Wish • Workaholics Anonymous • Chaos Crystal Control • Miscellaneous comic panels‎
+Sketches
+Meet Russel and Cynthia  • Life Advice from Sonichu and Rosechu  • SLGBTQ poster
+Paid Drawings
+Commissions  • Original Sonichu and Rosechu Drawing
+Characters
+Protagonists
+Christian Weston Chandler (Chris-Chan Sonichu • Ancient leader of the Cherokee Clan • Collosal Chan • Night Star • CPU Blue Heart) • Sonichu (Ultra Sonichu • Metonic) • Rosechu (The Incredible Lioness • Vamprosa) • Blake • Chaotic Combo (Angelica Rosechu • Bubbles Rosechu • Magi-Chan  • Punchy Sonichu • Wild Sonichu) • Kun T’Nyuget • Cryzel Rosechu • Simonla • Sandy
+Villains
+Count Graduon • Mary Lee Walsh • Giovanni • Doctor Robotnik (Ren Skysoar) • Metal Sonichu • Reldnahc Notsew Naitsirhc • Decepti-Clones • Trolls (Asperpedia Four • IBAChandler • Cly(de) • Jack • Jason Kendrick Howell) • Jerkops (Bagget • Jerkhief) • Manajerks (ScotPalazzo • Merried Seinor Comic • B-Manajerk • W-M-Manajerk) • CADD Chef • Silvana Rosechu • Clawdorf • Wes-Li Sonichu (Wasabi rival) • Nombie-zazis • Akan • Nazis
+Minor
+Allison Amber • Bananasauros • Battery-Charge Heart • Bionic • BlazeBob  • Brendan Fraser  • Bundychu • Chloe • Crystal • Danny Steckle • Darkbind • Diamond Melody • DJ Jamsta • Emmanuelle • Flame the Sunbird • Heather Iglesias‎‎ • Inos • Jiggliami • Jesus Christ • Kathleen • Kevin the Jew • Layla • Lolisa • Lovely Weather • Megagi La Skunk • Mitch Sonichu • Patti-Chan • Perceptor Sonichu • Reginald Sneasel • Robertchu • Russel and Cynthia • Sailor Megtune • Saramah Rosechu (Queen of the Cherokian Clan) • Sonichu and Rosechu's children (Cera • Robbie • Christine) • Vinyl Scratch • Vulva Pie • Yawning Squirtle • Zapina • Zelina • Fictional guest appearances
+Locations
+CWCville  • RuleCWC
+Plot devices
+Anchuent Prophecy • Anime Wings • Chaos Emeralds • Cherokian Clan (Cherokian crown) • Chrs-Chan Pure Pulse-Jolt Lance • Dark Mirror Hole • Electric Hedgehog Pokémon (Sonichus • Rosechus) • Equestrian calendar  • Konami Code  • Legendary Master Sunstone • Love Quest (Heart Torch of Fail) • Rainbow • S-Chu Ball  • Sanctuary City  • Sonichite • Sonichu Balls • Sub-Episodes  • Subliminal Frequency Hypnosis  • Time Void
+In-depth analysis
+Analysis of Sonichu #12-9 • Chris and art • Comic writing • Chronology • Continuity • Retcons • Unheroic protagonist actions • The Annotated Sonichu
+Works by others
+A Girl Who Brought Down the World • Audiobooks • Asperchu • Chris Chan: A Prequel Comic • Moon-Pals • Sonichu: The Animated Series (GenoSamuel) • Sonichu the Animated Series (Spazkid) • The Chris-Chan Show • NightVee •
+Warhol / Chris Chan
+Retrieved from "http://sonichu.com/w/index.php?title=Equestrian_calendar&oldid=347786"
