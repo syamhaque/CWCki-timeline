@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris Chan Timeline - Visual Edition</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            color: #6c757d;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        
+        .filters {
+            padding: 20px;
+            background: #fff;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .filter-group label {
+            font-weight: 600;
+            color: #495057;
+        }
+        
+        input[type="text"], select {
+            padding: 8px 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        
+        input[type="text"]:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .filter-btn {
+            padding: 8px 16px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        
+        .filter-btn:hover {
+            background: #5568d3;
+        }
+        
+        .timeline {
+            padding: 40px;
+            position: relative;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 60px;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .event {
+            position: relative;
+            margin-bottom: 40px;
+            padding-left: 100px;
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .event-marker {
+            position: absolute;
+            left: 48px;
+            top: 0;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: white;
+            border: 4px solid #667eea;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+            z-index: 1;
+        }
+        
+        .event-marker.has-media {
+            background: #667eea;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        
+        .event-date {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        
+        .event-card {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            padding: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .event-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 8px 24px rgba(102, 126, 234, 0.15);
+            transform: translateX(5px);
+        }
+        
+        .event-category {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .category-personal { background: #e3f2fd; color: #1976d2; }
+        .category-internet { background: #f3e5f5; color: #7b1fa2; }
+        .category-legal { background: #ffebee; color: #c62828; }
+        .category-business { background: #e8f5e9; color: #2e7d32; }
+        .category-politics { background: #fff3e0; color: #e65100; }
+        
+        .event-description {
+            font-size: 1.05em;
+            line-height: 1.6;
+            color: #212529;
+            margin: 12px 0;
+        }
+        
+        .event-people {
+            margin-top: 12px;
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+        
+        .event-people strong {
+            color: #495057;
+        }
+        
+        .event-source {
+            margin-top: 8px;
+            font-size: 0.85em;
+            color: #adb5bd;
+            font-style: italic;
+        }
+        
+        .media-gallery {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 2px solid #f8f9fa;
+        }
+        
+        .media-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .media-item {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        
+        .media-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .media-item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .media-caption {
+            padding: 8px;
+            background: #f8f9fa;
+            font-size: 0.85em;
+            color: #495057;
+            text-align: center;
+        }
+        
+        .video-embed {
+            margin-top: 15px;
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .video-embed iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 8px;
+        }
+        
+        .lightbox {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .lightbox.active {
+            display: flex;
+        }
+        
+        .lightbox-content {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+        }
+        
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: white;
+            font-size: 40px;
+            cursor: pointer;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 100px;
+            font-size: 1.5em;
+            color: #667eea;
+        }
+        
+        .no-events {
+            text-align: center;
+            padding: 60px;
+            color: #6c757d;
+        }
+        
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 30px;
+            }
+            
+            .event {
+                padding-left: 70px;
+            }
+            
+            .event-marker {
+                left: 18px;
+            }
+            
+            .media-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📅 Chris Chan Visual Timeline</h1>
+            <p>Comprehensive chronological documentation with photos and videos</p>
+        </div>
+        
+        <div class="stats" id="stats">
+            <div class="stat">
+                <div class="stat-number" id="totalEvents">0</div>
+                <div class="stat-label">Total Events</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="eventsWithMedia">0</div>
+                <div class="stat-label">Events with Media</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="totalImages">0</div>
+                <div class="stat-label">Images</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="totalVideos">0</div>
+                <div class="stat-label">Videos</div>
+            </div>
+        </div>
+        
+        <div class="filters">
+            <div class="filter-group">
+                <label>Search:</label>
+                <input type="text" id="searchInput" placeholder="Search events..." style="width: 300px;">
+            </div>
+            <div class="filter-group">
+                <label>Category:</label>
+                <select id="categoryFilter">
+                    <option value="">All Categories</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Media:</label>
+                <select id="mediaFilter">
+                    <option value="">All Events</option>
+                    <option value="with-media">With Media</option>
+                    <option value="with-images">With Images</option>
+                    <option value="with-videos">With Videos</option>
+                </select>
+            </div>
+            <button class="filter-btn" onclick="applyFilters()">Apply Filters</button>
+            <button class="filter-btn" onclick="resetFilters()" style="background: #6c757d;">Reset</button>
+        </div>
+        
+        <div id="timeline" class="timeline">
+            <div class="loading">Loading timeline...</div>
+        </div>
+    </div>
+    
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightboxImage">
+    </div>
+    
+    <script>
+        let allEvents = [];
+        let filteredEvents = [];
+        
+        // Load timeline data
+        fetch('scraped_data/timeline_with_media.json')
+            .then(response => {
+                if (!response.ok) {
+                    // Fallback to timeline without media
+                    return fetch('scraped_data/timeline.json');
+                }
+                return response;
+            })
+            .then(response => response.json())
+            .then(data => {
+                allEvents = data.events || [];
+                updateStats(data);
+                populateCategoryFilter();
+                displayEvents(allEvents);
+            })
+            .catch(error => {
+                document.getElementById('timeline').innerHTML = 
+                    '<div class="no-events">Error loading timeline: ' + error.message + '</div>';
+            });
+        
+        function updateStats(data) {
+            document.getElementById('totalEvents').textContent = data.total_events || allEvents.length;
+            
+            const eventsWithMedia = allEvents.filter(e => 
+                e.media && (e.media.images?.length > 0 || e.media.videos?.length > 0)
+            ).length;
+            document.getElementById('eventsWithMedia').textContent = eventsWithMedia;
+            
+            const totalImages = allEvents.reduce((sum, e) => 
+                sum + (e.media?.images?.length || 0), 0
+            );
+            document.getElementById('totalImages').textContent = totalImages;
+            
+            const totalVideos = allEvents.reduce((sum, e) => 
+                sum + (e.media?.videos?.length || 0), 0
+            );
+            document.getElementById('totalVideos').textContent = totalVideos;
+        }
+        
+        function populateCategoryFilter() {
+            const categories = [...new Set(allEvents.map(e => e.category))].sort();
+            const select = document.getElementById('categoryFilter');
+            
+            categories.forEach(cat => {
+                const option = document.createElement('option');
+                option.value = cat;
+                option.textContent = cat;
+                select.appendChild(option);
+            });
+        }
+        
+        function displayEvents(events) {
+            const timeline = document.getElementById('timeline');
+            
+            if (events.length === 0) {
+                timeline.innerHTML = '<div class="no-events">No events match your filters</div>';
+                return;
+            }
+            
+            timeline.innerHTML = events.map(event => {
+                const hasMedia = event.media && (event.media.images?.length > 0 || event.media.videos?.length > 0);
+                const categoryClass = 'category-' + (event.category || 'personal').toLowerCase().replace(/\s+/g, '-');
+                
+                let mediaHtml = '';
+                if (hasMedia) {
+                    mediaHtml = '<div class="media-gallery">';
+                    
+                    // Images
+                    if (event.media.images?.length > 0) {
+                        mediaHtml += '<div class="media-grid">';
+                        event.media.images.forEach(img => {
+                            const caption = img.caption || img.alt_text || img.title || 'No caption';
+                            mediaHtml += `
+                                <div class="media-item" onclick="openLightbox('scraped_data/${img.local_path}')">
+                                    <img src="scraped_data/${img.local_path}" alt="${caption}" 
+                                         onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22180%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22200%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22%23999%22%3EImage not found%3C/text%3E%3C/svg%3E'">
+                                    <div class="media-caption">${caption.substring(0, 50)}${caption.length > 50 ? '...' : ''}</div>
+                                </div>
+                            `;
+                        });
+                        mediaHtml += '</div>';
+                    }
+                    
+                    // Videos
+                    if (event.media.videos?.length > 0) {
+                        event.media.videos.forEach(video => {
+                            if (video.type === 'youtube') {
+                                const videoId = extractYouTubeId(video.url);
+                                if (videoId) {
+                                    mediaHtml += `
+                                        <div class="video-embed">
+                                            <iframe src="https://www.youtube.com/embed/${videoId}" 
+                                                    allowfullscreen></iframe>
+                                        </div>
+                                    `;
+                                }
+                            }
+                        });
+                    }
+                    
+                    mediaHtml += '</div>';
+                }
+                
+                return `
+                    <div class="event" data-category="${event.category}" data-date="${event.date}">
+                        <div class="event-marker ${hasMedia ? 'has-media' : ''}"></div>
+                        <div class="event-card">
+                            <div class="event-date">${formatDate(event.date, event.date_precision)}</div>
+                            <span class="event-category ${categoryClass}">${event.category || 'General'}</span>
+                            <div class="event-description">${event.description}</div>
+                            ${event.people && event.people.length > 0 ? 
+                                `<div class="event-people"><strong>People:</strong> ${event.people.join(', ')}</div>` : 
+                                ''}
+                            <div class="event-source">Source: ${event.source}</div>
+                            ${mediaHtml}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        function formatDate(dateStr, precision) {
+            if (!dateStr) return 'Unknown date';
+            
+            if (precision === 'year' || dateStr.length === 4) {
+                return dateStr;
+            } else if (precision === 'month' || dateStr.length === 7) {
+                const [year, month] = dateStr.split('-');
+                const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
+                                   'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+                return `${monthNames[parseInt(month) - 1]} ${year}`;
+            } else {
+                const date = new Date(dateStr + 'T00:00:00');
+                return date.toLocaleDateString('en-US', { 
+                    year: 'numeric', 
+                    month: 'short', 
+                    day: 'numeric' 
+                });
+            }
+        }
+        
+        function extractYouTubeId(url) {
+            const match = url.match(/(?:youtube\.com\/(?:embed\/|watch\?v=)|youtu\.be\/)([^&?\/]+)/);
+            return match ? match[1] : null;
+        }
+        
+        function applyFilters() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const category = document.getElementById('categoryFilter').value;
+            const mediaFilter = document.getElementById('mediaFilter').value;
+            
+            filteredEvents = allEvents.filter(event => {
+                // Search filter
+                if (searchTerm) {
+                    const searchableText = (event.description + ' ' + 
+                                          (event.people || []).join(' ')).toLowerCase();
+                    if (!searchableText.includes(searchTerm)) return false;
+                }
+                
+                // Category filter
+                if (category && event.category !== category) return false;
+                
+                // Media filter
+                if (mediaFilter === 'with-media') {
+                    if (!event.media || (event.media.images?.length === 0 && event.media.videos?.length === 0)) {
+                        return false;
+                    }
+                } else if (mediaFilter === 'with-images') {
+                    if (!event.media || event.media.images?.length === 0) return false;
+                } else if (mediaFilter === 'with-videos') {
+                    if (!event.media || event.media.videos?.length === 0) return false;
+                }
+                
+                return true;
+            });
+            
+            displayEvents(filteredEvents);
+        }
+        
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('categoryFilter').value = '';
+            document.getElementById('mediaFilter').value = '';
+            displayEvents(allEvents);
+        }
+        
+        function openLightbox(imagePath) {
+            document.getElementById('lightboxImage').src = imagePath;
+            document.getElementById('lightbox').classList.add('active');
+        }
+        
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+        }
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeLightbox();
+            }
+        });
+        
+        // Enter key for search
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                applyFilters();
+            }
+        });
+    </script>
+</body>
+</html>

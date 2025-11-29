@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris Chan Timeline - Interactive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #FFD700;
+            --primary-dark: #FFC700;
+            --secondary: #FF69B4;
+            --accent-blue: #0099FF;
+            --accent-pink: #FF1493;
+            --timeline-width: 4px;
+            --marker-size: 24px;
+            --spacing: 60px;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #FFF9E6 0%, #FFE4F0 100%);
+            color: #2d3748;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 50px 40px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+        }
+        
+        .header-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .header-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+            object-fit: cover;
+            background: white;
+        }
+        
+        .header-image.left {
+            flex-shrink: 0;
+            margin-left: 80px;
+        }
+        
+        .header-image.right {
+            flex-shrink: 0;
+            margin-right: 80px;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .header-description {
+            font-size: 1.1em;
+            opacity: 0.95;
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        
+        .header-description p {
+            margin-bottom: 10px;
+        }
+        
+        .controls {
+            padding: 30px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .search-box {
+            flex: 1;
+            min-width: 300px;
+            max-width: 500px;
+            position: relative;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 12px 20px;
+            border: 2px solid #e2e8f0;
+            border-radius: 25px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.3);
+        }
+        
+        .filter-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        select, .btn {
+            padding: 10px 20px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+            font-weight: 600;
+        }
+        
+        .btn:hover {
+            background: var(--primary-dark);
+            transform: translateY(-1px);
+        }
+        
+        .btn-secondary {
+            background: #718096;
+            border-color: #718096;
+        }
+        
+        .timeline-container {
+            max-width: 1400px;
+            margin: 40px auto;
+            padding: 0 20px 100px;
+            position: relative;
+        }
+        
+        .timeline-line {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: var(--timeline-width);
+            background: linear-gradient(180deg, var(--primary) 0%, var(--secondary) 100%);
+            top: 0;
+            bottom: 0;
+            border-radius: var(--timeline-width);
+        }
+        
+        .year-section {
+            margin-bottom: 60px;
+            position: relative;
+            animation: fadeInUp 0.5s ease;
+        }
+        
+        /* Alternate left and right */
+        .year-section:nth-child(odd) .year-header {
+            margin-left: 0;
+            margin-right: calc(50% + 40px);
+            text-align: right;
+        }
+        
+        .year-section:nth-child(even) .year-header {
+            margin-left: calc(50% + 40px);
+            margin-right: 0;
+            text-align: left;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .year-header {
+            padding: 20px 30px;
+            cursor: pointer;
+            position: relative;
+            z-index: 10;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            transition: box-shadow 0.3s ease;
+        }
+        
+        .year-header:hover {
+            box-shadow: 0 8px 30px rgba(255, 215, 0, 0.3);
+        }
+        
+        /* Timeline dot stays fixed on timeline (no hover movement) */
+        .year-section::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 40px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: var(--primary);
+            border: 4px solid white;
+            transform: translateX(-50%);
+            z-index: 15;
+        }
+        
+        /* Connecting line from card to timeline dot */
+        .year-section::after {
+            content: '';
+            position: absolute;
+            top: 48px;
+            height: 2px;
+            background: var(--primary);
+            z-index: 14;
+        }
+        
+        /* Odd years: card on left, line goes right */
+        .year-section:nth-child(odd)::after {
+            left: calc(50% - 8px);
+            right: calc(50% + 40px);
+        }
+        
+        /* Even years: card on right, line goes left */
+        .year-section:nth-child(even)::after {
+            left: calc(50% + 40px);
+            right: calc(50% - 8px);
+        }
+        
+        .year-header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 15px;
+        }
+        
+        .year-label {
+            font-size: 2.5em;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .year-count {
+            background: rgba(255, 215, 0, 0.2);
+            color: #996B00;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        
+        .expand-icon {
+            font-size: 1.2em;
+            color: var(--primary);
+            transition: transform 0.3s ease;
+        }
+        
+        .year-section.collapsed .expand-icon {
+            transform: rotate(-90deg);
+        }
+        
+        .year-content {
+            margin-top: 20px;
+            transition: opacity 0.3s ease;
+            opacity: 1;
+        }
+        
+        .year-section.collapsed .year-content {
+            display: none;
+        }
+        
+        .month-section {
+            margin: 30px 0;
+            position: relative;
+        }
+        
+        /* Alternate months left and right within year */
+        .month-section:nth-child(odd) .month-header {
+            margin-left: 0;
+            margin-right: calc(50% + 40px);
+        }
+        
+        .month-section:nth-child(even) .month-header {
+            margin-left: calc(50% + 40px);
+            margin-right: 0;
+        }
+        
+        .month-header {
+            display: flex;
+            align-items: center;
+            padding: 12px 20px;
+            background: white;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            transition: box-shadow 0.3s ease;
+            position: relative;
+        }
+        
+        .month-header:hover {
+            box-shadow: 0 4px 20px rgba(255, 105, 180, 0.3);
+        }
+        
+        /* Month dot stays fixed on timeline */
+        .month-section::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 27px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--secondary);
+            border: 3px solid white;
+            transform: translateX(-50%);
+            z-index: 15;
+        }
+        
+        /* Connecting line from card to timeline dot */
+        .month-section::after {
+            content: '';
+            position: absolute;
+            top: 33px;
+            height: 2px;
+            background: var(--secondary);
+            z-index: 14;
+        }
+        
+        /* Odd months: card on left, line goes right */
+        .month-section:nth-child(odd)::after {
+            left: calc(50% - 6px);
+            right: calc(50% + 40px);
+        }
+        
+        /* Even months: card on right, line goes left */
+        .month-section:nth-child(even)::after {
+            left: calc(50% + 40px);
+            right: calc(50% - 6px);
+        }
+        
+        .month-marker {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            margin-right: 20px;
+            position: relative;
+        }
+        
+        .month-marker::after {
+            content: attr(data-count);
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: #f56565;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7em;
+            border: 2px solid white;
+        }
+        
+        .month-label {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #2d3748;
+            flex: 1;
+        }
+        
+        .month-expand-icon {
+            font-size: 1em;
+            color: var(--primary);
+            transition: transform 0.3s ease;
+        }
+        
+        .month-section.collapsed .month-expand-icon {
+            transform: rotate(-90deg);
+        }
+        
+        .month-events {
+            margin-top: 15px;
+            transition: opacity 0.3s ease;
+            opacity: 1;
+        }
+        
+        .month-section.collapsed .month-events {
+            display: none;
+        }
+        
+        /* Alternate events left and right with overlap */
+        .event-wrapper {
+            position: relative;
+            margin-top: -100px;
+            margin-bottom: 0;
+        }
+        
+        .event-wrapper:first-child {
+            margin-top: 0;
+        }
+        
+        .event-wrapper:nth-child(odd) .event-card {
+            margin-left: 0;
+            margin-right: calc(50% + 40px);
+        }
+        
+        .event-wrapper:nth-child(even) .event-card {
+            margin-left: calc(50% + 40px);
+            margin-right: 0;
+        }
+        
+        .event-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border-left: 4px solid var(--primary);
+            transition: box-shadow 0.3s ease;
+            position: relative;
+        }
+        
+        /* Event dot stays fixed on timeline */
+        .event-wrapper::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 35px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--primary);
+            border: 2px solid white;
+            transform: translateX(-50%);
+            z-index: 15;
+        }
+        
+        /* Connecting line from card to timeline dot */
+        .event-wrapper::after {
+            content: '';
+            position: absolute;
+            top: 38px;
+            height: 1px;
+            background: var(--primary);
+            opacity: 0.3;
+            z-index: 14;
+        }
+        
+        /* Odd events: card on left, line goes right */
+        .event-wrapper:nth-child(odd)::after {
+            left: calc(50% - 4px);
+            right: calc(50% + 40px);
+        }
+        
+        /* Even events: card on right, line goes left */
+        .event-wrapper:nth-child(even)::after {
+            left: calc(50% + 40px);
+            right: calc(50% - 4px);
+        }
+        
+        .event-card:hover {
+            box-shadow: 0 4px 15px rgba(0, 153, 255, 0.3);
+        }
+        
+        .event-wrapper.has-media::before {
+            background: #f56565;
+        }
+        
+        .event-wrapper.has-media::after {
+            background: #f56565;
+        }
+        
+        .event-card.has-media {
+            border-left-color: #f56565;
+            background: #fff5f5;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+        
+        .event-date {
+            font-size: 0.9em;
+            color: #718096;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .event-category {
+            display: inline-block;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        
+        .category-Personal { background: #FFE4B5; color: #996B00; }
+        .category-Internet { background: #E0BBE4; color: #6B2C91; }
+        .category-Legal { background: #FFB6C1; color: #8B0000; }
+        .category-Business { background: #B0E0E6; color: #004466; }
+        .category-Politics { background: #FFD700; color: #8B4513; }
+        
+        .event-description {
+            font-size: 1.05em;
+            margin: 12px 0;
+            color: #2d3748;
+        }
+        
+        .event-people {
+            margin: 12px 0;
+            font-size: 0.9em;
+            color: #4a5568;
+        }
+        
+        .event-people strong {
+            color: #2d3748;
+        }
+        
+        .media-gallery {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 12px;
+            transition: opacity 0.3s ease;
+        }
+        
+        .media-gallery.hidden {
+            display: none;
+        }
+        
+        .media-thumb {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            aspect-ratio: 4/3;
+        }
+        
+        .media-thumb:hover {
+            transform: scale(1.05);
+        }
+        
+        .media-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .video-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+        
+        .lightbox {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .lightbox.active {
+            display: flex;
+        }
+        
+        .lightbox-content {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+        
+        .lightbox-close {
+            position: absolute;
+            top: 30px;
+            right: 50px;
+            color: white;
+            font-size: 50px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        
+        .lightbox-close:hover {
+            transform: scale(1.2);
+        }
+        
+        .floating-buttons {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 99;
+        }
+        
+        .float-btn {
+            padding: 12px 20px;
+            border-radius: 25px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 4px 20px rgba(255, 215, 0, 0.4);
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            white-space: nowrap;
+        }
+        
+        .float-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 30px rgba(255, 215, 0, 0.6);
+        }
+        
+        .float-btn.secondary {
+            background: var(--secondary);
+        }
+        
+        .float-btn.secondary:hover {
+            background: var(--accent-pink);
+            box-shadow: 0 6px 30px rgba(255, 105, 180, 0.6);
+        }
+        
+        .float-btn.tertiary {
+            background: var(--accent-blue);
+        }
+        
+        .float-btn.tertiary:hover {
+            background: #0077CC;
+            box-shadow: 0 6px 30px rgba(0, 153, 255, 0.6);
+        }
+        
+        .float-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+        
+        .float-btn-icon {
+            font-size: 18px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 100px 20px;
+            font-size: 1.5em;
+            color: var(--primary);
+        }
+        
+        /* Summary Modal */
+        .summary-modal {
+            display: none;
+            position: fixed;
+            z-index: 1001;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            overflow-y: auto;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        .summary-modal.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .summary-content {
+            background: white;
+            margin: 50px auto;
+            padding: 40px;
+            max-width: 900px;
+            border-radius: 12px;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.3);
+            animation: slideDown 0.3s ease;
+            position: relative;
+        }
+        
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .summary-close {
+            position: sticky;
+            top: 0;
+            float: right;
+            font-size: 36px;
+            font-weight: 700;
+            color: #718096;
+            cursor: pointer;
+            transition: color 0.3s ease;
+            z-index: 10;
+            background: white;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: -10px -10px 10px 10px;
+        }
+        
+        .summary-close:hover {
+            color: var(--primary);
+            transform: rotate(90deg);
+        }
+        
+        .summary-body {
+            color: #2d3748;
+            line-height: 1.8;
+        }
+        
+        .summary-body h1 {
+            font-size: 2.5em;
+            color: var(--primary);
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid var(--primary);
+        }
+        
+        .summary-body h2 {
+            font-size: 1.8em;
+            color: var(--secondary);
+            margin-top: 35px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .summary-body h3 {
+            font-size: 1.3em;
+            color: #4a5568;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        
+        .summary-body p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        .summary-body ul, .summary-body ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        
+        .summary-body li {
+            margin-bottom: 8px;
+        }
+        
+        .summary-body strong {
+            color: #2d3748;
+            font-weight: 600;
+        }
+        
+        .summary-body em {
+            color: #718096;
+            font-style: italic;
+        }
+        
+        .summary-body hr {
+            border: none;
+            border-top: 2px solid #e2e8f0;
+            margin: 30px 0;
+        }
+        
+        .summary-body blockquote {
+            border-left: 4px solid var(--primary);
+            padding-left: 20px;
+            margin: 20px 0;
+            color: #4a5568;
+            font-style: italic;
+        }
+        
+        .float-btn.summary-btn {
+            background: var(--accent-blue);
+        }
+        
+        .float-btn.summary-btn:hover {
+            background: #0077CC;
+            box-shadow: 0 6px 30px rgba(0, 153, 255, 0.6);
+        }
+        
+        .footer {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        .footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .timeline-line {
+                left: 30px;
+            }
+            
+            .year-section:nth-child(odd) .year-header,
+            .year-section:nth-child(even) .year-header {
+                margin-left: 70px;
+                margin-right: 20px;
+                text-align: left;
+            }
+            
+            .year-section:nth-child(odd) .year-header::before,
+            .year-section:nth-child(even) .year-header::before {
+                left: -50px;
+            }
+            
+            .header {
+                flex-direction: column;
+                padding: 30px 20px;
+            }
+            
+            .header-image {
+                width: 100px;
+                height: 100px;
+            }
+            
+            .header-image.left,
+            .header-image.right {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <!-- Sonichu Image (LEFT) -->
+        <img src="scraped_data/media/images/Chris Chan Psychic Chat 1_1_c041bd51cc42.png"
+             alt="Sonichu"
+             class="header-image left"
+             onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22150%22 height=%22150%22%3E%3Ccircle cx=%2275%22 cy=%2275%22 r=%2270%22 fill=%22%23FFD700%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2240%22 fill=%22%23000%22%3ESonichu%3C/text%3E%3C/svg%3E'">
+        
+        <div class="header-content">
+            <h1><span style="font-size: 1.2em; display: inline-block; transform: translateY(5px);">⚡</span> Chris Chan Timeline <span style="font-size: 1.2em; display: inline-block; transform: translateY(5px);">💙</span></h1>
+            <div class="header-description">
+                <p>
+                    This interactive timeline documents the life and online presence of Chris Chan,
+                    an internet personality known for creating the Sonichu webcomic series. The timeline is compiled from the
+                    comprehensive <a href="https://sonichu.com/cwcki" target="_blank" rel="noopener noreferrer" style="color: white; text-decoration: underline;">CWCki</a>, covering events from childhood through present day.
+                </p>
+            </div>
+            <div style="margin-top: 20px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                <button class="btn" onclick="openSummary()" style="background: var(--accent-blue); border-color: var(--accent-blue); font-size: 16px; padding: 12px 30px;">
+                    📖 View Comprehensive Biography
+                </button>
+                <button class="btn" onclick="openWorstThings()" style="background: #DC143C; border-color: #DC143C; font-size: 16px; padding: 12px 30px;">
+                    ⚠️ Top 100 Worst Things Committed
+                </button>
+            </div>
+        </div>
+        
+        <!-- Chris Chan Image (RIGHT) -->
+        <img src="scraped_data/media/images/TooManyGames_20_6d420c72d19d.png"
+             alt="Chris Chan"
+             class="header-image right"
+             onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22150%22 height=%22150%22%3E%3Ccircle cx=%2275%22 cy=%2275%22 r=%2270%22 fill=%22%23FFD700%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2220%22 fill=%22%23000%22%3EChris Chan%3C/text%3E%3C/svg%3E'">
+    </div>
+    
+    <div class="controls">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="🔍 Search timeline events...">
+        </div>
+        <div class="filter-group">
+            <select id="categoryFilter">
+                <option value="">All Categories</option>
+            </select>
+            <select id="mediaFilter">
+                <option value="">All Events</option>
+                <option value="with-media">With Media</option>
+                <option value="with-images">With Images</option>
+                <option value="with-videos">With Videos</option>
+            </select>
+            <select id="sortOrder">
+                <option value="year-desc">Newest to Oldest Year</option>
+                <option value="year-asc">Oldest to Newest Year</option>
+                <option value="events-year">Most Events per Year</option>
+            </select>
+            <button class="btn" onclick="applyFilters()">Apply</button>
+            <button class="btn btn-secondary" onclick="resetFilters()">Reset</button>
+            <button class="btn" onclick="expandAll()">Expand All</button>
+            <button class="btn btn-secondary" onclick="collapseAll()">Collapse All</button>
+            <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; padding: 10px;">
+                <input type="checkbox" id="showMediaToggle" checked onchange="toggleMediaDisplay()">
+                <span>Show Media</span>
+            </label>
+        </div>
+    </div>
+    
+    <div class="timeline-container">
+        <div class="timeline-line" id="timelineLine" style="display: none;"></div>
+        <div id="timeline" class="loading">Loading timeline...</div>
+    </div>
+    
+    <div class="floating-buttons">
+        <button class="float-btn secondary" id="collapseMonthsBtn" onclick="collapseAllMonths()" disabled>
+            <span id="collapseMonthsText">No opened months</span>
+        </button>
+        <button class="float-btn" id="collapseYearsBtn" onclick="collapseAllYears()" disabled>
+            <span id="collapseYearsText">No opened years</span>
+        </button>
+        <button class="float-btn tertiary" onclick="scrollToTop()" title="Scroll to Top">
+            ↑ Top
+        </button>
+    </div>
+    
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightboxImage">
+    </div>
+    
+    <div class="summary-modal" id="summaryModal" onclick="closeSummaryOnBackdrop(event)">
+        <div class="summary-content" onclick="event.stopPropagation()">
+            <span class="summary-close" onclick="closeSummary()">&times;</span>
+            <div class="summary-body" id="summaryBody">
+                <p style="text-align: center; color: #718096;">Loading summary...</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="summary-modal" id="worstThingsModal" onclick="closeWorstThingsOnBackdrop(event)">
+        <div class="summary-content" onclick="event.stopPropagation()">
+            <span class="summary-close" onclick="closeWorstThings()">&times;</span>
+            <div class="summary-body" id="worstThingsBody">
+                <p style="text-align: center; color: #718096;">Loading worst things list...</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Created by <strong>Syam Haque</strong></p>
+        <p style="font-size: 0.85em; margin-top: 5px; opacity: 0.8;">Data source: <a href="https://sonichu.com/cwcki" target="_blank" rel="noopener noreferrer">CWCki</a></p>
+    </div>
+    
+    <script>
+        let allEvents = [];
+        let timelineData = {};
+        let currentSortOrder = 'year-desc';
+        
+        // Load timeline
+        fetch('scraped_data/timeline_with_media.json')
+            .then(response => {
+                if (!response.ok) return fetch('scraped_data/timeline.json');
+                return response;
+            })
+            .then(response => response.json())
+            .then(data => {
+                timelineData = data;
+                allEvents = data.events || [];
+                updateStats();
+                populateFilters();
+                renderTimeline(allEvents);
+            })
+            .catch(error => {
+                document.getElementById('timeline').innerHTML = 
+                    '<div style="color: #e53e3e;">Error loading timeline: ' + error.message + '</div>';
+            });
+        
+        function updateStats() {
+            // Stats removed from UI but function kept for compatibility
+        }
+        
+        function populateFilters() {
+            const categories = [...new Set(allEvents.map(e => e.category))].filter(Boolean).sort();
+            const select = document.getElementById('categoryFilter');
+            categories.forEach(cat => {
+                const option = document.createElement('option');
+                option.value = cat;
+                option.textContent = cat;
+                select.appendChild(option);
+            });
+        }
+        
+        function renderTimeline(events) {
+            if (events.length === 0) {
+                document.getElementById('timeline').innerHTML =
+                    '<div style="text-align: center; padding: 60px; color: #718096;">No events match your filters</div>';
+                return;
+            }
+            
+            // Group by year and month
+            const byYear = {};
+            events.forEach(event => {
+                const date = event.date || '0000-00-00';
+                const year = date.substring(0, 4);
+                const month = date.length >= 7 ? date.substring(5, 7) : '00';
+                
+                if (!byYear[year]) byYear[year] = {};
+                if (!byYear[year][month]) byYear[year][month] = [];
+                byYear[year][month].push(event);
+            });
+            
+            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+                               'July', 'August', 'September', 'October', 'November', 'December'];
+            
+            let html = '';
+            const years = sortYears(byYear);
+            
+            years.forEach(year => {
+                const months = byYear[year];
+                const yearEventCount = Object.values(months).flat().length;
+                
+                html += `
+                    <div class="year-section collapsed" id="year-${year}">
+                        <div class="year-header" onclick="toggleYear('${year}')">
+                            <div class="year-header-content">
+                                <div class="year-label">${year}</div>
+                                <div class="year-count">${yearEventCount} events</div>
+                                <div class="expand-icon">▼</div>
+                            </div>
+                        </div>
+                        <div class="year-content">
+                `;
+                
+                const sortedMonths = sortMonths(year, months);
+                sortedMonths.forEach(month => {
+                    const monthEvents = months[month];
+                    const monthName = month === '00' ? 'Unknown Month' : monthNames[parseInt(month) - 1];
+                    
+                    html += `
+                        <div class="month-section collapsed" id="month-${year}-${month}">
+                            <div class="month-header" onclick="toggleMonth('${year}', '${month}')">
+                                <div class="month-marker" data-count="${monthEvents.length}">${month}</div>
+                                <div class="month-label">${monthName}</div>
+                                <div class="month-expand-icon">▼</div>
+                            </div>
+                            <div class="month-events">
+                    `;
+                    
+                    monthEvents.forEach(event => {
+                        const hasMedia = event.media && (event.media.images?.length > 0 || event.media.videos?.length > 0);
+                        const categoryClass = 'category-' + (event.category || 'Personal').replace(/\s+/g, '-');
+                        
+                        html += `
+                            <div class="event-wrapper ${hasMedia ? 'has-media' : ''}">
+                                <div class="event-card ${hasMedia ? 'has-media' : ''}">
+                                    <div class="event-date">${formatDate(event.date, event.date_precision)}</div>
+                                    <span class="event-category ${categoryClass}">${event.category || 'General'}</span>
+                                    <div class="event-description">${event.description}</div>
+                        `;
+                        
+                        if (event.people && event.people.length > 0) {
+                            html += `<div class="event-people"><strong>People:</strong> ${event.people.join(', ')}</div>`;
+                        }
+                        
+                        // Media
+                        if (hasMedia) {
+                            html += '<div class="media-gallery">';
+                            
+                            if (event.media.images) {
+                                event.media.images.forEach(img => {
+                                    html += `
+                                        <div class="media-thumb" onclick="openLightbox('scraped_data/${img.local_path}')">
+                                            <img src="scraped_data/${img.local_path}" alt="${img.caption || 'Image'}"
+                                                 onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22135%22%3E%3Crect fill=%22%23e2e8f0%22 width=%22180%22 height=%22135%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22%23718096%22 font-size=%2214%22%3EImage not found%3C/text%3E%3C/svg%3E'">
+                                        </div>
+                                    `;
+                                });
+                            }
+                            
+                            html += '</div>';
+                        }
+                        
+                        html += '</div></div>';
+                    });
+                    
+                    html += '</div></div>';
+                });
+                
+                html += '</div></div>';
+            });
+            
+            document.getElementById('timeline').innerHTML = html;
+            // Show timeline line once content is loaded
+            document.getElementById('timelineLine').style.display = 'block';
+        }
+        
+        function formatDate(dateStr, precision) {
+            if (!dateStr) return 'Unknown date';
+            if (dateStr.length === 4) return dateStr;
+            if (dateStr.length === 7) {
+                const [year, month] = dateStr.split('-');
+                const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
+                                   'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+                return `${monthNames[parseInt(month) - 1]} ${year}`;
+            }
+            const date = new Date(dateStr + 'T00:00:00');
+            return date.toLocaleDateString('en-US', { 
+                year: 'numeric', month: 'short', day: 'numeric' 
+            });
+        }
+        
+        let lastOpenedYear = null;
+        let lastOpenedMonth = null;
+        
+        function toggleYear(year) {
+            const section = document.getElementById(`year-${year}`);
+            const wasCollapsed = section.classList.contains('collapsed');
+            section.classList.toggle('collapsed');
+            
+            if (wasCollapsed) {
+                lastOpenedYear = year;
+            }
+            
+            updateCollapseButtons();
+        }
+        
+        function toggleMonth(year, month) {
+            const section = document.getElementById(`month-${year}-${month}`);
+            const wasCollapsed = section.classList.contains('collapsed');
+            section.classList.toggle('collapsed');
+            
+            if (wasCollapsed) {
+                lastOpenedMonth = `${year}-${month}`;
+            }
+            
+            updateCollapseButtons();
+        }
+        
+        function collapseAllMonths() {
+            // Collapse all months first
+            const openMonths = document.querySelectorAll('.month-section:not(.collapsed)');
+            openMonths.forEach(section => section.classList.add('collapsed'));
+            
+            // Scroll to last opened month after a delay
+            if (lastOpenedMonth) {
+                const section = document.getElementById(`month-${lastOpenedMonth}`);
+                if (section) {
+                    setTimeout(() => {
+                        section.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }, 300);
+                }
+            }
+            
+            lastOpenedMonth = null;
+            updateCollapseButtons();
+        }
+        
+        function collapseAllYears() {
+            // Collapse all years first
+            const openYears = document.querySelectorAll('.year-section:not(.collapsed)');
+            openYears.forEach(section => section.classList.add('collapsed'));
+            
+            // Scroll to last opened year after a delay
+            if (lastOpenedYear) {
+                const section = document.getElementById(`year-${lastOpenedYear}`);
+                if (section) {
+                    setTimeout(() => {
+                        section.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }, 300);
+                }
+            }
+            
+            lastOpenedYear = null;
+            updateCollapseButtons();
+        }
+        
+        function updateCollapseButtons() {
+            // Update months button
+            const openMonths = document.querySelectorAll('.month-section:not(.collapsed)').length;
+            const monthsBtn = document.getElementById('collapseMonthsBtn');
+            const monthsText = document.getElementById('collapseMonthsText');
+            
+            if (openMonths > 0) {
+                monthsBtn.disabled = false;
+                monthsText.textContent = `Collapse ${openMonths} month${openMonths > 1 ? 's' : ''}`;
+            } else {
+                monthsBtn.disabled = true;
+                monthsText.textContent = 'No opened months';
+            }
+            
+            // Update years button
+            const openYears = document.querySelectorAll('.year-section:not(.collapsed)').length;
+            const yearsBtn = document.getElementById('collapseYearsBtn');
+            const yearsText = document.getElementById('collapseYearsText');
+            
+            if (openYears > 0) {
+                yearsBtn.disabled = false;
+                yearsText.textContent = `Collapse ${openYears} year${openYears > 1 ? 's' : ''}`;
+            } else {
+                yearsBtn.disabled = true;
+                yearsText.textContent = 'No opened years';
+            }
+        }
+        
+        function expandAll() {
+            document.querySelectorAll('.year-section').forEach(section => {
+                section.classList.remove('collapsed');
+            });
+            document.querySelectorAll('.month-section').forEach(section => {
+                section.classList.remove('collapsed');
+            });
+            updateCollapseButtons();
+        }
+        
+        function collapseAll() {
+            document.querySelectorAll('.year-section').forEach(section => {
+                section.classList.add('collapsed');
+            });
+            document.querySelectorAll('.month-section').forEach(section => {
+                section.classList.add('collapsed');
+            });
+            updateCollapseButtons();
+        }
+        
+        function sortYears(byYear) {
+            const sortOrder = currentSortOrder;
+            const years = Object.keys(byYear);
+            
+            if (sortOrder === 'year-asc') {
+                // Oldest first (450 → 2025)
+                return years.sort((a, b) => {
+                    const numA = parseInt(a) || 0;
+                    const numB = parseInt(b) || 0;
+                    return numA - numB;
+                });
+            } else if (sortOrder === 'year-desc') {
+                // Newest first (2025 → 450)
+                return years.sort((a, b) => {
+                    const numA = parseInt(a) || 0;
+                    const numB = parseInt(b) || 0;
+                    return numB - numA;
+                });
+            } else if (sortOrder === 'events-year') {
+                // Most events per year
+                return years.sort((a, b) => {
+                    const countA = Object.values(byYear[a]).flat().length;
+                    const countB = Object.values(byYear[b]).flat().length;
+                    return countB - countA; // Descending
+                });
+            }
+            
+            // Default to year-desc
+            return years.sort((a, b) => {
+                const numA = parseInt(a) || 0;
+                const numB = parseInt(b) || 0;
+                return numB - numA;
+            });
+        }
+        
+        function sortMonths(year, months) {
+            // Always sort months chronologically (January → December)
+            const monthKeys = Object.keys(months);
+            return monthKeys.sort((a, b) => {
+                if (a === '00') return 1;
+                if (b === '00') return -1;
+                return parseInt(a) - parseInt(b);
+            });
+        }
+        
+        function getFilteredEvents() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const category = document.getElementById('categoryFilter').value;
+            const mediaFilter = document.getElementById('mediaFilter').value;
+            
+            return allEvents.filter(event => {
+                if (searchTerm) {
+                    const searchable = (event.description + ' ' + (event.people || []).join(' ')).toLowerCase();
+                    if (!searchable.includes(searchTerm)) return false;
+                }
+                
+                if (category && event.category !== category) return false;
+                
+                if (mediaFilter === 'with-media') {
+                    if (!event.media || (event.media.images?.length === 0 && event.media.videos?.length === 0)) return false;
+                } else if (mediaFilter === 'with-images') {
+                    if (!event.media || event.media.images?.length === 0) return false;
+                } else if (mediaFilter === 'with-videos') {
+                    if (!event.media || event.media.videos?.length === 0) return false;
+                }
+                
+                return true;
+            });
+        }
+        
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        
+        function applyFilters() {
+            // Update sort order from dropdown when Apply is clicked
+            currentSortOrder = document.getElementById('sortOrder').value;
+            // Apply filters and sorting together
+            renderTimeline(getFilteredEvents());
+        }
+        
+        function toggleMediaDisplay() {
+            const showMedia = document.getElementById('showMediaToggle').checked;
+            const galleries = document.querySelectorAll('.media-gallery');
+            galleries.forEach(gallery => {
+                if (showMedia) {
+                    gallery.classList.remove('hidden');
+                } else {
+                    gallery.classList.add('hidden');
+                }
+            });
+        }
+        
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('categoryFilter').value = '';
+            document.getElementById('mediaFilter').value = '';
+            document.getElementById('sortOrder').value = 'year-desc';
+            document.getElementById('showMediaToggle').checked = true;
+            currentSortOrder = 'year-desc';
+            renderTimeline(allEvents);
+        }
+        
+        function openLightbox(imagePath) {
+            document.getElementById('lightboxImage').src = imagePath;
+            document.getElementById('lightbox').classList.add('active');
+        }
+        
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+        }
+        
+        // Summary Modal Functions
+        function openSummary() {
+            const modal = document.getElementById('summaryModal');
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            
+            // Load summary if not already loaded
+            if (document.getElementById('summaryBody').innerHTML.includes('Loading')) {
+                // Add cache-busting parameter to force fresh load
+                fetch('scraped_data/summary.md?t=' + Date.now())
+                    .then(response => response.text())
+                    .then(markdown => {
+                        document.getElementById('summaryBody').innerHTML = convertMarkdownToHTML(markdown);
+                    })
+                    .catch(error => {
+                        document.getElementById('summaryBody').innerHTML =
+                            '<p style="color: #e53e3e; text-align: center;">Error loading summary: ' + error.message + '</p>';
+                    });
+            }
+        }
+        
+        function closeSummary() {
+            document.getElementById('summaryModal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+        
+        function closeSummaryOnBackdrop(event) {
+            if (event.target.id === 'summaryModal') {
+                closeSummary();
+            }
+        }
+        
+        // Worst Things Modal Functions
+        function openWorstThings() {
+            const modal = document.getElementById('worstThingsModal');
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            
+            // Load worst things list if not already loaded
+            if (document.getElementById('worstThingsBody').innerHTML.includes('Loading')) {
+                fetch('scraped_data/worst_things.md?t=' + Date.now())
+                    .then(response => response.text())
+                    .then(markdown => {
+                        document.getElementById('worstThingsBody').innerHTML = convertMarkdownToHTML(markdown);
+                    })
+                    .catch(error => {
+                        document.getElementById('worstThingsBody').innerHTML =
+                            '<p style="color: #e53e3e; text-align: center;">Error loading worst things committed list: ' + error.message + '</p>' +
+                            '<p style="text-align: center; color: #718096; margin-top: 10px;">The list may not have been generated yet. Run the scraper to generate it.</p>';
+                    });
+            }
+        }
+        
+        function closeWorstThings() {
+            document.getElementById('worstThingsModal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+        
+        function closeWorstThingsOnBackdrop(event) {
+            if (event.target.id === 'worstThingsModal') {
+                closeWorstThings();
+            }
+        }
+        
+        // Simple markdown to HTML converter
+        function convertMarkdownToHTML(markdown) {
+            let html = markdown;
+            
+            // Links (must come before bold/italic to avoid conflicts)
+            html = html.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+            
+            // Headers
+            html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
+            html = html.replace(/^## (.*$)/gim, '<h2>$1</h2>');
+            html = html.replace(/^# (.*$)/gim, '<h1>$1</h1>');
+            
+            // Bold and italic
+            html = html.replace(/\*\*\*(.+?)\*\*\*/g, '<strong><em>$1</em></strong>');
+            html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+            html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+            
+            // Lists
+            html = html.replace(/^\- (.+)$/gim, '<li>$1</li>');
+            html = html.replace(/^(\d+)\. (.+)$/gim, '<li>$2</li>');
+            
+            // Wrap consecutive <li> tags in <ul>
+            html = html.replace(/(<li>[\s\S]*?<\/li>)(?=\s*(?:<li>|$))/g, function(match, p1) {
+                return p1;
+            });
+            html = html.replace(/(<li>.*<\/li>\s*)+/g, function(match) {
+                return '<ul>' + match + '</ul>';
+            });
+            
+            // Horizontal rules
+            html = html.replace(/^---$/gim, '<hr>');
+            
+            // Paragraphs
+            const lines = html.split('\n');
+            let result = [];
+            let paragraph = [];
+            
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                
+                if (line.startsWith('<h') || line.startsWith('<ul>') || line.startsWith('</ul>') || line.startsWith('<hr>') || line.startsWith('<li>')) {
+                    if (paragraph.length > 0) {
+                        result.push('<p>' + paragraph.join(' ') + '</p>');
+                        paragraph = [];
+                    }
+                    result.push(line);
+                } else if (line === '') {
+                    if (paragraph.length > 0) {
+                        result.push('<p>' + paragraph.join(' ') + '</p>');
+                        paragraph = [];
+                    }
+                } else {
+                    paragraph.push(line);
+                }
+            }
+            
+            if (paragraph.length > 0) {
+                result.push('<p>' + paragraph.join(' ') + '</p>');
+            }
+            
+            return result.join('\n');
+        }
+        
+        // Keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeLightbox();
+                closeSummary();
+                closeWorstThings();
+            }
+        });
+        
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') applyFilters();
+        });
+    </script>
+</body>
+</html>
